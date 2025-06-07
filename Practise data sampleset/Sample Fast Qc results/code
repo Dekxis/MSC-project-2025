@@ -10,7 +10,7 @@
 module load bioconda
 conda activate qc_env
 
-cd /storage/aelangov/raw_practice_data_
+cd /storage/aelangov/raw_practice_data
 
 mkdir -p fastp_res
 
