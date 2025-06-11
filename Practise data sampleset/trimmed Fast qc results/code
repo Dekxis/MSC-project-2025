@@ -1,1 +1,15 @@
 
+#!/bin/bash
+#SBATCH --job-name=fastqc_trimmed
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --time=01:00:00
+#SBATCH --output=fastqc_trimmed_%j.out
+
+module load bioconda
+conda activate qc_env
+
+cd /storage/aelangov/raw_practice_data/fastp_res
+mkdir -p ../fastqc_trimmed_res
+
+fastqc *_trimmed_*.fastq.gz -o ../fastqc_trimmed_res
