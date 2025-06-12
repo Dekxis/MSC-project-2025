@@ -1,0 +1,32 @@
+#!/bin/bash
+#SBATCH --job-name=fastp_all
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=6G
+#SBATCH --time=02:00:00
+#SBATCH --output=fastp_all_%j.out
+
+module load bioconda
+conda activate qc_env
+
+cd /storage/aelangov/raw_practice_data
+
+mkdir -p fastp_res
+
+for file in *_1.fastq.gz; do
+  sample=$(basename "$file" _1.fastq.gz)
+  echo "Running fastp on $sample"
+
+  fastp \
+    -i ${sample}_1.fastq.gz \
+    -I ${sample}_2.fastq.gz \
+    -o fastp_res/${sample}_trimmed_1.fastq.gz \
+    -O fastp_res/${sample}_trimmed_2.fastq.gz \
+    --trim_front1 8 \
+    --trim_front2 8 \
+    --qualified_quality_phred 20 \
+    --html fastp_res/${sample}_fastp.html \
+    --json fastp_res/${sample}_fastp.json \
+    --thread 2
+done
