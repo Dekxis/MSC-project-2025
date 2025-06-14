@@ -1,1 +1,20 @@
+#!/bin/bash
+#SBATCH --job-name=fastqc_trimmed_v2
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
+#SBATCH --output=/storage/aelangov/raw_practice_data/fastp_res_v2/fastqc_trimmed_v2_%j.out
 
+module load bioconda
+conda activate qc_env  # FastQC should be installed here
+
+# Move to fastp output directory
+cd /storage/aelangov/raw_practice_data/fastp_res_v2
+
+# Create new output folder
+mkdir -p /storage/aelangov/raw_practice_data/fastqc_trimmed_res_v2
+
+# Run FastQC on all trimmed files
+fastqc *_trimmed_1.fastq.gz *_trimmed_2.fastq.gz -o fastqc_trimmed_res_v2 -t 2
