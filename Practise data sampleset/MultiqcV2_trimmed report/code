@@ -1,1 +1,21 @@
 
+#!/bin/bash
+#SBATCH --job-name=multiqc_trimmed_v2
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --time=00:30:00
+#SBATCH --output=/storage/aelangov/raw_practice_data/multiqc_trimmed_v2_%j.out
+
+module load bioconda
+conda activate qc_env  # make sure MultiQC is installed here
+
+# Go to FastQC output folder
+cd /storage/aelangov/raw_practice_data/fastp_res_v2
+
+# Make MultiQC output directory in raw_practice_data
+mkdir -p /storage/aelangov/raw_practice_data/multiqc_trimmed_v2
+
+# Run MultiQC on the FastQC reports
+multiqc fastqc_trimmed_res_v2 -o /storage/aelangov/raw_practice_data/multiqc_trimmed_v2
