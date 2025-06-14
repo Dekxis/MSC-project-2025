@@ -1,1 +1,42 @@
 
+#!/bin/bash
+#SBATCH --job-name=centrifuge
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=04:00:00
+#SBATCH --output=/storage/aelangov/raw_practice_data/centrifuge_res/centrifuge_%j.out
+
+# Load centrifuge module
+module load centrifuge
+
+# Input and output directories
+INPUT=/storage/aelangov/raw_practice_data/fastp_res_v2
+OUTPUT=/storage/aelangov/raw_practice_data/centrifuge_res
+
+# Make sure output folder exists
+mkdir -p $OUTPUT
+
+# Loop through each sample's forward read
+for file in ${INPUT}/*_trimmed_1.fastq.gz; do
+  sample=$(basename "$file" _trimmed_1.fastq.gz)
+
+  # Skip the bad sample
+  if [[ "$sample" == "ERR13173403" ]]; then
+    echo "Skipping bad sample: $sample"
+    continue
+  fi
+
+  echo "Running Centrifuge on $sample..."
+
+  centrifuge \
+    -x /storage02/data/centrifuge-dbs/park-et-al-2020/hpvc \
+    -1 ${INPUT}/${sample}_trimmed_1.fastq.gz \
+    -2 ${INPUT}/${sample}_trimmed_2.fastq.gz \
+    -S ${OUTPUT}/${sample}_centrifugeOutputs.txt \
+    --report-file ${OUTPUT}/${sample}_centrifugeReport.txt \
+    -p $SLURM_CPUS_PER_TASK
+done
+
+echo " Centrifuge completed for 4 clean samples"
