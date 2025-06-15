@@ -4,8 +4,8 @@
 #SBATCH --account=da494
 #SBATCH --partition=compute
 #SBATCH --cpus-per-task=4
-#SBATCH --mem=20G
-#SBATCH --time=03:00:00
+#SBATCH --mem=32G
+#SBATCH --time=04:00:00
 #SBATCH --output=/storage/aelangov/raw_practice_data/centrifuge_res/centrifuge_%j.out
 
 # Load centrifuge module
