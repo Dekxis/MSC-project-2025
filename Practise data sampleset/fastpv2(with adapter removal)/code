@@ -1,21 +1,39 @@
-
 #!/bin/bash
-#SBATCH --job-name=fastqc_trimmed_v2
+#SBATCH --job-name=fastp_all
 #SBATCH --account=da494
 #SBATCH --partition=compute
 #SBATCH --cpus-per-task=2
-#SBATCH --mem=4G
-#SBATCH --time=01:00:00
-#SBATCH --output=/storage/aelangov/raw_practice_data/fastp_res_v2/fastqc_trimmed_v2_%j.out
+#SBATCH --mem=6G
+#SBATCH --time=02:00:00
+#SBATCH --output=/storage/aelangov/raw_practice_data/fastp_res_v2/fastp_all_%j.out
 
 module load bioconda
-conda activate qc_env  # FastQC should be installed here
+conda activate qc_env
 
-# Move to fastp output directory
-cd /storage/aelangov/raw_practice_data/fastp_res_v2
+# Move to raw FASTQ directory
+cd /storage/aelangov/raw_practice_data
 
-# Create new output folder
-mkdir -p /storage/aelangov/raw_practice_data/fastqc_trimmed_res_v2
+# Create output directory
+mkdir -p /storage/aelangov/raw_practice_data/fastp_res_v2
 
-# Run FastQC on all trimmed files
-fastqc *_trimmed_1.fastq.gz *_trimmed_2.fastq.gz -o fastqc_trimmed_res_v2 -t 2
+# Run fastp on each forward read file
+for file in *_1.fastq.gz; do
+  sample=$(basename "$file" _1.fastq.gz)
+  echo "Running fastp on $sample"
+
+ fastp \
+    -i ${sample}_1.fastq.gz \
+    -I ${sample}_2.fastq.gz \
+    -o fastp_res_v2/${sample}_trimmed_1.fastq.gz \
+    -O fastp_res_v2/${sample}_trimmed_2.fastq.gz \
+    --trim_front1 8 \
+    --trim_front2 8 \
+    --qualified_quality_phred 20 \
+    --detect_adapter_for_pe \
+    --html fastp_res_v2/${sample}_fastp.html \
+    --json fastp_res_v2/${sample}_fastp.json \
+    --thread 2
+done
+
+echo " fastp completed for all samples"
+
