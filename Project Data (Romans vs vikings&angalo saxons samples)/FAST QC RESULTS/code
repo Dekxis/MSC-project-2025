@@ -11,8 +11,13 @@
 module load bioconda
 conda activate qc_env
 
-# ROMAN - Oxford Leicester
+#  ROMAN - Oxford Leicester - Calculus
 cd /storage/aelangov/actual_samples/roman_samples/oxford_leicester/raw_reads/calculus
+mkdir -p fastqc_res
+fastqc *.fastq.gz --threads 2 --outdir fastqc_res
+
+#  ROMAN - Oxford Leicester - Bone
+cd /storage/aelangov/actual_samples/roman_samples/oxford_leicester/raw_reads/Bone
 mkdir -p fastqc_res
 fastqc *.fastq.gz --threads 2 --outdir fastqc_res
 
@@ -21,14 +26,14 @@ cd /storage/aelangov/actual_samples/roman_samples/driffield_york/raw_reads/calcu
 mkdir -p fastqc_res
 fastqc *.fastq.gz --threads 2 --outdir fastqc_res
 
-#  VIKING|angalo - Coppergate York
+# VIKING - Coppergate York
 cd /storage/aelangov/actual_samples/anglo_viking_samples/coppergate_york/raw_reads/calculus
 mkdir -p fastqc_res
 fastqc *.fastq.gz --threads 2 --outdir fastqc_res
 
-# VIKING|angalo - Norton-on-Tees
+#  VIKING - Norton-on-Tees
 cd /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus
 mkdir -p fastqc_res
 fastqc *.fastq.gz --threads 2 --outdir fastqc_res
 
-echo " FastQC complete for all sample sets"
+echo " FastQC complete for all samples"
