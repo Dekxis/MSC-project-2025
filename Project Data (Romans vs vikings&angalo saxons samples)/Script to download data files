@@ -1,1 +1,51 @@
+#!/bin/bash
 
+### ROMAN - Oxford Leicester
+cd /storage/aelangov/actual_samples/roman_samples/oxford_leicester/raw_reads/calculus
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/000/ERR1329870/ERR1329870_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/000/ERR1329870/ERR1329870_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/002/ERR1329862/ERR1329862_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/002/ERR1329862/ERR1329862_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/003/ERR1329853/ERR1329853_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/003/ERR1329853/ERR1329853_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/007/ERR1329857/ERR1329857_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/007/ERR1329857/ERR1329857_2.fastq.gz
+
+### ROMAN - Driffield York
+cd /storage/aelangov/actual_samples/roman_samples/driffield_york/raw_reads/calculus
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/002/ERR1329842/ERR1329842_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/002/ERR1329842/ERR1329842_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/004/ERR1329834/ERR1329834_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/004/ERR1329834/ERR1329834_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/005/ERR1329825/ERR1329825_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/005/ERR1329825/ERR1329825_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/009/ERR1329829/ERR1329829_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/009/ERR1329829/ERR1329829_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/006/ERR1329846/ERR1329846_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/006/ERR1329846/ERR1329846_2.fastq.gz
+
+### VIKING - Coppergate York
+cd /storage/aelangov/actual_samples/anglo_viking_samples/coppergate_york/raw_reads/calculus
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/007/ERR1329827/ERR1329827_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/007/ERR1329827/ERR1329827_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/000/ERR1329830/ERR1329830_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/000/ERR1329830/ERR1329830_2.fastq.gz
+
+### VIKING - Norton-on-Tees
+cd /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/001/ERR1329851/ERR1329851_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/001/ERR1329851/ERR1329851_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/001/ERR1329841/ERR1329841_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/001/ERR1329841/ERR1329841_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/007/ERR1329847/ERR1329847_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/007/ERR1329847/ERR1329847_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/008/ERR1329838/ERR1329838_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/008/ERR1329838/ERR1329838_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/002/ERR1329832/ERR1329832_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/002/ERR1329832/ERR1329832_2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/006/ERR1329836/ERR1329836_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR132/006/ERR1329836/ERR1329836_2.fastq.gz
