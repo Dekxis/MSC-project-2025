@@ -1,1 +1,26 @@
+#!/bin/bash
+#SBATCH --job-name=multiqc_all
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
+#SBATCH --output=multiqc_all_%j.out
 
+# Load conda environment with multiqc
+module load bioconda
+conda activate qc_env
+
+# Create output folders
+mkdir -p /storage/aelangov/actual_samples/roman_samples/multiqc_fastqc_res
+mkdir -p /storage/aelangov/actual_samples/anglo_viking_samples/multiqc_fastqc_res
+
+# Run MultiQC on Roman samples
+multiqc /storage/aelangov/actual_samples/roman_samples/*/raw_reads/*/fastqc_res \
+  -o /storage/aelangov/actual_samples/roman_samples/multiqc_fastqc_res
+
+# Run MultiQC on Viking/Anglo-Saxon samples
+multiqc /storage/aelangov/actual_samples/anglo_viking_samples/*/raw_reads/*/fastqc_res \
+  -o /storage/aelangov/actual_samples/anglo_viking_samples/multiqc_fastqc_res
+
+echo " MultiQC complete for all groups"
