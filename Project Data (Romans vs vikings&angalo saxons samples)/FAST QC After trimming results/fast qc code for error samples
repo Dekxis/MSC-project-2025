@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name=fastqc_trimmed_errors
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
+#SBATCH --output=fastqc_trimmed_errors_%j.out
+
+module load bioconda
+conda activate qc_env
+
+cd /storage/aelangov/actual_samples/error_fastp_res
+mkdir -p fastqc_res
+fastqc *_trimmed_*.fastq.gz --threads 2 --outdir fastqc_res
+
+echo " FastQC done for error-trimmed samples"
