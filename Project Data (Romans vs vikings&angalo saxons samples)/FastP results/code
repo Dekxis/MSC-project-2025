@@ -1,1 +1,55 @@
+#!/bin/bash
+#SBATCH --job-name=fastp_trim
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=6G
+#SBATCH --time=02:00:00
+#SBATCH --output=fastp_trim_%j.out
 
+module load bioconda  #creating a conda environment to run fastp
+conda activate qc_env
+
+# location of my Roman and Viking/anglo sample folders 
+cd /storage/aelangov/actual_samples
+
+# List of all locations
+locations=(
+roman_samples/oxford_leicester
+roman_samples/driffield_york
+anglo_viking_samples/coppergate_york
+anglo_viking_samples/norton_on_tees
+)
+
+# Skipping these samples
+skip_list=("ERR1407510" "ERR1329847" "ERR1329841")
+
+for loc in "${locations[@]}"; do            #for all locations creating a fastp results directory
+  cd /storage/aelangov/actual_samples/$loc/raw_reads/calculus
+  mkdir -p fastp_trimmed
+
+  for file in *_1.fastq.gz; do     #to get sample name
+    sample=$(basename "$file" _1.fastq.gz)
+
+    # skip if sample in skip list   #skipping these error samples cuz of adapters and overrepresented sequences for now
+    if [[ " ${skip_list[@]} " =~ " ${sample} " ]]; then
+      echo "Skipping $sample"
+      continue
+    fi
+
+    echo "Running fastp on $sample"   
+    fastp \                           # Running fastp, removing first 8 bases and phred score set to 15
+      -i ${sample}_1.fastq.gz \
+      -I ${sample}_2.fastq.gz \
+      -o fastp_trimmed/${sample}_trimmed_1.fastq.gz \
+      -O fastp_trimmed/${sample}_trimmed_2.fastq.gz \
+      --trim_front1 8 \
+      --trim_front2 8 \
+      --qualified_quality_phred 15 \
+      --html fastp_trimmed/${sample}_fastp.html \
+      --json fastp_trimmed/${sample}_fastp.json \
+      --thread 2
+  done
+done
+
+echo "Done with fastp"
