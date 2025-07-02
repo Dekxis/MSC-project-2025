@@ -1,1 +1,6 @@
+so these samples are trimmed for their adapters using fastp and im expecting to see no overeprested sequences after trimmed for adapters. 
+samples treated for adapters -> bone ERR1407510 ( trimmed for adaters
 
+has no adapters but treated for adapter filtering, hoping it will solve over represented sequence error in the fast qc and multiqc report.
+ERR1329847 -> Overrepresented Sequences (red flagged)	might need sequence-specific filtering using cutadapt
+ERR1329841 -> Overrepresented Sequences (yellow flagged) might need sequence-specific filtering using cutadapt
