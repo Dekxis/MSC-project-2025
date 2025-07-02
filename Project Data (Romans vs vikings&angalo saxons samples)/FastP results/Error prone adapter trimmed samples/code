@@ -1,1 +1,50 @@
+#!/bin/bash
+#SBATCH --job-name=fastp_error
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=6G
+#SBATCH --time=02:00:00
+#SBATCH --output=fastp_error_%j.out
 
+module load bioconda
+conda activate qc_env
+
+# Make output folder
+mkdir -p /storage/aelangov/actual_samples/error_fastp_res
+
+# Oxford Bone sample (adapter issue)
+cd /storage/aelangov/actual_samples/roman_samples/oxford_leicester/raw_reads/Bone
+for sample in ERR1407510; do
+  fastp \
+    -i ${sample}_1.fastq.gz \
+    -I ${sample}_2.fastq.gz \
+    -o /storage/aelangov/actual_samples/error_fastp_res/${sample}_clean_1.fastq.gz \
+    -O /storage/aelangov/actual_samples/error_fastp_res/${sample}_clean_2.fastq.gz \
+    --trim_front1 8 \
+    --trim_front2 8 \
+    --qualified_quality_phred 15 \
+    --detect_adapter_for_pe \
+    --html /storage/aelangov/actual_samples/error_fastp_res/${sample}_fastp.html \
+    --json /storage/aelangov/actual_samples/error_fastp_res/${sample}_fastp.json \
+    --thread 2
+done
+
+# Norton-on-Tees samples (overrepresented sequences)
+cd /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus
+for sample in ERR1329847 ERR1329841; do
+  fastp \
+    -i ${sample}_1.fastq.gz \
+    -I ${sample}_2.fastq.gz \
+    -o /storage/aelangov/actual_samples/error_fastp_res/${sample}_clean_1.fastq.gz \
+    -O /storage/aelangov/actual_samples/error_fastp_res/${sample}_clean_2.fastq.gz \
+    --trim_front1 8 \
+    --trim_front2 8 \
+    --qualified_quality_phred 15 \
+    --detect_adapter_for_pe \
+    --html /storage/aelangov/actual_samples/error_fastp_res/${sample}_fastp.html \
+    --json /storage/aelangov/actual_samples/error_fastp_res/${sample}_fastp.json \
+    --thread 2
+done
+
+echo " fastp done for error samples"
