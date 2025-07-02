@@ -28,16 +28,16 @@ for loc in "${locations[@]}"; do            #for all locations creating a fastp 
   cd /storage/aelangov/actual_samples/$loc/raw_reads/calculus
   mkdir -p fastp_trimmed
 
-  for file in *_1.fastq.gz; do     #to get sample name
+  for file in *_1.fastq.gz; do  #to get sample name
     sample=$(basename "$file" _1.fastq.gz)
 
-    # skip if sample in skip list   #skipping these error samples cuz of adapters and overrepresented sequences for now
+    # skip if sample in skip list #skipping these error samples cuz of adapters and overrepresented sequences for now
     if [[ " ${skip_list[@]} " =~ " ${sample} " ]]; then
       echo "Skipping $sample"
       continue
     fi
 
-    echo "Running fastp on $sample"   
+    echo "Running fastp on $sample"  
     fastp \                           # Running fastp, removing first 8 bases and phred score set to 15
       -i ${sample}_1.fastq.gz \
       -I ${sample}_2.fastq.gz \
