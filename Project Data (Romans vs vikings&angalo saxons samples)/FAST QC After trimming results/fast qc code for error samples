@@ -12,6 +12,6 @@ conda activate qc_env
 
 cd /storage/aelangov/actual_samples/error_fastp_res
 mkdir -p fastqc_res
-fastqc *_trimmed_*.fastq.gz --threads 2 --outdir fastqc_res
+fastqc *_clean_1.fastq.gz *_clean_2.fastq.gz --threads 2 --outdir fastqc_res
 
 echo " FastQC done for error-trimmed samples"
