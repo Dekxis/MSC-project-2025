@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #SBATCH --job-name=fastqc_trimmed
 #SBATCH --account=da494
@@ -12,23 +11,23 @@ module load bioconda
 conda activate qc_env
 
 # Oxford Leicester
-cd /storage/aelangov/actual_samples/roman_samples/oxford_leicester/raw_reads/calculus
-mkdir -p fastqc_trimmed_res
-fastqc *_trimmed_1.fastq.gz *_trimmed_2.fastq.gz --threads 2 --outdir fastqc_trimmed_res
+cd /storage/aelangov/actual_samples/roman_samples/oxford_leicester/raw_reads/calculus/fastp_trimmed
+mkdir -p ../fastqc_trimmed_res
+fastqc *_trimmed_1.fastq.gz *_trimmed_2.fastq.gz --threads 2 --outdir ../fastqc_trimmed_res
 
 # Driffield York
-cd /storage/aelangov/actual_samples/roman_samples/driffield_york/raw_reads/calculus
-mkdir -p fastqc_trimmed_res
-fastqc *_trimmed_1.fastq.gz *_trimmed_2.fastq.gz --threads 2 --outdir fastqc_trimmed_res
+cd /storage/aelangov/actual_samples/roman_samples/driffield_york/raw_reads/calculus/fastp_trimmed
+mkdir -p ../fastqc_trimmed_res
+fastqc *_trimmed_1.fastq.gz *_trimmed_2.fastq.gz --threads 2 --outdir ../fastqc_trimmed_res
 
 # Coppergate York
-cd /storage/aelangov/actual_samples/anglo_viking_samples/coppergate_york/raw_reads/calculus
-mkdir -p fastqc_trimmed_res
-fastqc *_trimmed_1.fastq.gz *_trimmed_2.fastq.gz --threads 2 --outdir fastqc_trimmed_res
+cd /storage/aelangov/actual_samples/anglo_viking_samples/coppergate_york/raw_reads/calculus/fastp_trimmed
+mkdir -p ../fastqc_trimmed_res
+fastqc *_trimmed_1.fastq.gz *_trimmed_2.fastq.gz --threads 2 --outdir ../fastqc_trimmed_res
 
 # Norton-on-Tees
-cd /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus
-mkdir -p fastqc_trimmed_res
-fastqc *_trimmed_1.fastq.gz *_trimmed_2.fastq.gz --threads 2 --outdir fastqc_trimmed_res
+cd /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus/fastp_trimmed
+mkdir -p ../fastqc_trimmed_res
+fastqc *_trimmed_1.fastq.gz *_trimmed_2.fastq.gz --threads 2 --outdir ../fastqc_trimmed_res
 
-echo "✅ FastQC complete for all trimmed samples"
+echo "FastQC complete for all trimmed samples"
