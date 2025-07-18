@@ -1,25 +1,24 @@
 #!/bin/bash
-#SBATCH --job-name=fix_trim_qc
+#SBATCH --job-name=fix_trim_only
 #SBATCH --account=da494
 #SBATCH --partition=compute
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=6G
 #SBATCH --time=02:00:00
-#SBATCH --output=fix_trim_qc_%j.out
+#SBATCH --output=fix_trim_only_%j.out
 
-# Load conda and activate environment
+# Load Bioconda module
 module load bioconda
-conda activate qc_env  # make sure cutadapt, fastp, and fastqc are installed here
 
-# Create output directory
+# Create and activate a temporary env
+conda create -y -n temp_qc_env cutadapt fastp
+source activate temp_qc_env
+
+# Output directory
 outdir="/storage/aelangov/actual_samples/final_error_trimmed"
-mkdir -p "$outdir/fastqc_res"
+mkdir -p "$outdir"
 
-# ------------------
-# Step 1: Cutadapt (manual adapter removal)
-
-
-# ERR1329847 - has 2 adapters
+# Step 1: Cutadapt
 cutadapt -a AGATCGGAAGAGCACAC -a GATCGGAAGAGCACACG \
   -A AGATCGGAAGAGCACAC -A GATCGGAAGAGCACACG \
   -o "$outdir/ERR1329847_clean_1.fastq.gz" \
@@ -27,19 +26,14 @@ cutadapt -a AGATCGGAAGAGCACAC -a GATCGGAAGAGCACACG \
   /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus/ERR1329847_1.fastq.gz \
   /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus/ERR1329847_2.fastq.gz
 
-# ERR1329841 - has 1 adapter
 cutadapt -a AGATCGGAAGAGCACAC -A AGATCGGAAGAGCACAC \
   -o "$outdir/ERR1329841_clean_1.fastq.gz" \
   -p "$outdir/ERR1329841_clean_2.fastq.gz" \
   /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus/ERR1329841_1.fastq.gz \
   /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus/ERR1329841_2.fastq.gz
 
-# -------------
-# Step 2: Fastp (8bp trim, Q15, auto adapter)
-
-
+# Step 2: Fastp
 cd "$outdir"
-
 for sample in ERR1329847 ERR1329841; do
   fastp \
     --in1 ${sample}_clean_1.fastq.gz \
@@ -54,12 +48,4 @@ for sample in ERR1329847 ERR1329841; do
     --json ${sample}_fastp.json
 done
 
-# ----------
-# Step 3: FastQC on final output
-
-cd "$outdir"
-for sample in ERR1329847 ERR1329841; do
-  fastqc ${sample}_final_1.fastq.gz ${sample}_final_2.fastq.gz --threads 2 --outdir "$outdir/fastqc_res"
-done
-
-echo "  cutadapt fastp  and FastQC completed."
+echo "Cutadapt + Fastp complete"
