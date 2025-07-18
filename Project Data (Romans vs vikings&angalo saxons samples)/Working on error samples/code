@@ -1,1 +1,65 @@
+#!/bin/bash
+#SBATCH --job-name=fix_trim_qc
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=6G
+#SBATCH --time=02:00:00
+#SBATCH --output=fix_trim_qc_%j.out
 
+# Load conda and activate environment
+module load bioconda
+conda activate qc_env  # make sure cutadapt, fastp, and fastqc are installed here
+
+# Create output directory
+outdir="/storage/aelangov/actual_samples/final_error_trimmed"
+mkdir -p "$outdir/fastqc_res"
+
+# ------------------
+# Step 1: Cutadapt (manual adapter removal)
+
+
+# ERR1329847 - has 2 adapters
+cutadapt -a AGATCGGAAGAGCACAC -a GATCGGAAGAGCACACG \
+  -A AGATCGGAAGAGCACAC -A GATCGGAAGAGCACACG \
+  -o "$outdir/ERR1329847_clean_1.fastq.gz" \
+  -p "$outdir/ERR1329847_clean_2.fastq.gz" \
+  /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus/ERR1329847_1.fastq.gz \
+  /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus/ERR1329847_2.fastq.gz
+
+# ERR1329841 - has 1 adapter
+cutadapt -a AGATCGGAAGAGCACAC -A AGATCGGAAGAGCACAC \
+  -o "$outdir/ERR1329841_clean_1.fastq.gz" \
+  -p "$outdir/ERR1329841_clean_2.fastq.gz" \
+  /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus/ERR1329841_1.fastq.gz \
+  /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus/ERR1329841_2.fastq.gz
+
+# -------------
+# Step 2: Fastp (8bp trim, Q15, auto adapter)
+
+
+cd "$outdir"
+
+for sample in ERR1329847 ERR1329841; do
+  fastp \
+    --in1 ${sample}_clean_1.fastq.gz \
+    --in2 ${sample}_clean_2.fastq.gz \
+    --out1 ${sample}_final_1.fastq.gz \
+    --out2 ${sample}_final_2.fastq.gz \
+    --detect_adapter_for_pe \
+    --qualified_quality_phred 15 \
+    --trim_front1 8 \
+    --trim_front2 8 \
+    --html ${sample}_fastp.html \
+    --json ${sample}_fastp.json
+done
+
+# -------------------------------
+# Step 3: FastQC on final output
+
+cd "$outdir"
+for sample in ERR1329847 ERR1329841; do
+  fastqc ${sample}_final_1.fastq.gz ${sample}_final_2.fastq.gz --threads 2 --outdir "$outdir/fastqc_res"
+done
+
+echo " All done: adapters fixed, trimmed, and FastQC completed."
