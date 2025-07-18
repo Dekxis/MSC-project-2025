@@ -48,4 +48,4 @@ for sample in ERR1329847 ERR1329841; do
     --json ${sample}_fastp.json
 done
 
-echo "Cutadapt + Fastp complete"
+echo "Cutadapt + Fastp completed "
