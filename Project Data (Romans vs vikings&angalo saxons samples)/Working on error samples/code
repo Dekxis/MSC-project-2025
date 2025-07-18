@@ -62,4 +62,4 @@ for sample in ERR1329847 ERR1329841; do
   fastqc ${sample}_final_1.fastq.gz ${sample}_final_2.fastq.gz --threads 2 --outdir "$outdir/fastqc_res"
 done
 
-echo " All done: adapters fixed, trimmed, and FastQC completed."
+echo "  cutadapt fastp  and FastQC completed."
