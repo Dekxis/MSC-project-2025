@@ -1,1 +1,23 @@
+#!/bin/bash
+#SBATCH --job-name=fastqc_errors
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
+#SBATCH --output=fastqc_errors_%j.out
 
+# Load conda and activate environment with FastQC
+module load bioconda
+conda activate qc_env  # made sure fastqc is installed in this env 
+
+ 
+cd /storage/aelangov/actual_samples/final_error_trimmed
+
+# Make output folder
+mkdir -p fastqc_res
+
+# Run FastQC on trimmed final read pairs
+fastqc *_final_1.fastq.gz *_final_2.fastq.gz --threads 2 --outdir fastqc_res
+
+echo " FastQC done for ERR1329841 and ERR1329847"
