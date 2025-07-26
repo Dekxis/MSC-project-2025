@@ -1,0 +1,23 @@
+
+#!/bin/bash
+#SBATCH --job-name=multiqc_error
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
+#SBATCH --output=multiqc_error_%j.out
+
+module load bioconda
+conda activate qc_env
+
+# Create output directory for error samples
+mkdir -p /storage/aelangov/actual_samples/multiqc_error_samples
+
+# Run MultiQC on Bone + Norton fixed samples
+multiqc \
+  /storage/aelangov/actual_samples/error_fastp_res/fastqc_res \
+  /storage/aelangov/actual_samples/final_error_trimmed/fastqc_res \
+  -o /storage/aelangov/actual_samples/multiqc_error_samples
+
+echo " MultiQC completed for ERROR samples only!"
