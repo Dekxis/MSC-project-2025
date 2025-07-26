@@ -1,2 +1,4 @@
 we do cut adapt fastp and fast qc for these samples
 /storage/aelangov/actual_samples/error_fastp_res/fastqc_res ERR1407510 bone sample
+
+/storage/aelangov/actual_samples/final_error_trimmed/fastqc_res for ERR1329847 ( red error) and ERR1329841 ( yellow error) norton on tees
