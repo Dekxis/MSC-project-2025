@@ -1,28 +1,34 @@
 #!/bin/bash
-#SBATCH --job-name=multiqc_all
+#SBATCH --job-name=multiqc_final
 #SBATCH --account=da494
 #SBATCH --partition=compute
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=4G
 #SBATCH --time=01:00:00
-#SBATCH --output=multiqc_all_%j.out
+#SBATCH --output=multiqc_final_%j.out
 
-# Load conda environment
+# Load conda and activate environment
 module load bioconda
 conda activate qc_env
 
-# Create final output folder
-mkdir -p /storage/aelangov/actual_samples/multiqc_all_fastqc_res
+# Create output folder for final MultiQC report
+mkdir -p /storage/aelangov/actual_samples/multiqc_final
 
-#  Run MultiQC on ALL sample folders together
+#  Run MultiQC on
+#   - Roman (Driffield + Oxford)
+#   - Viking/Anglo (Coppergate + Norton)
+#   - Fixed Bone sample (ERR1407510_clean_*)
+#   - Fixed Norton samples (ERR1329841_final_* and ERR1329847_final_*)
+
 multiqc \
   /storage/aelangov/actual_samples/roman_samples/driffield_york/raw_reads/calculus/fastqc_res \
   /storage/aelangov/actual_samples/roman_samples/oxford_leicester/raw_reads/calculus/fastqc_res \
-  /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus/fastqc_res \
   /storage/aelangov/actual_samples/anglo_viking_samples/coppergate_york/raw_reads/calculus/fastqc_res \
-  /storage/aelangov/actual_samples/error_fastp_res/fastqc_res/ERR1407510* \
-  /storage/aelangov/actual_samples/final_error_trimmed/fastqc_res \
+  /storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus/fastqc_res \
+  /storage/aelangov/actual_samples/error_fastp_res/fastqc_res/ERR1407510_clean_* \
+  /storage/aelangov/actual_samples/final_error_trimmed/fastqc_res/ERR1329841_final_* \
+  /storage/aelangov/actual_samples/final_error_trimmed/fastqc_res/ERR1329847_final_* \
   --force \
-  -o /storage/aelangov/actual_samples/multiqc_all_fastqc_res
+  -o /storage/aelangov/actual_samples/multiqc_final
 
-echo "MultiQC report for ALL normal and error-fixed samples"
+echo "Multiqc on all samples"
