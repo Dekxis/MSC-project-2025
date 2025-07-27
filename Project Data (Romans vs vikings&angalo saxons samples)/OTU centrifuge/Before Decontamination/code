@@ -12,7 +12,7 @@ module load centrifuge
 OUTPUT=/storage/aelangov/actual_samples/centrifuge_final_manual
 mkdir -p $OUTPUT
 
-DB=/storage/shared/centrifuge_db/p_compressed
+DB=/storage02/data/centrifuge-dbs/park-et-al-2020/hpvc
 
 # Roman - Driffield York
 INPUT=/storage/aelangov/actual_samples/roman_samples/driffield_york/raw_reads/calculus
