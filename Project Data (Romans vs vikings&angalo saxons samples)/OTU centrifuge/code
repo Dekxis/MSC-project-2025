@@ -1,1 +1,72 @@
-
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329842_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329842_centrifugeReport.txt -1 /tmp/3291735.inpipe1 -2 /tmp/3291735.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329834_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329834_centrifugeReport.txt -1 /tmp/3291742.inpipe1 -2 /tmp/3291742.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329825_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329825_centrifugeReport.txt -1 /tmp/3291749.inpipe1 -2 /tmp/3291749.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329829_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329829_centrifugeReport.txt -1 /tmp/3291756.inpipe1 -2 /tmp/3291756.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329846_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329846_centrifugeReport.txt -1 /tmp/3291763.inpipe1 -2 /tmp/3291763.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329870_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329870_centrifugeReport.txt -1 /tmp/3291770.inpipe1 -2 /tmp/3291770.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329862_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329862_centrifugeReport.txt -1 /tmp/3291777.inpipe1 -2 /tmp/3291777.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329853_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329853_centrifugeReport.txt -1 /tmp/3291784.inpipe1 -2 /tmp/3291784.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329857_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329857_centrifugeReport.txt -1 /tmp/3291791.inpipe1 -2 /tmp/3291791.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1407510_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1407510_centrifugeReport.txt -1 /tmp/3291798.inpipe1 -2 /tmp/3291798.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329827_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329827_centrifugeReport.txt -1 /tmp/3291805.inpipe1 -2 /tmp/3291805.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329830_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329830_centrifugeReport.txt -1 /tmp/3291812.inpipe1 -2 /tmp/3291812.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329832_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329832_centrifugeReport.txt -1 /tmp/3291819.inpipe1 -2 /tmp/3291819.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329836_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329836_centrifugeReport.txt -1 /tmp/3291826.inpipe1 -2 /tmp/3291826.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329838_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329838_centrifugeReport.txt -1 /tmp/3291833.inpipe1 -2 /tmp/3291833.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329851_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329851_centrifugeReport.txt -1 /tmp/3291840.inpipe1 -2 /tmp/3291840.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329841_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329841_centrifugeReport.txt -1 /tmp/3291847.inpipe1 -2 /tmp/3291847.inpipe2
+(ERR): centrifuge-class exited with value 1
+Could not locate a Centrifuge index corresponding to basename "/storage/shared/centrifuge_db/p_compressed"
+Error: Encountered internal Centrifuge exception (#1)
+Command: /storage/apps/software/centrifuge/1.0.3/centrifuge-class --wrapper basic-0 -p 4 -x /storage/shared/centrifuge_db/p_compressed -S /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329847_centrifugeOutputs.txt --report-file /storage/aelangov/actual_samples/centrifuge_final_manual/ERR1329847_centrifugeReport.txt -1 /tmp/3291854.inpipe1 -2 /tmp/3291854.inpipe2
+(ERR): centrifuge-class exited with value 1
