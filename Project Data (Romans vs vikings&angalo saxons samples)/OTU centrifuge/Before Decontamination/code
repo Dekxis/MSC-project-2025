@@ -1,1 +1,78 @@
+#!/bin/sh
+#SBATCH --job-name=centrifuge_final
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --cpus-per-task=4
+#SBATCH --time=04:00:00
+#SBATCH --mem=32G
+#SBATCH --output=centrifuge_final_%j.out
 
+module load centrifuge
+
+OUTPUT=/storage/aelangov/actual_samples/centrifuge_final_manual
+mkdir -p $OUTPUT
+
+DB=/storage/shared/centrifuge_db/p_compressed
+
+# Roman - Driffield York
+INPUT=/storage/aelangov/actual_samples/roman_samples/driffield_york/raw_reads/calculus
+for sample in ERR1329842 ERR1329834 ERR1329825 ERR1329829 ERR1329846
+do
+centrifuge -p $SLURM_CPUS_PER_TASK -x $DB \
+-1 $INPUT/${sample}_1.fastq.gz \
+-2 $INPUT/${sample}_2.fastq.gz \
+-S $OUTPUT/${sample}_centrifugeOutputs.txt \
+--report-file $OUTPUT/${sample}_centrifugeReport.txt
+done
+
+# Roman - Oxford Leicester
+INPUT=/storage/aelangov/actual_samples/roman_samples/oxford_leicester/raw_reads/calculus
+for sample in ERR1329870 ERR1329862 ERR1329853 ERR1329857
+do
+centrifuge -p $SLURM_CPUS_PER_TASK -x $DB \
+-1 $INPUT/${sample}_1.fastq.gz \
+-2 $INPUT/${sample}_2.fastq.gz \
+-S $OUTPUT/${sample}_centrifugeOutputs.txt \
+--report-file $OUTPUT/${sample}_centrifugeReport.txt
+done
+
+# Bone sample (fixed)
+INPUT=/storage/aelangov/actual_samples/error_fastp_res
+centrifuge -p $SLURM_CPUS_PER_TASK -x $DB \
+-1 $INPUT/ERR1407510_clean_1.fastq.gz \
+-2 $INPUT/ERR1407510_clean_2.fastq.gz \
+-S $OUTPUT/ERR1407510_centrifugeOutputs.txt \
+--report-file $OUTPUT/ERR1407510_centrifugeReport.txt
+
+# Viking - Coppergate York
+INPUT=/storage/aelangov/actual_samples/anglo_viking_samples/coppergate_york/raw_reads/calculus
+for sample in ERR1329827 ERR1329830
+do
+centrifuge -p $SLURM_CPUS_PER_TASK -x $DB \
+-1 $INPUT/${sample}_1.fastq.gz \
+-2 $INPUT/${sample}_2.fastq.gz \
+-S $OUTPUT/${sample}_centrifugeOutputs.txt \
+--report-file $OUTPUT/${sample}_centrifugeReport.txt
+done
+
+# Viking - Norton-on-Tees (normal samples)
+INPUT=/storage/aelangov/actual_samples/anglo_viking_samples/norton_on_tees/raw_reads/calculus
+for sample in ERR1329832 ERR1329836 ERR1329838 ERR1329851
+do
+centrifuge -p $SLURM_CPUS_PER_TASK -x $DB \
+-1 $INPUT/${sample}_1.fastq.gz \
+-2 $INPUT/${sample}_2.fastq.gz \
+-S $OUTPUT/${sample}_centrifugeOutputs.txt \
+--report-file $OUTPUT/${sample}_centrifugeReport.txt
+done
+
+# Norton-on-Tees (fixed error samples)
+INPUT=/storage/aelangov/actual_samples/final_error_trimmed
+for sample in ERR1329841 ERR1329847
+do
+centrifuge -p $SLURM_CPUS_PER_TASK -x $DB \
+-1 $INPUT/${sample}_final_1.fastq.gz \
+-2 $INPUT/${sample}_final_2.fastq.gz \
+-S $OUTPUT/${sample}_centrifugeOutputs.txt \
+--report-file $OUTPUT/${sample}_centrifugeReport.txt
+done
