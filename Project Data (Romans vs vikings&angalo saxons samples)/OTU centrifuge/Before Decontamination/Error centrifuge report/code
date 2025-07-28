@@ -1,1 +1,25 @@
+#!/bin/sh
+#SBATCH --job-name=centrifuge_error_fix
+#SBATCH --account=da494
+#SBATCH --partition=compute
+#SBATCH --cpus-per-task=4
+#SBATCH --time=01:00:00
+#SBATCH --mem=16G
+#SBATCH --output=centrifuge_error_fix_%j.out
 
+module load centrifuge
+
+DB=/storage02/data/centrifuge-dbs/park-et-al-2020/hpvc
+OUTPUT=/storage/aelangov/actual_samples/centrifuge_error_samples
+INPUT=/storage/aelangov/actual_samples/final_error_trimmed
+
+mkdir -p $OUTPUT
+
+for sample in ERR1329841 ERR1329847
+do
+  centrifuge -p $SLURM_CPUS_PER_TASK -x $DB \
+    -1 $INPUT/${sample}_final_1.fastq.gz \
+    -2 $INPUT/${sample}_final_2.fastq.gz \
+    -S $OUTPUT/${sample}_finalErrorTrimmed_centrifugeOutputs.txt \
+    --report-file $OUTPUT/${sample}_finalErrorTrimmed_centrifugeReport.txt
+done
