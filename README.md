@@ -40,3 +40,19 @@ total 36K
 total 28K
 -rw-r--r-- 1 aelangov domain users 12K Aug  1 17:12 ERR1329877_1.fastq.gz
 -rw-r--r-- 1 aelangov domain users 13K Aug  1 17:12 ERR1329877_2.fastq.gz
+
+
+
+
+
+[aelangov@login01(Bradford-HPC) scripts]$ zcat /storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/ERR1329876_1.fastq.gz | head
+@ERR1329876.1 MS9_18466:1:1101:13876:2259#53/1
+AGTTGAACAAAAAGACTTGCCAGGT
++
+>AABBFFFFFFFGGCGGGGGGGGHG
+@ERR1329876.2 MS9_18466:1:1101:14918:3196#53/1
+TTACTTCTAGATCGGAAGAGCACAC
++
+3AAABFFFFFBFGEFGCGGGGGHHH
+@ERR1329876.3 MS9_18466:1:1101:13893:3650#53/1
+TTACTTCGCTCGGTGATCGCGATCT
