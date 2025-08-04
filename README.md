@@ -1,3 +1,16 @@
+fam thats dope it worked for roman sample
+
+but my bad it didnt work for viking/ango sample
+
+cuz the actual directory of viking/saxon sample is
+
+/storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank
+
+for some reason its named like this
+
+
+
+
 Bradford-HPC) ~]$ ls -lh ~/decontam_fastqc_test
 total 1.1M
 -rw-r--r-- 1 aelangov domain users 591K Aug  4 16:10 ERR1329876_1_fastqc.html
