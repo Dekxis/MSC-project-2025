@@ -1,3 +1,11 @@
+>   --trim_front1 7 \
+>   --cut_tail \
+>   --cut_mean_quality 28 \
+>   --length_required 50 \
+>   -i /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1329877_1.fastq.gz \
+>   -I /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1329877_2.fastq.gz \
+>   -o $TRIMMED_DIR/ERR1329877_trimmed_1.fastq.gz \
+>   -O $TRIMMED_DIR/ERR1329877_trimmed_2.fastq.gz
 Detecting adapter sequence for read1...
 No adapter detected for read1
 
@@ -5,16 +13,16 @@ Detecting adapter sequence for read2...
 No adapter detected for read2
 
 Read1 before filtering:
-total reads: 587
-total bases: 14675
-Q20 bases: 14376(97.9625%)
-Q30 bases: 14288(97.3629%)
+total reads: 457
+total bases: 11425
+Q20 bases: 11140(97.5055%)
+Q30 bases: 11089(97.0591%)
 
 Read2 before filtering:
-total reads: 587
-total bases: 14675
-Q20 bases: 12686(86.4463%)
-Q30 bases: 12452(84.8518%)
+total reads: 457
+total bases: 11425
+Q20 bases: 9096(79.6149%)
+Q30 bases: 8796(76.9891%)
 
 Read1 after filtering:
 total reads: 0
@@ -30,18 +38,18 @@ Q30 bases: 0(-nan%)
 
 Filtering result:
 reads passed filter: 0
-reads failed due to low quality: 2
+reads failed due to low quality: 0
 reads failed due to too many N: 0
-reads failed due to too short: 1172
+reads failed due to too short: 914
 reads with adapter trimmed: 0
 bases trimmed due to adapters: 0
 
-Duplication rate: 10.0511%
+Duplication rate: 25.6018%
 
 Insert size peak (evaluated by paired-end reads): 0
 
-
-
+JSON report: fastp.json
+HTML report: fastp.html
 
 
 
