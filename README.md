@@ -1,3 +1,24 @@
+(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ OUT_DIR=/storage/aelangov/actual_samples/decontamination_samples/fastp_trimmed_blanks
+(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ mkdir -p $OUT_DIR
+(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ fastp \
+>   -i $IN_DIR/ERR1329876_1.fastq.gz \
+>   -I $IN_DIR/ERR1329876_2.fastq.gz \
+>   -o $OUT_DIR/ERR1329876_trimmed_1.fastq.gz \
+>   -O $OUT_DIR/ERR1329876_trimmed_2.fastq.gz \
+>   --detect_adapter_for_pe \
+>   --qualified_quality_phred 15 \
+>   --length_required 30 \
+>   --thread 4 \
+>   --html $OUT_DIR/ERR1329876_fastp.html \
+>   --json $OUT_DIR/ERR1329876_fastp.json
+-bash: fastp: command not found
+
+
+
+
+
+
+
 (decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ conda activate decontam_qc_env
 (decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ multiqc /storage/aelangov/actual_samples/decontamination_samples/fastqc_reports_before_trim \
 > -o /storage/aelangov/actual_samples/decontamination_samples/multiqc_before_trim
