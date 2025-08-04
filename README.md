@@ -1,3 +1,21 @@
+(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ module load Miniconda3/py311_25.3.1-1
+(base) [aelangov@login01(Bradford-HPC) ~]$ eval "$($(which conda) shell.bash hook)"
+usage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: argument COMMAND: invalid choice: '()' (choose from 'activate', 'clean', 'commands', 'compare', 'config', 'content-trust', 'create', 'deactivate', 'doctor', 'env', 'export', 'info', 'init', 'install', 'list', 'notices', 'package', 'remove', 'rename', 'repoquery', 'run', 'search', 'tos', 'uninstall', 'update', 'upgrade')
+(base) [aelangov@login01(Bradford-HPC) ~]$ conda activate decontam_qc_env
+(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ fastqc -o ~/decontam_fastqc_test \
+> /storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/ERR1329876_1.fastq.gz
+Specified output directory '/home/aelangov/decontam_fastqc_test' does not exist
+(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$
+
+
+
+
+
+
+
+
+
 Preparing transaction: done
 Verifying transaction: done
 Executing transaction: done
