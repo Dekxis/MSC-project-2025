@@ -1,3 +1,20 @@
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate decontam_qc_env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) [aelangov@login01(Bradford-HPC) ~]$
+
+ 
+ 
+ 
  Miniconda3/py311_25.3.1-1    bioconda/Miniconda3-py39_4.10.3
 
 
