@@ -1,4 +1,7 @@
 # MSC-project-2025
+/storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads
+/storage/aelangov/actual_samples/decontamination_samples/viking_blank/raw_reads
+
 Ancient Oral Microbiome
 /storage/aelangov/raw_practice_data/scripts
 
