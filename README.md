@@ -1,49 +1,44 @@
 Detecting adapter sequence for read1...
->Nextera_LMP_Read1_External_Adapter | >Illumina Multiplexing Index Sequencing Primer
-GATCGGAAGAGCACACGTCTGAACTCCAGTCAC
+No adapter detected for read1
 
 Detecting adapter sequence for read2...
 No adapter detected for read2
 
 Read1 before filtering:
-total reads: 770013
-total bases: 57750975
-Q20 bases: 55098919(95.4078%)
-Q30 bases: 52447874(90.8173%)
+total reads: 587
+total bases: 14675
+Q20 bases: 14376(97.9625%)
+Q30 bases: 14288(97.3629%)
 
 Read2 before filtering:
-total reads: 770013
-total bases: 57750975
-Q20 bases: 45836358(79.369%)
-Q30 bases: 41681413(72.1744%)
+total reads: 587
+total bases: 14675
+Q20 bases: 12686(86.4463%)
+Q30 bases: 12452(84.8518%)
 
 Read1 after filtering:
-total reads: 173464
-total bases: 10855011
-Q20 bases: 10600480(97.6552%)
-Q30 bases: 10228039(94.2241%)
+total reads: 0
+total bases: 0
+Q20 bases: 0(-nan%)
+Q30 bases: 0(-nan%)
 
 Read2 after filtering:
-total reads: 173464
-total bases: 10733374
-Q20 bases: 10483770(97.6745%)
-Q30 bases: 10161164(94.6689%)
+total reads: 0
+total bases: 0
+Q20 bases: 0(-nan%)
+Q30 bases: 0(-nan%)
 
 Filtering result:
-reads passed filter: 346928
-reads failed due to low quality: 315940
-reads failed due to too many N: 172
-reads failed due to too short: 876986
-reads with adapter trimmed: 716081
-bases trimmed due to adapters: 19262136
+reads passed filter: 0
+reads failed due to low quality: 2
+reads failed due to too many N: 0
+reads failed due to too short: 1172
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
 
-Duplication rate: 44.8925%
+Duplication rate: 10.0511%
 
-Insert size peak (evaluated by paired-end reads): 83
-
-JSON report: fastp.json
-HTML report: fastp.html
-
+Insert size peak (evaluated by paired-end reads): 0
 
 
 
