@@ -1,3 +1,8 @@
+ ls -lh /storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/
+ls: cannot access '/storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/': No such file or directory
+
+
+
 fastqc -o ~/decontam_fastqc_test \
 > /storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/ERR1329876_1.fastq.gz
 Skipping '/storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/ERR1329876_1.fastq.gz' which didn't exist, or couldn't be read
