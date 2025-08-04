@@ -1,60 +1,48 @@
->   --trim_front1 10 \
->   --cut_tail \
->   --cut_mean_quality 25 \
->   --length_required 50 \
->   -i /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1407493_1.fastq.gz \
->   -I /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1407493_2.fastq.gz \
->   -o $TRIMMED_DIR/ERR1407493_trimmed_1.fastq.gz \
->   -O $TRIMMED_DIR/ERR1407493_trimmed_2.fastq.gz
 Detecting adapter sequence for read1...
-No adapter detected for read1
+>Nextera_LMP_Read1_External_Adapter | >Illumina Multiplexing Index Sequencing Primer
+GATCGGAAGAGCACACGTCTGAACTCCAGTCAC
 
 Detecting adapter sequence for read2...
 No adapter detected for read2
 
 Read1 before filtering:
-total reads: 179640
-total bases: 13473000
-Q20 bases: 12890952(95.6799%)
-Q30 bases: 12284152(91.1761%)
+total reads: 770013
+total bases: 57750975
+Q20 bases: 55098919(95.4078%)
+Q30 bases: 52447874(90.8173%)
 
 Read2 before filtering:
-total reads: 179640
-total bases: 13473000
-Q20 bases: 6907512(51.2693%)
-Q30 bases: 5010393(37.1884%)
+total reads: 770013
+total bases: 57750975
+Q20 bases: 45836358(79.369%)
+Q30 bases: 41681413(72.1744%)
 
 Read1 after filtering:
-total reads: 60097
-total bases: 3803863
-Q20 bases: 3653952(96.059%)
-Q30 bases: 3486636(91.6604%)
+total reads: 173464
+total bases: 10855011
+Q20 bases: 10600480(97.6552%)
+Q30 bases: 10228039(94.2241%)
 
 Read2 after filtering:
-total reads: 60097
-total bases: 3772078
-Q20 bases: 3703071(98.1706%)
-Q30 bases: 3612115(95.7593%)
+total reads: 173464
+total bases: 10733374
+Q20 bases: 10483770(97.6745%)
+Q30 bases: 10161164(94.6689%)
 
 Filtering result:
-reads passed filter: 120194
-reads failed due to low quality: 192954
-reads failed due to too many N: 772
-reads failed due to too short: 45360
-reads with adapter trimmed: 26634
-bases trimmed due to adapters: 275486
+reads passed filter: 346928
+reads failed due to low quality: 315940
+reads failed due to too many N: 172
+reads failed due to too short: 876986
+reads with adapter trimmed: 716081
+bases trimmed due to adapters: 19262136
 
-Duplication rate: 16.9161%
+Duplication rate: 44.8925%
 
-Insert size peak (evaluated by paired-end reads): 85
+Insert size peak (evaluated by paired-end reads): 83
 
 JSON report: fastp.json
 HTML report: fastp.html
-
-fastp --detect_adapter_for_pe --trim_front1 10 --cut_tail --cut_mean_quality 25 --length_required 50 -i /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1407493_1.fastq.gz -I /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1407493_2.fastq.gz -o /storage/aelangov/actual_samples/decontamination_samples/Fastpblanktrim/ERR1407493_trimmed_1.fastq.gz -O /storage/aelangov/actual_samples/decontamination_samples/Fastpblanktrim/ERR1407493_trimmed_2.fastq.gz
-fastp v0.25.0, time used: 8 seconds
-
-
 
 
 
