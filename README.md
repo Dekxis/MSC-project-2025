@@ -1,3 +1,14 @@
+fastqc -o ~/decontam_fastqc_test \
+> /storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/ERR1329876_1.fastq.gz
+Skipping '/storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/ERR1329876_1.fastq.gz' which didn't exist, or couldn't be read
+(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$
+
+
+
+
+
+
+
 (decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ module load Miniconda3/py311_25.3.1-1
 (base) [aelangov@login01(Bradford-HPC) ~]$ eval "$($(which conda) shell.bash hook)"
 usage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
