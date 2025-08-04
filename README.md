@@ -1,7 +1,7 @@
  ls -lh /storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/
 ls: cannot access '/storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/': No such file or directory
 
-
+/storage/aelangov/actual_samples/decontamination_samples/roman_blank
 
 fastqc -o ~/decontam_fastqc_test \
 > /storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/ERR1329876_1.fastq.gz
