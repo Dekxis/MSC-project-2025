@@ -1,68 +1,7 @@
-
-
-/storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank
-
-for some reason its named like this
-
-
-
-
-Bradford-HPC) ~]$ ls -lh ~/decontam_fastqc_test
-total 1.1M
--rw-r--r-- 1 aelangov domain users 591K Aug  4 16:10 ERR1329876_1_fastqc.html
--rw-r--r-- 1 aelangov domain users 461K Aug  4 16:10 ERR1329876_1_fastqc.zip
-(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$
-
-
-
-
-
-
-
-
-> /storage/aelangov/actual_samples/decontamination_samples/roman_blank/ERR1329876_1.fastq.gz
-application/gzip
-Started analysis of ERR1329876_1.fastq.gz
-Analysis complete for ERR1329876_1.fastq.gz
-(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$
- 
- 
- 
- 
- 
- 
- 
- ls -lh /storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/
-ls: cannot access '/storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/': No such file or directory
-
-/storage/aelangov/actual_samples/decontamination_samples/roman_blank
-
-fastqc -o ~/decontam_fastqc_test \
-> /storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/ERR1329876_1.fastq.gz
-Skipping '/storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/ERR1329876_1.fastq.gz' which didn't exist, or couldn't be read
-(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$
-
-
-
-
-
-
-
-(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ module load Miniconda3/py311_25.3.1-1
-(base) [aelangov@login01(Bradford-HPC) ~]$ eval "$($(which conda) shell.bash hook)"
-usage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
-conda: error: argument COMMAND: invalid choice: '()' (choose from 'activate', 'clean', 'commands', 'compare', 'config', 'content-trust', 'create', 'deactivate', 'doctor', 'env', 'export', 'info', 'init', 'install', 'list', 'notices', 'package', 'remove', 'rename', 'repoquery', 'run', 'search', 'tos', 'uninstall', 'update', 'upgrade')
-(base) [aelangov@login01(Bradford-HPC) ~]$ conda activate decontam_qc_env
-(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ fastqc -o ~/decontam_fastqc_test \
-> /storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/ERR1329876_1.fastq.gz
-Specified output directory '/home/aelangov/decontam_fastqc_test' does not exist
-(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$
-
-
-
-
-
-
+(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ conda activate decontam_qc_env
+(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ multiqc /storage/aelangov/actual_samples/decontamination_samples/fastqc_reports_before_trim \
+> -o /storage/aelangov/actual_samples/decontamination_samples/multiqc_before_trim
+Illegal instruction (core dumped)
 
 
 
