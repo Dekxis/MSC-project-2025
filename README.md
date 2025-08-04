@@ -1,3 +1,75 @@
+>   --trim_front1 10 \
+>   --cut_tail \
+>   --cut_mean_quality 25 \
+>   --length_required 50 \
+>   -i /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1407493_1.fastq.gz \
+>   -I /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1407493_2.fastq.gz \
+>   -o $TRIMMED_DIR/ERR1407493_trimmed_1.fastq.gz \
+>   -O $TRIMMED_DIR/ERR1407493_trimmed_2.fastq.gz
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+No adapter detected for read2
+
+Read1 before filtering:
+total reads: 179640
+total bases: 13473000
+Q20 bases: 12890952(95.6799%)
+Q30 bases: 12284152(91.1761%)
+
+Read2 before filtering:
+total reads: 179640
+total bases: 13473000
+Q20 bases: 6907512(51.2693%)
+Q30 bases: 5010393(37.1884%)
+
+Read1 after filtering:
+total reads: 60097
+total bases: 3803863
+Q20 bases: 3653952(96.059%)
+Q30 bases: 3486636(91.6604%)
+
+Read2 after filtering:
+total reads: 60097
+total bases: 3772078
+Q20 bases: 3703071(98.1706%)
+Q30 bases: 3612115(95.7593%)
+
+Filtering result:
+reads passed filter: 120194
+reads failed due to low quality: 192954
+reads failed due to too many N: 772
+reads failed due to too short: 45360
+reads with adapter trimmed: 26634
+bases trimmed due to adapters: 275486
+
+Duplication rate: 16.9161%
+
+Insert size peak (evaluated by paired-end reads): 85
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp --detect_adapter_for_pe --trim_front1 10 --cut_tail --cut_mean_quality 25 --length_required 50 -i /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1407493_1.fastq.gz -I /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1407493_2.fastq.gz -o /storage/aelangov/actual_samples/decontamination_samples/Fastpblanktrim/ERR1407493_trimmed_1.fastq.gz -O /storage/aelangov/actual_samples/decontamination_samples/Fastpblanktrim/ERR1407493_trimmed_2.fastq.gz
+fastp v0.25.0, time used: 8 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank   directory for vikings/anglo saxon
 /storage/aelangov/actual_samples/decontamination_samples/roman_blank  directory for roman sample
 
