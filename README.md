@@ -1,3 +1,14 @@
+
+
+
+
+
+
+2025-08-04 13:49:49 (1.17 MB/s) - ‘ERR1407493_2.fastq.gz’ saved [8094857]
+
+/tmp/slurmd/job319952/slurm_script: line 42: fastqc: command not found
+/tmp/slurmd/job319952/slurm_script: line 46: multiqc: command not found
+
 # MSC-project-2025
 /storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads
 /storage/aelangov/actual_samples/decontamination_samples/viking_blank/raw_reads
