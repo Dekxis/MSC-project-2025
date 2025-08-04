@@ -1,4 +1,4 @@
-
+ Miniconda3/py311_25.3.1-1    bioconda/Miniconda3-py39_4.10.3
 
 
 Please check the spelling or version number. Also try "module spider ..."
