@@ -1,8 +1,4 @@
-fam thats dope it worked for roman sample
 
-but my bad it didnt work for viking/ango sample
-
-cuz the actual directory of viking/saxon sample is
 
 /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank
 
