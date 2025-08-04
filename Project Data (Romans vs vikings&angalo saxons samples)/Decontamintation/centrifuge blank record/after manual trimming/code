@@ -1,1 +1,57 @@
+# Activate your conda environment
+conda activate decontam_qc_env
 
+# Define output folders
+TRIMMED_DIR=/storage/aelangov/actual_samples/decontamination_samples/Fastpblanktrim
+FASTQC_DIR=/storage/aelangov/actual_samples/decontamination_samples/Fastqcaftertrimblank
+
+# Make directories if they don't exist
+mkdir -p $TRIMMED_DIR
+mkdir -p $FASTQC_DIR
+
+# === Sample: ERR1407493 (ENV BLANK - ANGLO) ===
+fastp --detect_adapter_for_pe \
+  --trim_front1 10 \
+  --cut_tail \
+  --cut_mean_quality 25 \
+  --length_required 50 \
+  -i /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1407493_1.fastq.gz \
+  -I /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1407493_2.fastq.gz \
+  -o $TRIMMED_DIR/ERR1407493_trimmed_1.fastq.gz \
+  -O $TRIMMED_DIR/ERR1407493_trimmed_2.fastq.gz
+
+# === Sample: ERR1407514 (ENV BLANK - ROMAN) ===
+fastp --detect_adapter_for_pe \
+  --trim_front1 8 \
+  --cut_tail \
+  --cut_mean_quality 28 \
+  --length_required 50 \
+  -i /storage/aelangov/actual_samples/decontamination_samples/roman_blank/ERR1407514_1.fastq.gz \
+  -I /storage/aelangov/actual_samples/decontamination_samples/roman_blank/ERR1407514_2.fastq.gz \
+  -o $TRIMMED_DIR/ERR1407514_trimmed_1.fastq.gz \
+  -O $TRIMMED_DIR/ERR1407514_trimmed_2.fastq.gz
+
+# === Sample: ERR1329876 (LAB BLANK - ROMAN) ===
+fastp --detect_adapter_for_pe \
+  --trim_front1 8 \
+  --cut_tail \
+  --cut_mean_quality 28 \
+  --length_required 50 \
+  -i /storage/aelangov/actual_samples/decontamination_samples/roman_blank/ERR1329876_1.fastq.gz \
+  -I /storage/aelangov/actual_samples/decontamination_samples/roman_blank/ERR1329876_2.fastq.gz \
+  -o $TRIMMED_DIR/ERR1329876_trimmed_1.fastq.gz \
+  -O $TRIMMED_DIR/ERR1329876_trimmed_2.fastq.gz
+
+# === Sample: ERR1329877 (LAB BLANK - ANGLO) ===
+fastp --detect_adapter_for_pe \
+  --trim_front1 7 \
+  --cut_tail \
+  --cut_mean_quality 28 \
+  --length_required 50 \
+  -i /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1329877_1.fastq.gz \
+  -I /storage/aelangov/actual_samples/decontamination_samples/anglosaxon_blank/ERR1329877_2.fastq.gz \
+  -o $TRIMMED_DIR/ERR1329877_trimmed_1.fastq.gz \
+  -O $TRIMMED_DIR/ERR1329877_trimmed_2.fastq.gz
+
+# === FASTQC after trimming ===
+fastqc -o $FASTQC_DIR $TRIMMED_DIR/*.fastq.gz
