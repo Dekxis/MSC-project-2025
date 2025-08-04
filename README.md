@@ -1,3 +1,14 @@
+/storage/aelangov/actual_samples/decontamination_samples/fastqc_reports_before_trim
+
+fam i want to run multiqc again in this directory cuz the previous multiqc was for different samples
+also save the output as multiqcblank report inside the decontamination sample folder we created
+
+
+
+
+
+
+
 (decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ fastp \
 >   -i $IN_DIR/ERR1329876_1.fastq.gz \
 >   -I $IN_DIR/ERR1329876_2.fastq.gz \
