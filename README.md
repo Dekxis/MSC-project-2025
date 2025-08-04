@@ -1,3 +1,74 @@
+(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ fastp \
+>   -i $IN_DIR/ERR1329876_1.fastq.gz \
+>   -I $IN_DIR/ERR1329876_2.fastq.gz \
+>   -o $OUT_DIR/ERR1329876_trimmed_1.fastq.gz \
+>   -O $OUT_DIR/ERR1329876_trimmed_2.fastq.gz \
+>   --detect_adapter_for_pe \
+>   --qualified_quality_phred 15 \
+>   --length_required 30 \
+>   --thread 4 \
+>   --html $OUT_DIR/ERR1329876_fastp.html \
+>   --json $OUT_DIR/ERR1329876_fastp.json
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+No adapter detected for read2
+
+Read1 before filtering:
+total reads: 587
+total bases: 14675
+Q20 bases: 14376(97.9625%)
+Q30 bases: 14288(97.3629%)
+
+Read2 before filtering:
+total reads: 587
+total bases: 14675
+Q20 bases: 12686(86.4463%)
+Q30 bases: 12452(84.8518%)
+
+Read1 after filtering:
+total reads: 0
+total bases: 0
+Q20 bases: 0(-nan%)
+Q30 bases: 0(-nan%)
+
+Read2 after filtering:
+total reads: 0
+total bases: 0
+Q20 bases: 0(-nan%)
+Q30 bases: 0(-nan%)
+
+Filtering result:
+reads passed filter: 0
+reads failed due to low quality: 2
+reads failed due to too many N: 0
+reads failed due to too short: 1172
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate: 10.0511%
+
+Insert size peak (evaluated by paired-end reads): 0
+
+JSON report: /storage/aelangov/actual_samples/decontamination_samples/fastp_trimmed_blanks/ERR1329876_fastp.json
+HTML report: /storage/aelangov/actual_samples/decontamination_samples/fastp_trimmed_blanks/ERR1329876_fastp.html
+
+fastp -i /storage/aelangov/actual_samples/decontamination_samples/roman_blank/ERR1329876_1.fastq.gz -I /storage/aelangov/actual_samples/decontamination_samples/roman_blank/ERR1329876_2.fastq.gz -o /storage/aelangov/actual_samples/decontamination_samples/fastp_trimmed_blanks/ERR1329876_trimmed_1.fastq.gz -O /storage/aelangov/actual_samples/decontamination_samples/fastp_trimmed_blanks/ERR1329876_trimmed_2.fastq.gz --detect_adapter_for_pe --qualified_quality_phred 15 --length_required 30 --thread 4 --html /storage/aelangov/actual_samples/decontamination_samples/fastp_trimmed_blanks/ERR1329876_fastp.html --json /storage/aelangov/actual_samples/decontamination_samples/fastp_trimmed_blanks/ERR1329876_fastp.json
+fastp v0.25.0, time used: 1 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
 (decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ OUT_DIR=/storage/aelangov/actual_samples/decontamination_samples/fastp_trimmed_blanks
 (decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ mkdir -p $OUT_DIR
 (decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$ fastp \
