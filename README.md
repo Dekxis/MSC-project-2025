@@ -1,3 +1,15 @@
+> /storage/aelangov/actual_samples/decontamination_samples/roman_blank/ERR1329876_1.fastq.gz
+application/gzip
+Started analysis of ERR1329876_1.fastq.gz
+Analysis complete for ERR1329876_1.fastq.gz
+(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  ls -lh /storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/
 ls: cannot access '/storage/aelangov/actual_samples/decontamination_samples/roman_blank/raw_reads/': No such file or directory
 
