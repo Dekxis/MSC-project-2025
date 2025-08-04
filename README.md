@@ -1,3 +1,16 @@
+Bradford-HPC) ~]$ ls -lh ~/decontam_fastqc_test
+total 1.1M
+-rw-r--r-- 1 aelangov domain users 591K Aug  4 16:10 ERR1329876_1_fastqc.html
+-rw-r--r-- 1 aelangov domain users 461K Aug  4 16:10 ERR1329876_1_fastqc.zip
+(decontam_qc_env) [aelangov@login01(Bradford-HPC) ~]$
+
+
+
+
+
+
+
+
 > /storage/aelangov/actual_samples/decontamination_samples/roman_blank/ERR1329876_1.fastq.gz
 application/gzip
 Started analysis of ERR1329876_1.fastq.gz
