@@ -1,0 +1,8 @@
+Listeria,1,11.11
+Methanothermus,1,11.11
+Methanosphaera,2,22.22
+Mogibacterium,1,11.11
+Caloranaerobacter,1,11.11
+Thermovirga,1,11.11
+Gottschalkia,1,11.11
+Clostridioides,1,11.11
