@@ -1,3 +1,13 @@
+/storage/aelangov/actual_samples/roman_samples/oxford_leicester/raw_reads/Bone
+
+
+
+
+
+
+
+
+
 >   --trim_front1 7 \
 >   --cut_tail \
 >   --cut_mean_quality 28 \
