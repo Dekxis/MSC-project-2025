@@ -1,0 +1,17 @@
+Listeria,1,4.55
+Archaeoglobus,1,4.55
+Thermoproteus,1,4.55
+Methanosphaera,3,13.64
+Lawsonia,1,4.55
+Filifactor,1,4.55
+Megamonas,1,4.55
+Vulcanisaeta,2,9.09
+Acetoanaerobium,1,4.55
+Methanotorris,1,4.55
+Odoribacter,1,4.55
+Petrimonas,1,4.55
+Clostridioides,2,9.09
+Flintibacter,1,4.55
+Candidatus,1,4.55
+Phoenicibacter,1,4.55
+Methanofervidicoccus,2,9.09

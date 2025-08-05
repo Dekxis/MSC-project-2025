@@ -1,0 +1,7 @@
+Archaeoglobus,1,12.50
+Methanosphaera,1,12.50
+Polaribacter,1,12.50
+Megamonas,1,12.50
+Candidatus,2,25.00
+Clostridioides,1,12.50
+Flintibacter,1,12.50
