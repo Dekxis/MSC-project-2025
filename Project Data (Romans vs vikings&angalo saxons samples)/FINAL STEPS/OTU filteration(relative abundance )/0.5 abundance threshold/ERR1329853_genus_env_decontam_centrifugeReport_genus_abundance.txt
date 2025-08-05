@@ -1,0 +1,7 @@
+Butyrivibrio,1,14.29
+Methanothermus,1,14.29
+Methanosphaera,1,14.29
+Succinivibrio,1,14.29
+Peptoniphilus,1,14.29
+Sneathia,1,14.29
+Methanoregula,1,14.29
