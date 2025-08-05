@@ -1,0 +1,17 @@
+Methanosphaera,1,4.55
+Acetomicrobium,1,4.55
+Polaribacter,1,4.55
+Cryptobacterium,1,4.55
+Megamonas,1,4.55
+Peptoniphilus,1,4.55
+Sporanaerobacter,1,4.55
+Caloranaerobacter,1,4.55
+Paludibacter,1,4.55
+Butyricimonas,1,4.55
+Solibacillus,1,4.55
+Jeotgalibaca,1,4.55
+Gottschalkia,2,9.09
+Paeniclostridium,3,13.64
+Clostridioides,3,13.64
+Candidatus,1,4.55
+Anaerobutyricum,1,4.55

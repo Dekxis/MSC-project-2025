@@ -1,0 +1,10 @@
+Mobiluncus,1,6.67
+Methanothermus,1,6.67
+Methanosphaera,1,6.67
+Acetobacterium,2,13.33
+Deferribacter,1,6.67
+Methanothermococcus,1,6.67
+Peptoniphilus,1,6.67
+Sporanaerobacter,1,6.67
+Clostridioides,5,33.33
+Methanofervidicoccus,1,6.67
