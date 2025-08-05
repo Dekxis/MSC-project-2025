@@ -1,0 +1,1924 @@
+name	taxID	taxRank	genomeSize	numReads	numUniqueReads	abundance
+Bacteria	2	superkingdom	0	29	21	0.0
+Cellvibrio	10	genus	4576573	1	0	0.0
+Pelobacter	18	genus	3953506	1	0	0.0
+Shewanella	22	genus	5140018	1	0	0.0
+Myxococcales	29	order	9638245	53	0	0.0
+Myxococcaceae	31	family	9636120	5	0	0.0
+Myxococcus	32	genus	9487953	5	0	0.0
+Archangiaceae	39	family	10085598	7	0	0.0
+Melittangium	44	genus	9910441	1	0	0.0
+Archangium	47	genus	0	1	0	0.0
+Polyangiaceae	49	family	13907952	1	0	0.0
+Vitreoscilla	59	genus	0	16	0	0.0
+Lysobacter	68	genus	0	9	0	0.0
+Caulobacter	75	genus	4238499	8	0	0.0
+Leptothrix	88	genus	4909403	9	0	0.0
+Stella	93	genus	0	1	0	0.0
+Gallionella	96	genus	3162471	1	0	0.0
+Ancylobacter	99	genus	0	1	0	0.0
+Spirosoma	107	genus	0	2	0	0.0
+Planctomycetales	112	order	5733343	6	0	0.0
+Gemmata	113	genus	0	1	0	0.0
+Planctomycetaceae	126	family	5733343	2	0	0.0
+Methylocystis	133	genus	0	2	0	0.0
+Spirochaetales	136	order	1876294	7	0	0.0
+Spirochaetaceae	137	family	2749897	3	0	0.0
+Treponema	157	genus	2490077	5	1	0.0
+Leptospiraceae	170	family	5274184	1	0	0.0
+Aquaspirillum	187	genus	0	7	0	0.0
+Azospirillum	191	genus	7223069	8	0	0.0
+Campylobacter	194	genus	2403822	4	1	0.0
+Helicobacter	209	genus	1715890	1	0	0.0
+Achromobacter	222	genus	7359146	43	0	0.0
+Alteromonas	226	genus	4609878	1	0	0.0
+Brucella	234	genus	4039663	5	1	0.0
+Flavobacterium	237	genus	3461015	3	0	0.0
+Francisella	262	genus	3767258	2	0	0.0
+Paracoccus	265	genus	5054656	6	0	0.0
+Thermus	270	genus	2279019	1	0	0.0
+Comamonas	283	genus	5461687	30	0	0.0
+Pseudomonas	286	genus	9017316	152	11	0.0
+Pseudomonas syringae pv. syringae	321	leaf	17996541	2	0	0.0
+Pseudomonas syringae pv. tomato	323	leaf	12920481	4	0	0.0
+Xanthomonas	338	genus	23419814	21	2	0.0
+Xanthomonas campestris pv. campestris	340	leaf	25019723	3	0	0.0
+Azotobacter	352	genus	5311796	4	0	0.0
+Rhizobiales	356	order	5410296	126	0	0.0
+Agrobacterium	357	genus	6422834	4	0	0.0
+Bradyrhizobium	374	genus	11894480	8	0	0.0
+Rhizobium	379	genus	8184003	12	1	0.0
+Rhizobium leguminosarum bv. viciae	387	leaf	22747743	4	1	0.0
+Sinorhizobium fredii NGR234	394	leaf	6891900	4	1	0.0
+Methylococcaceae	403	family	4384317	5	0	0.0
+Methylobacillus	404	genus	2971517	3	0	0.0
+Methylobacterium	407	genus	7144985	11	0	0.0
+Acetobacteraceae	433	family	3826783	15	0	0.0
+Acetobacter	434	genus	3590557	1	0	0.0
+Gluconobacter	441	genus	4181963	3	0	0.0
+Legionellaceae	444	family	10525492	1	0	0.0
+Moraxellaceae	468	family	3943545	6	0	0.0
+Acinetobacter	469	genus	4126830	5	0	0.0
+Neisseriaceae	481	family	2244925	55	0	0.0
+Neisseria	482	genus	2223758	185	61	0.0
+Psychrobacter	497	genus	2875899	2	0	0.0
+Thermomicrobium	499	genus	2920744	1	0	0.0
+Alcaligenaceae	506	family	4354306	47	0	0.0
+Alcaligenes	507	genus	0	4	0	0.0
+Bordetella	517	genus	4536693	67	0	0.0
+Chromobacterium	535	genus	4751080	35	1	0.0
+Eikenella	538	genus	0	14	0	0.0
+Enterobacteriaceae	543	family	10341043	28	0	0.0
+Citrobacter	544	genus	5276819	9	0	0.0
+Enterobacter	547	genus	11028548	6	0	0.0
+Erwinia	551	genus	4250482	2	0	0.0
+Hafnia	568	genus	4712721	1	0	0.0
+Klebsiella	570	genus	12784449	4	0	0.0
+Salmonella	590	genus	11699879	1	0	0.0
+Serratia	613	genus	5012487	20	0	0.0
+Yersinia	629	genus	6072098	1	0	0.0
+Edwardsiella	635	genus	3906392	4	0	0.0
+Vibrionaceae	641	family	5610112	1	0	0.0
+Aeromonas	642	genus	5822658	21	2	0.0
+Vibrio	662	genus	5583206	3	0	0.0
+Pasteurellaceae	712	family	2528486	7	1	0.0
+Haemophilus	724	genus	2428729	3	0	0.0
+Bartonellaceae	772	family	1830994	1	0	0.0
+Bacteroides	816	genus	5275069	2	1	0.0
+Butyrivibrio	830	genus	4404886	1	0	0.0
+Porphyromonas	836	genus	2657841	2	0	0.0
+Prevotella	838	genus	3023914	6	2	0.0
+Fusobacterium	848	genus	3161642	5	3	0.0
+Cardiobacteriaceae	868	family	1389350	5	0	0.0
+Desulfovibrio	872	genus	3919658	7	0	0.0
+Desulfovibrio vulgaris str. Hildenborough	882	leaf	3773159	7	0	0.0
+Desulfovibrio vulgaris str. 'Miyazaki F'	883	leaf	4040304	9	4	0.0
+Desulfuromonas	890	genus	0	2	0	0.0
+Desulfobulbus	893	genus	0	2	0	0.0
+Desulfococcus	896	genus	3944167	1	0	0.0
+Desulfomicrobium	898	genus	3363015	3	0	0.0
+Acidaminococcus	904	genus	2408767	2	0	0.0
+Megasphaera	906	genus	2491645	2	0	0.0
+Nitrobacter	911	genus	4206807	1	0	0.0
+Nitrosomonas	914	genus	2796959	1	0	0.0
+Thiobacillus	919	genus	2909809	2	0	0.0
+Bdellovibrio	958	genus	3359107	1	0	0.0
+Herbaspirillum	963	genus	5363540	31	0	0.0
+Selenomonas	970	genus	3100147	2	0	0.0
+Bacteroidetes	976	phylum	3686275	3	0	0.0
+Saprospira	1007	genus	4400185	1	0	0.0
+Capnocytophaga	1016	genus	2592165	56	30	0.0
+Erythrobacter	1041	genus	3052398	1	0	0.0
+Chromatiaceae	1046	family	3825215	9	0	0.0
+Rhodobacter	1060	genus	4425548	1	0	0.0
+Rhodopseudomonas	1073	genus	5494465	3	0	0.0
+Rhodospirillum	1081	genus	4371641	2	0	0.0
+Pelodictyon	1099	genus	2691540	1	0	0.0
+Cyanobacteria	1117	phylum	4896702	1	0	0.0
+Synechococcus	1129	genus	2744871	4	0	0.0
+Synechocystis	1142	genus	3570073	1	0	0.0
+Oscillatoriales	1150	order	7831139	3	0	0.0
+Proteobacteria	1224	phylum	6582363	123	0	0.0
+Nitrospira	1234	genus	0	2	0	0.0
+Gammaproteobacteria	1236	class	8199621	176	0	0.0
+Firmicutes	1239	phylum	3951907	14	0	0.0
+Micrococcaceae	1268	family	3809026	30	0	0.0
+Micrococcus	1269	genus	4996790	5	0	0.0
+Staphylococcus	1279	genus	5162113	1	0	0.0
+Deinococcus	1298	genus	4067791	9	0	0.0
+Streptococcaceae	1300	family	2703668	2	0	0.0
+Streptococcus	1301	genus	2347233	213	173	0.0
+Enterococcus	1350	genus	3047520	4	0	0.0
+Lactococcus	1357	genus	5471281	1	0	0.0
+Gemella	1378	genus	0	2	0	0.0
+Bacillales	1385	order	5092237	19	0	0.0
+Bacillus	1386	genus	6141499	3	1	0.0
+Clostridium	1485	genus	4654291	7	0	0.0
+Desulfotomaculum	1562	genus	3489791	2	0	0.0
+Sporosarcina	1569	genus	0	2	0	0.0
+Clavibacter	1573	genus	5099992	2	0	0.0
+Lactobacillus	1578	genus	3009630	6	0	0.0
+Listeria	1637	genus	3154985	2	0	0.0
+Erysipelothrix	1647	genus	1770425	3	0	0.0
+Corynebacteriaceae	1653	family	2732186	15	0	0.0
+Actinomyces	1654	genus	2811991	457	163	0.0
+Arthrobacter	1663	genus	0	11	0	0.0
+Bifidobacterium	1678	genus	2688194	21	1	0.0
+Brevibacterium	1696	genus	0	7	0	0.0
+Cellulomonas	1707	genus	3971988	19	0	0.0
+Corynebacterium	1716	genus	2732186	62	7	0.0
+Eubacterium	1730	genus	0	1	0	0.0
+Propionibacterium	1743	genus	2646865	13	0	0.0
+Thermoanaerobacter	1754	genus	2526854	2	0	0.0
+Actinobacteria	1760	class	5015669	399	68	0.0
+Mycobacteriaceae	1762	family	7116636	31	0	0.0
+Mycobacterium	1763	genus	7259758	27	1	0.0
+Amycolatopsis	1813	genus	12051167	6	0	0.0
+Nocardia	1817	genus	7567967	11	0	0.0
+Rhodococcus	1827	genus	6750748	20	2	0.0
+Saccharopolyspora	1835	genus	8212805	2	0	0.0
+Nocardioides	1839	genus	4376707	19	0	0.0
+Pseudonocardia	1847	genus	7303989	7	0	0.0
+Saccharomonospora	1851	genus	4308349	2	0	0.0
+Frankia	1854	genus	7497934	4	0	0.0
+Geodermatophilus	1860	genus	5322497	1	0	0.0
+Dermatophilus	1862	genus	0	1	0	0.0
+Actinoplanes	1865	genus	8812229	10	0	0.0
+Micromonospora	1873	genus	7025559	4	0	0.0
+Streptomyces	1883	genus	9710281	138	12	0.0
+Actinomadura	1988	genus	0	3	0	0.0
+Streptosporangium	2000	genus	10369518	2	0	0.0
+Streptosporangiaceae	2004	family	10369518	1	0	0.0
+Thermomonosporaceae	2012	family	5639016	14	0	0.0
+Nocardiopsis	2013	genus	6177891	5	0	0.0
+Thermomonospora	2019	genus	5639016	1	0	0.0
+Kibdelosporangium	2029	genus	0	1	0	0.0
+Curtobacterium	2034	genus	3933752	3	0	0.0
+Actinomycetales	2037	order	2376616	9	0	0.0
+Aeromicrobium	2040	genus	0	2	0	0.0
+Actinomycetaceae	2049	family	2376616	154	0	0.0
+Gordonia	2053	genus	5567155	15	0	0.0
+Sphaerobacter	2056	genus	3993764	1	0	0.0
+Tsukamurella	2060	genus	4479724	2	0	0.0
+Streptomycetaceae	2062	family	9677174	93	0	0.0
+Kitasatospora	2063	genus	8783278	3	0	0.0
+Pseudonocardiaceae	2070	family	9441254	56	1	0.0
+Saccharothrix	2071	genus	9360653	1	0	0.0
+Sporolactobacillus	2077	genus	0	1	0	0.0
+Mycoplasmataceae	2092	family	1430664	1	0	0.0
+Mycoplasma	2093	genus	1460880	2	0	0.0
+Spiroplasma	2132	genus	1300182	2	0	0.0
+Acholeplasmataceae	2146	family	1183742	1	0	0.0
+Methanomicrobiales	2191	order	2718447	1	0	0.0
+Archaeoglobus	2233	genus	2007396	1	0	0.0
+Halobacteriales	2235	order	3677006	2	0	0.0
+Halobacteriaceae	2236	family	2979478	2	0	0.0
+Thermoplasmatales	2301	order	1657704	1	0	0.0
+Sporomusa	2375	genus	0	1	0	0.0
+Cardiobacterium	2717	genus	0	1	0	0.0
+Symbiobacterium	2733	genus	3566135	1	0	0.0
+Vagococcus	2737	genus	0	2	0	0.0
+Marinobacter	2742	genus	4384621	4	0	0.0
+Halomonas	2745	genus	4061825	14	1	0.0
+Primates	9443	order	0	3	0	0.0
+Molluscum contagiosum virus subtype 1	10280	leaf	190289	1	1	0.0
+Podoviridae	10744	family	53013	1	0	0.0
+Acidovorax	12916	genus	4877171	45	0	0.0
+Azoarcus	12960	genus	0	37	0	0.0
+Magnetospirillum	13134	genus	4496228	5	0	0.0
+Sphingomonas	13687	genus	5564099	10	0	0.0
+Micromonosporaceae	28056	family	7309173	20	0	0.0
+Rhodoferax	28065	genus	4969784	8	0	0.0
+Rubrivivax	28067	genus	5043253	22	0	0.0
+Sinorhizobium	28105	genus	7002340	2	0	0.0
+Salmonella enterica subsp. enterica serovar Derby	28144	leaf	9933706	1	0	0.0
+Chelatococcus	28209	genus	0	1	0	0.0
+Alphaproteobacteria	28211	class	3925312	124	0	0.0
+Betaproteobacteria	28216	class	5609802	153	0	0.0
+Deltaproteobacteria	28221	class	5142330	27	0	0.0
+Geobacter	28231	genus	4227210	8	0	0.0
+Halomonadaceae	28256	family	919058	26	0	0.0
+Euryarchaeota	28890	phylum	2944553	1	0	0.0
+Thermoanaerobacterium	28895	genus	2738128	1	0	0.0
+Microlunatus	29404	genus	5683123	3	0	0.0
+Rhodoplanes	29407	genus	0	1	0	0.0
+Veillonella	29465	genus	2132142	1	0	0.0
+Syntrophobacter	29526	genus	4990251	1	0	0.0
+Epsilonproteobacteria	29547	class	2091053	2	0	0.0
+Rhodothermus	29548	genus	3360429	1	0	0.0
+Taylorella	29574	genus	2551462	1	0	0.0
+Janthinobacterium	29580	genus	5949001	21	0	0.0
+Bifidobacteriaceae	31953	family	2593741	13	0	0.0
+Propionibacteriaceae	31957	family	2827829	64	0	0.0
+Mollicutes	31969	class	1398080	5	0	0.0
+Veillonellaceae	31977	family	2371811	5	0	0.0
+Clostridiaceae	31979	family	4509975	5	0	0.0
+Heliobacteriaceae	31984	family	3075407	1	0	0.0
+Rhodobacteraceae	31989	family	4505216	53	0	0.0
+Methylocystaceae	31993	family	5183433	1	0	0.0
+Nitrosomonadales	32003	order	3061161	32	0	0.0
+Burkholderia	32008	genus	8385645	68	4	0.0
+Burkholderia gladioli pv. gladioli	32009	leaf	26034550	21	3	0.0
+Methylophilaceae	32011	family	2915241	10	0	0.0
+Thiomonas	32012	genus	3462095	18	0	0.0
+Iodobacter	32014	genus	0	1	0	0.0
+Campylobacter sputorum biovar sputorum	32024	leaf	1753386	2	0	0.0
+Xanthomonadaceae	32033	family	18116294	75	0	0.0
+Leptotrichia	32067	genus	2465610	15	4	0.0
+Rothia	32207	genus	2385314	7	0	0.0
+Kingella	32257	genus	0	1	0	0.0
+Thauera	33057	genus	3711792	27	0	0.0
+Coriobacterium	33870	genus	2115681	1	0	0.0
+Agromyces	33877	genus	0	2	0	0.0
+Microbacterium	33882	genus	3982034	17	0	0.0
+Rathayibacter	33886	genus	4359758	4	0	0.0
+Entomoplasmataceae	33925	family	1097968	1	0	0.0
+Acetobacterium	33951	genus	4044777	1	0	0.0
+Lactobacillaceae	33958	family	2969763	1	0	0.0
+Exiguobacterium	33986	genus	2928324	1	0	0.0
+Rhodovulum	34008	genus	4347929	1	0	0.0
+Rahnella	34037	genus	5656799	1	0	0.0
+Variovorax	34072	genus	6817856	46	0	0.0
+Blattabacterium	34098	genus	625383	1	0	0.0
+Sphaerotilus	34102	genus	4430992	21	0	0.0
+Nitrosospira	35798	genus	3222211	1	0	0.0
+Dermabacter	36739	genus	0	1	0	0.0
+Dietzia	37914	genus	0	14	0	0.0
+Blastococcus	38501	genus	4875340	1	0	0.0
+Sorangium	39643	genus	13907952	1	0	0.0
+Methylophaga	40222	genus	0	1	0	0.0
+Stenotrophomonas	40323	genus	4684682	19	0	0.0
+Sutterella	40544	genus	0	1	0	0.0
+Actinosynnema	40566	genus	8294205	3	0	0.0
+Mammalia	40674	class	0	3	0	0.0
+Brevundimonas	41275	genus	3445263	7	0	0.0
+Bradyrhizobiaceae	41294	family	6811178	12	0	0.0
+Rhodospirillaceae	41295	family	4756441	27	0	0.0
+Sphingomonadaceae	41297	family	4220148	23	0	0.0
+Chromohalobacter	42054	genus	3696649	1	0	0.0
+Ammonifex	42837	genus	2157067	1	0	0.0
+Brachybacterium	43668	genus	3614992	9	0	0.0
+Caldicellulosiruptor	44000	genus	2744362	1	0	0.0
+Polynucleobacter	44013	genus	1859979	6	0	0.0
+Thauera aromatica K172	44139	leaf	3711792	9	3	0.0
+Paenibacillus	44249	genus	8020889	3	0	0.0
+Filifactor	44259	genus	1931012	1	0	0.0
+Hyphomicrobiaceae	45401	family	3812969	8	0	0.0
+Agrococcus	46352	genus	0	1	0	0.0
+Devosia	46913	genus	0	2	0	0.0
+Hydrogenophaga	47420	genus	0	21	0	0.0
+Lautropia	47670	genus	0	72	0	0.0
+Verrucomicrobiales	48461	order	2664102	5	0	0.0
+Ralstonia	48736	genus	5694356	42	0	0.0
+Flavobacteriaceae	49546	family	3488032	6	1	0.0
+Polaromonas	52972	genus	5366143	14	0	0.0
+Pseudoalteromonas	53246	genus	4529238	2	0	0.0
+Desulfocapsa	53318	genus	4023512	1	0	0.0
+Pantoea	53335	genus	4926392	10	0	0.0
+Intrasporangium	53357	genus	4024382	4	0	0.0
+Thiodictyon	53392	genus	0	2	0	0.0
+Halobacteroidaceae	53434	family	2559425	2	0	0.0
+Janibacter	53457	genus	0	2	0	0.0
+Nakamurella	53460	genus	6060298	4	0	0.0
+Pseudomonas amygdali pv. lachrymans	53707	leaf	6009235	1	0	0.0
+Xylophilus	54066	genus	0	51	0	0.0
+Brevibacillus	55080	genus	5873469	1	0	0.0
+Syntrophus aciditrophicus SB	56780	leaf	3179300	6	3	0.0
+Kocuria	57493	genus	2697540	18	0	0.0
+Dermacoccus	57495	genus	0	1	0	0.0
+Kytococcus	57499	genus	2785024	3	0	0.0
+Blastochloris	59282	genus	0	1	0	0.0
+Chryseobacterium	59732	genus	0	2	0	0.0
+Alcanivorax	59753	genus	4072264	4	0	0.0
+Sanguibacter	60919	genus	4253413	2	0	0.0
+Acinetobacter baylyi ADP1	62977	leaf	3598621	1	0	0.0
+Geitlerinema	63132	genus	0	1	0	0.0
+Nostoc punctiforme PCC 73102	63737	leaf	9059191	1	0	0.0
+Mitsuaria	65047	genus	0	13	0	0.0
+Actinoalloteichus	65496	genus	0	4	0	0.0
+Bacillus clausii KSM-K16	66692	leaf	4303871	1	1	0.0
+Thermodesulfobacteria	67799	class	1906882	1	0	0.0
+Mesorhizobium	68287	genus	6950930	8	0	0.0
+Thermoanaerobacterales	68295	order	2730087	3	0	0.0
+Syntrophomonadaceae	68298	family	2670877	1	0	0.0
+Deferribacteres	68337	class	2627038	2	0	0.0
+Thermales	68933	order	2498247	7	0	0.0
+Phyllobacteriaceae	69277	family	6950930	8	0	0.0
+Desulfuromonadales	69541	order	4166387	21	0	0.0
+Cryobacterium	69578	genus	0	1	0	0.0
+Hyphomonadaceae	69657	family	3537971	2	0	0.0
+Xanthomonas arboricola pv. pruni	69929	leaf	5141998	3	0	0.0
+Frateuria	70411	genus	3603458	2	0	0.0
+Brenneria	71655	genus	4891702	1	0	0.0
+Citromicrobium	72173	genus	0	2	0	0.0
+Thiotrichales	72273	order	3605289	1	0	0.0
+Pseudomonadales	72274	order	7879796	65	0	0.0
+Alteromonadaceae	72275	family	4602231	8	0	0.0
+Ectothiorhodospiraceae	72276	family	3152919	11	0	0.0
+Campylobacteraceae	72294	family	2414389	1	0	0.0
+Tessaracoccus	72763	genus	0	14	0	0.0
+Dechloromonas	73029	genus	4501104	8	0	0.0
+Thermaerobacter	73918	genus	2844696	2	0	0.0
+Roseovarius	74030	genus	4203542	3	0	0.0
+Antarctobacter	74032	genus	0	1	0	0.0
+Elusimicrobia	74152	phylum	1396066	1	0	0.0
+Verrucomicrobia	74201	phylum	3223054	1	0	0.0
+Prochlorococcus marinus str. MIT 9312	74546	leaf	1709204	1	0	0.0
+Frankiaceae	74712	family	7497934	2	0	0.0
+Rhodanobacter	75309	genus	0	5	0	0.0
+Thiomonas intermedia K12	75379	leaf	3462095	23	1	0.0
+Oxalobacteraceae	75682	family	4943362	33	0	0.0
+Rhodocyclaceae	75787	family	4267117	32	0	0.0
+Aromatoleum aromaticum EbN1	76114	leaf	4727255	9	3	0.0
+Mycetocola	76634	genus	0	1	0	0.0
+Myroides	76831	genus	0	1	0	0.0
+Actinobaculum	76833	genus	0	1	0	0.0
+Pseudomonas putida GB-1	76869	leaf	6078430	1	0	0.0
+Asticcacaulis	76890	genus	4308776	1	0	0.0
+Caulobacteraceae	76892	family	4141461	16	0	0.0
+Xanthobacter autotrophicus Py2	78245	leaf	5625098	2	1	0.0
+Burkholderiales	80840	order	6876513	489	23	0.0
+Comamonadaceae	80864	family	5361178	395	50	0.0
+Delftia	80865	genus	6767514	30	0	0.0
+Mesoplasma lactucae ATCC 49193	81460	leaf	1674858	3	1	0.0
+Methylovorus	81682	genus	3082007	2	0	0.0
+Enterococcaceae	81852	family	2918008	1	0	0.0
+Rhizobiaceae	82115	family	6287308	22	0	0.0
+Leminorella	82980	genus	0	2	0	0.0
+Corallococcus	83461	genus	10080619	1	0	0.0
+Luteimonas	83614	genus	0	5	0	0.0
+Pseudoxanthomonas	83618	genus	3435801	1	0	0.0
+Leclercia	83654	genus	0	1	0	0.0
+Nocardiopsaceae	83676	family	5543981	12	0	0.0
+Thermobifida	83677	genus	3642249	1	0	0.0
+Nonomuraea	83681	genus	0	2	0	0.0
+Kineosporiaceae	83778	family	4956672	18	0	0.0
+Coriobacteriaceae	84107	family	2115681	2	0	0.0
+Cryptobacterium	84162	genus	1617804	1	0	0.0
+Virgibacillus	84406	genus	0	1	0	0.0
+Sphingobacteriaceae	84566	family	5001562	1	0	0.0
+Aeromonadaceae	84642	family	5684342	13	0	0.0
+Acidimicrobiia	84992	class	3494169	6	0	0.0
+Acidimicrobiales	84993	order	3494169	14	0	0.0
+Rubrobacteria	84995	class	3225748	8	0	0.0
+Rubrobacterales	84996	order	3225748	10	0	0.0
+Rubrobacteraceae	84997	family	3225748	1	0	0.0
+Coriobacteriia	84998	class	2427001	18	0	0.0
+Coriobacteriales	84999	order	1903794	15	0	0.0
+Sphaerobacterales	85001	order	3993764	2	0	0.0
+Bifidobacteriales	85004	order	2593741	2	0	0.0
+Micrococcales	85006	order	3827208	189	0	0.0
+Corynebacteriales	85007	order	5215365	75	0	0.0
+Micromonosporales	85008	order	7309173	2	0	0.0
+Propionibacteriales	85009	order	3142856	33	0	0.0
+Pseudonocardiales	85010	order	9441254	4	0	0.0
+Streptomycetales	85011	order	9677174	16	0	0.0
+Streptosporangiales	85012	order	6364076	7	0	0.0
+Glycomycetales	85014	order	6841557	1	0	0.0
+Nocardioidaceae	85015	family	5978097	48	0	0.0
+Cellulomonadaceae	85016	family	3971988	5	0	0.0
+Promicromonosporaceae	85017	family	3655364	8	0	0.0
+Brevibacteriaceae	85019	family	0	4	0	0.0
+Dermabacteraceae	85020	family	3614992	11	0	0.0
+Intrasporangiaceae	85021	family	3722328	15	0	0.0
+Microbacteriaceae	85023	family	4437172	53	0	0.0
+Nocardiaceae	85025	family	7002200	17	0	0.0
+Gordoniaceae	85026	family	5567155	6	0	0.0
+Tsukamurellaceae	85028	family	4479724	3	0	0.0
+Dietziaceae	85029	family	0	2	0	0.0
+Geodermatophilaceae	85030	family	5098918	4	0	0.0
+Nakamurellaceae	85031	family	6060298	2	0	0.0
+Acidothermaceae	85032	family	2443540	1	0	0.0
+Sporichthyaceae	85033	family	0	1	0	0.0
+Glycomycetaceae	85034	family	6841557	1	0	0.0
+Allochromatium	85072	genus	3669074	1	0	0.0
+Thermochromatium	85073	genus	2958290	2	0	0.0
+Halorhodospira	85108	genus	2678452	1	0	0.0
+Bosea	85413	genus	0	4	0	0.0
+Mogibacterium	86331	genus	0	4	0	0.0
+Modestobacter	88138	genus	0	2	0	0.0
+Gluconacetobacter	89583	genus	7914538	1	0	0.0
+Hymenobacter	89966	genus	5252070	2	0	0.0
+Gallionellaceae	90627	family	3127780	20	0	0.0
+Staphylococcaceae	90964	family	5113878	2	0	0.0
+Bacilli	91061	class	4004361	31	0	0.0
+Enterobacterales	91347	order	9150247	45	0	0.0
+Aquabacterium	92793	genus	0	22	0	0.0
+Pandoraea	93217	genus	5429298	23	0	0.0
+Roseateles	93681	genus	0	31	0	0.0
+Roseivivax	93682	genus	0	1	0	0.0
+Methanosarcinales	94695	order	3916698	1	0	0.0
+Candidatus Saccharibacteria	95818	phylum	0	77	63	0.0
+Desulfococcus oleovorans Hxd3	96561	leaf	3944167	3	1	0.0
+Ruegeria	97050	genus	4601048	1	0	0.0
+Tetrasphaera	99479	genus	0	1	0	0.0
+Streptomyces coelicolor A3(2)	100226	leaf	17722511	12	0	0.0
+Rhodococcus jostii RHA1	101510	leaf	9702737	5	1	0.0
+Collinsella	102106	genus	0	1	0	0.0
+Helicobacter pylori F32	102608	leaf	1581461	2	0	0.0
+Pseudomonas syringae pv. actinidiae	103796	leaf	39958995	1	0	0.0
+Streptomonospora	104204	genus	0	2	0	0.0
+Cellulophaga	104264	genus	4462483	1	0	0.0
+Nitrosococcus watsonii C-113	105559	leaf	3373286	1	0	0.0
+Cupriavidus	106589	genus	8611896	57	0	0.0
+Thioalkalivibrio	106633	genus	3741211	4	0	0.0
+Stanieria cyanosphaera PCC 7437	111780	leaf	5544990	1	1	0.0
+Micropruina	116071	genus	0	3	0	0.0
+Flavobacteriia	117743	class	2877361	2	0	0.0
+Chrysiogenetes	118001	class	2928377	2	0	0.0
+Brucellaceae	118882	family	4081310	1	0	0.0
+Deinococcales	118964	order	3978081	21	0	0.0
+Methylobacteriaceae	119045	family	7385556	6	0	0.0
+Burkholderiaceae	119060	family	8055234	125	0	0.0
+Hydrogenophilales	119069	order	0	4	0	0.0
+Acidithiobacillus	119977	genus	3119226	2	0	0.0
+Methylocella	120652	genus	4305430	1	0	0.0
+Roseiflexus	120961	genus	5723298	1	0	0.0
+Pectobacterium	122277	genus	5767150	3	0	0.0
+Neisseria meningitidis MC58	122586	leaf	2272360	1	0	0.0
+Neisseria meningitidis Z2491	122587	leaf	2184406	1	0	0.0
+Ornithinimicrobium	125287	genus	0	1	0	0.0
+Beutenbergiaceae	125316	family	4669183	1	0	0.0
+Geobacillus	129337	genus	3628949	1	1	0.0
+Xanthomonas oryzae pv. oryzicola	129394	leaf	58073490	1	1	0.0
+Alkalilimnicola	133193	genus	3275944	1	0	0.0
+Olsenella	133925	genus	2051896	3	0	0.0
+Opitutaceae	134623	family	5957605	2	0	0.0
+Idiomarina	135575	genus	2839538	1	0	0.0
+Chromatiales	135613	order	3742874	53	0	0.0
+Xanthomonadales	135614	order	17217631	64	0	0.0
+Cardiobacteriales	135615	order	1389350	1	0	0.0
+Methylococcales	135618	order	4384317	12	0	0.0
+Oceanospirillales	135619	order	2628861	30	0	0.0
+Oceanospirillaceae	135620	family	4135004	1	0	0.0
+Pseudomonadaceae	135621	family	8873413	83	0	0.0
+Alteromonadales	135622	order	4750860	8	0	0.0
+Vibrionales	135623	order	5610112	2	0	0.0
+Aeromonadales	135624	order	5684342	10	0	0.0
+Pasteurellales	135625	order	2528486	1	0	0.0
+Azospirillum sp. B510	137722	leaf	7599738	2	1	0.0
+Desulfitobacterium hafniense Y51	138119	leaf	5727534	1	0	0.0
+Curtobacterium flaccumfaciens pv. flaccumfaciens	138532	leaf	3933752	8	7	0.0
+Dermacoccaceae	145357	family	2785024	2	0	0.0
+Bogoriellaceae	145358	family	0	1	0	0.0
+Azospira	146937	genus	3806980	19	0	0.0
+Massilia	149698	genus	0	64	0	0.0
+Finegoldia	150022	genus	1986740	1	0	0.0
+Starkeya	152053	genus	4765023	1	0	0.0
+Pigmentiphaga	152267	genus	0	12	0	0.0
+Kozakia	153497	genus	0	1	0	0.0
+Georgenia	154116	genus	0	15	0	0.0
+Thioflavicoccus	156885	genus	4137521	2	0	0.0
+Magnetococcus marinus MC-1	156889	leaf	4719581	1	0	0.0
+Cellulosimicrobium	157920	genus	0	6	0	0.0
+Hahella	158481	genus	7215267	1	0	0.0
+Dechloromonas aromatica RCB	159087	leaf	4501104	12	5	0.0
+Roseibacterium	159345	genus	3555109	1	0	0.0
+Pseudomonas putida KT2440	160488	leaf	6181873	1	0	0.0
+Raoultella	160674	genus	5398151	2	0	0.0
+Peptoniphilus	162289	genus	0	1	0	0.0
+Oerskovia	162491	genus	0	1	0	0.0
+Sphingobium	165695	genus	4589609	3	0	0.0
+Novosphingobium	165696	genus	4682996	1	0	0.0
+Sphingopyxis	165697	genus	3373713	2	0	0.0
+Cyanobium	167375	genus	3342364	1	0	0.0
+Colwellia psychrerythraea 34H	167879	leaf	5373180	1	1	0.0
+uncultured Termite group 1 bacterium	167965	species	1148570	1	0	0.0
+Laribacter	168470	genus	3169329	3	0	0.0
+Salinispora	168694	genus	5484846	1	0	0.0
+Thalassospira	168934	genus	4768950	1	0	0.0
+Nordella	169055	genus	0	1	0	0.0
+Citricoccus	169133	genus	0	3	0	0.0
+Tistrella	171436	genus	6512983	1	0	0.0
+Bacteroidales	171549	order	4023340	17	1	0.0
+Rikenellaceae	171550	family	6933543	2	0	0.0
+Porphyromonadaceae	171551	family	2657841	1	0	0.0
+Prevotellaceae	171552	family	3146293	1	0	0.0
+Gemmatimonas	173479	genus	4636964	1	0	0.0
+Ramlibacter	174951	genus	4070193	1	0	0.0
+Agrobacterium fabrum str. C58	176299	leaf	5674258	1	0	0.0
+Desulfobacterium autotrophicum HRM2	177437	leaf	5657782	3	1	0.0
+Desulfotalea psychrophila LSv54	177439	leaf	3659634	3	1	0.0
+Salinisphaera	180541	genus	0	1	0	0.0
+Kribbella	182639	genus	7579488	4	0	0.0
+Xylella fastidiosa Temecula1	183190	leaf	2521148	1	0	0.0
+Deinococcaceae	183710	family	4067791	10	0	0.0
+Methanobacteria	183925	class	1865270	1	0	0.0
+Halobacteria	183963	class	4030072	5	0	0.0
+Thermoplasmata	183967	class	1704877	1	0	0.0
+Thermococci	183968	class	2048998	1	0	0.0
+Xylanimonas	186188	genus	3831380	3	0	0.0
+Acholeplasmatales	186329	order	1183742	1	0	0.0
+Clostridia	186801	class	3865984	42	0	0.0
+Clostridiales	186802	order	4215646	51	0	0.0
+Lachnospiraceae	186803	family	4283801	5	1	0.0
+Peptostreptococcaceae	186804	family	4312020	5	0	0.0
+Eubacteriaceae	186806	family	4044777	1	0	0.0
+Peptococcaceae	186807	family	4093192	1	0	0.0
+Thermoanaerobacteraceae	186814	family	2791510	3	0	0.0
+Bacillaceae	186817	family	5940148	1	0	0.0
+Planococcaceae	186818	family	3894426	1	0	0.0
+Listeriaceae	186820	family	3154985	1	0	0.0
+Paenibacillaceae	186822	family	7408137	4	0	0.0
+Alicyclobacillaceae	186823	family	3238166	1	0	0.0
+Thermoactinomycetaceae	186824	family	0	1	0	0.0
+Lactobacillales	186826	order	2792041	8	0	0.0
+Carnobacteriaceae	186828	family	3073765	1	0	0.0
+Alkalilimnicola ehrlichii MLHE-1	187272	leaf	3275944	8	1	0.0
+Thermotogae	188708	class	2533631	3	0	0.0
+Thermotogaceae	188709	family	2786573	1	0	0.0
+Thermodesulfobacteriales	188710	order	1906882	1	0	0.0
+Thermodesulfobacteriaceae	188711	family	1906882	1	0	0.0
+Thermaceae	188786	family	2498247	4	0	0.0
+Deinococci	188787	class	3164172	28	0	0.0
+Chrysiogenales	189769	order	2928377	1	0	0.0
+Thermomicrobiales	189776	order	2920744	2	0	0.0
+Thermomicrobiaceae	189777	family	2920744	2	0	0.0
+Nitrospirales	189778	order	2325020	5	0	0.0
+Nitrospiraceae	189779	family	2325020	1	0	0.0
+Plantibacter	190323	genus	0	4	0	0.0
+Caulobacter vibrioides CB15	190650	leaf	4016947	4	0	0.0
+Leisingera	191028	genus	4650996	1	0	0.0
+Deferribacteraceae	191394	family	2627038	1	0	0.0
+Chlorobia	191410	class	2624804	4	0	0.0
+Chlorobiales	191411	order	2624804	5	0	0.0
+Chlorobiaceae	191412	family	2624804	3	0	0.0
+Pseudomonas syringae pv. atrofaciens	192087	leaf	6080544	3	0	0.0
+Salmonella enterica subsp. enterica serovar Stanley	192953	leaf	9715396	2	0	0.0
+Chlorobaculum tepidum TLS	194439	leaf	2154946	3	1	0.0
+Desulfovibrionaceae	194924	family	3580367	13	0	0.0
+Parascardovia	196082	genus	1890857	1	0	0.0
+Corynebacterium efficiens YS-314	196164	leaf	3219505	10	2	0.0
+Thermosynechococcus elongatus BP-1	197221	leaf	2593857	2	0	0.0
+Dickeya dadantii 3937	198628	leaf	4922802	2	0	0.0
+Bacteroidia	200643	class	4023340	13	0	0.0
+Flavobacteriales	200644	order	2877361	5	0	0.0
+Sphingobacteriales	200666	order	5001562	1	0	0.0
+Flammeovirgaceae	200667	family	4516490	1	0	0.0
+Chloroflexi	200795	phylum	2627074	1	0	0.0
+Alicycliphilus	201096	genus	4953232	3	0	0.0
+Actinobacteria	201174	phylum	4955642	18	0	0.0
+Collimonas	202907	genus	5186898	8	0	0.0
+Oenococcus oeni PSU-1	203123	leaf	1780517	1	0	0.0
+Trichodesmium erythraeum IMS101	203124	leaf	7750108	1	1	0.0
+Propionimicrobium	203133	genus	0	1	0	0.0
+Tannerella forsythia 92A2	203275	leaf	3405521	905	44	3.38976e-11
+Dictyoglomaceae	203488	family	1907773	1	0	0.0
+Fusobacteriia	203490	class	3124612	6	0	0.0
+Fusobacteriales	203491	order	3124612	5	0	0.0
+Fusobacteriaceae	203492	family	3160246	1	0	0.0
+Verrucomicrobiae	203494	class	2664102	4	0	0.0
+Verrucomicrobiaceae	203557	family	0	1	0	0.0
+Planctomycetes	203682	phylum	6282547	12	0	0.0
+Planctomycetia	203683	class	6682242	10	0	0.0
+Spirochaetia	203692	class	2968928	6	0	0.0
+Nitrospira	203693	class	2325020	5	0	0.0
+Dickeya	204037	genus	4805456	11	0	0.0
+Cobetia	204286	genus	0	2	0	0.0
+Chlamydiia	204429	class	1317793	1	0	0.0
+Fibrobacteria	204430	class	7685639	2	0	0.0
+Acidobacteriia	204432	class	5972572	10	0	0.0
+Acidobacteriales	204433	order	5307061	7	0	0.0
+Acidobacteriaceae	204434	family	5307061	3	0	0.0
+Rhodospirillales	204441	order	4188317	61	0	0.0
+Skermanella	204447	genus	0	1	0	0.0
+Rhodobacterales	204455	order	4397744	40	0	0.0
+Sphingomonadales	204457	order	4161761	33	0	0.0
+Caulobacterales	204458	order	4141461	18	0	0.0
+Candidatus Koribacter versatilis Ellin345	204669	leaf	5650368	2	2	0.0
+Hydrogenophilaceae	206349	family	0	3	0	0.0
+Neisseriales	206351	order	2367445	69	0	0.0
+Nitrosomonadaceae	206379	family	3009585	6	0	0.0
+Rhodocyclales	206389	order	4186782	69	0	0.0
+Desulfovibrio alaskensis G20	207559	leaf	3730232	1	1	0.0
+Shewanella oneidensis MR-1	211586	leaf	5131424	2	1	0.0
+Clostridium tetani E88	212717	leaf	2873333	1	0	0.0
+Rhizobacter	212743	genus	0	19	0	0.0
+Desulfovibrionales	213115	order	3511273	26	0	0.0
+Desulfomicrobiaceae	213116	family	3363015	2	0	0.0
+Desulfobacterales	213118	order	4263460	13	0	0.0
+Desulfobacteraceae	213119	family	4933284	3	0	0.0
+Desulfobulbaceae	213121	family	3593636	7	0	0.0
+Geobacteraceae	213422	family	4227210	9	0	0.0
+Syntrophobacterales	213462	order	4268939	3	0	0.0
+Campylobacterales	213849	order	2095847	2	0	0.0
+Oscillospiraceae	216572	family	4470622	3	0	0.0
+Burkholderia cenocepacia J2315	216591	leaf	8055782	1	0	0.0
+Rhizobium leguminosarum bv. viciae 3841	216596	leaf	7751309	1	0	0.0
+Faecalibacterium	216851	genus	3102523	1	0	0.0
+Streptococcus uberis 0140J	218495	leaf	1852352	1	0	0.0
+Tropheryma whipplei TW08/27	218496	leaf	925938	1	0	0.0
+Ottowia	219181	genus	0	45	0	0.0
+Gemmatimonadetes	219685	class	4636964	2	0	0.0
+Gemmatimonadales	219686	order	4636964	2	0	0.0
+Gemmatimonadaceae	219687	family	4636964	1	0	0.0
+Pseudomonas protegens Pf-5	220664	leaf	7074893	1	0	0.0
+[Mannheimia] succiniciproducens MBEL55E	221988	leaf	2314078	2	0	0.0
+Pseudomonas syringae pv. tomato str. DC3000	223283	leaf	6538260	2	0	0.0
+Archaeoglobus fulgidus DSM 4304	224325	leaf	2178400	1	0	0.0
+Alcanivoracaceae	224372	family	4072264	9	0	0.0
+Nautiliaceae	224467	family	1681165	2	0	0.0
+Methanomicrobia	224756	class	3596195	3	0	0.0
+Bradyrhizobium diazoefficiens USDA 110	224911	leaf	18211892	2	0	0.0
+Acidithiobacillales	225057	order	3119226	6	0	0.0
+Acidithiobacillaceae	225058	family	3119226	1	0	0.0
+Formosa	225842	genus	0	1	0	0.0
+Pannonibacter	227873	genus	5530656	2	0	0.0
+Streptomyces avermitilis MA-4680 = NBRC 14893	227882	leaf	9119895	3	2	0.0
+Hyphomonas neptunium ATCC 15444	228405	leaf	3705021	2	2	0.0
+Nitrosomonas europaea ATCC 19718	228410	leaf	2812094	4	2	0.0
+Reinekea	230494	genus	0	1	0	0.0
+Pseudomonas putida ND6	231023	leaf	6304310	1	0	0.0
+Dyella	231454	genus	4831185	2	0	0.0
+Candidatus Solibacter usitatus Ellin6076	234267	leaf	9965640	2	1	0.0
+Rhodococcus erythropolis PR4	234621	leaf	6895538	1	0	0.0
+Diaphorobacter	238749	genus	0	1	0	0.0
+Acidobacterium capsulatum ATCC 51196	240015	leaf	4127356	4	2	0.0
+Luteibacter	242605	genus	4765486	2	0	0.0
+Porphyromonas gingivalis W83	242619	leaf	2343476	3	0	0.0
+Rhodopirellula baltica SH 1	243090	leaf	7145576	3	0	0.0
+Acidithiobacillus ferrooxidans ATCC 23270	243159	leaf	2982397	1	0	0.0
+Deinococcus radiodurans R1	243230	leaf	6628921	4	0	0.0
+Geobacter sulfurreducens PCA	243231	leaf	3814128	3	0	0.0
+Methylococcus capsulatus str. Bath	243233	leaf	3304561	6	1	0.0
+Treponema denticola ATCC 35405	243275	leaf	2843201	166	134	0.0310208
+Treponema pallidum subsp. pallidum str. Nichols	243276	leaf	1138011	1	0	0.0
+Chromobacterium violaceum ATCC 12472	243365	leaf	4751080	9	1	0.0
+Dichelobacter nodosus VCS1703A	246195	leaf	1389350	3	1	0.0
+Myxococcus xanthus DK 1622	246197	leaf	9139763	1	1	0.0
+Prevotella intermedia 17	246198	leaf	2699437	12	0	0.0
+Ruegeria pomeroyi DSS-3	246200	leaf	4601048	6	3	0.0
+Streptococcus mitis NCTC 12261	246201	leaf	1868883	16	0	0.0
+Grimontia	246861	genus	0	1	0	0.0
+Nocardia farcinica IFM 10152	247156	leaf	6292344	5	3	0.0
+Gloeobacter violaceus PCC 7421	251221	leaf	4659019	3	2	0.0
+Oceanicola	252301	genus	0	1	0	0.0
+Isoptericola	254250	genus	3567356	4	0	0.0
+Aurantimonadaceae	255475	family	5693067	4	0	0.0
+Halothiobacillaceae	255526	family	2582886	1	0	0.0
+Saccharospirillaceae	255527	family	6475959	2	0	0.0
+Chlorobaculum	256319	genus	2222097	2	0	0.0
+Corynebacterium diphtheriae NCTC 13129	257309	leaf	2488635	1	0	0.0
+Kerstersia	257820	genus	0	3	0	0.0
+Rhodopseudomonas palustris CGA009	258594	leaf	5467640	1	1	0.0
+Psychrobacter arcticus 273-4	259536	leaf	2650701	1	0	0.0
+Mycobacterium avium subsp. paratuberculosis K-10	262316	leaf	4829781	1	0	0.0
+Exiguobacterium sibiricum 255-15	262543	leaf	3040786	1	0	0.0
+Verrucosispora maris AB-18-032	263358	leaf	6732271	7	2	0.0
+Cupriavidus pinatubonensis JMP134	264198	leaf	7255290	8	2	0.0
+Pseudomonas syringae pv. cerasicola	264451	leaf	6332753	1	0	0.0
+Pseudomonas savastanoi pv. phaseolicola 1448A	264730	leaf	6112448	2	0	0.0
+Methylobacillus flagellatus KT	265072	leaf	2971517	7	1	0.0
+Serinicoccus	265976	genus	3420275	6	0	0.0
+Rubrobacter xylanophilus DSM 9941	266117	leaf	3225748	4	0	0.0
+Cupriavidus metallidurans CH34	266264	leaf	6913352	1	0	0.0
+Paraburkholderia xenovorans LB400	266265	leaf	19434089	16	5	0.0
+Mesorhizobium japonicum MAFF 303099	266835	leaf	7596297	3	1	0.0
+Kineococcus radiotolerans SRS30216 = ATCC BAA-149	266940	leaf	4956672	10	6	0.0
+Ralstonia solanacearum GMI1000	267608	leaf	5810922	1	0	0.0
+Mycoplasma mobile 163K	267748	leaf	777079	1	1	0.0
+Shewanellaceae	267890	family	5140018	3	0	0.0
+Moritellaceae	267891	family	4760425	1	0	0.0
+Ferrimonadaceae	267892	family	4279159	1	0	0.0
+Natronomonas moolapensis 8.8.11	268739	leaf	2912573	1	1	0.0
+Nitratifractor	269260	genus	2101285	1	0	0.0
+Rhodospirillum rubrum ATCC 11170	269796	leaf	4406557	7	0	0.0
+Geobacter metallireducens GS-15	269799	leaf	4011182	1	1	0.0
+Thermobifida fusca YX	269800	leaf	3642249	2	1	0.0
+Aggregatibacter actinomycetemcomitans HK1651	272556	leaf	2105503	1	0	0.0
+Desulfitobacterium hafniense DCB-2	272564	leaf	5279134	1	0	0.0
+Gluconacetobacter diazotrophicus PA1 5	272568	leaf	7914538	11	1	0.0
+Haloarcula marismortui ATCC 43049	272569	leaf	8459566	2	0	0.0
+Listeria innocua Clip11262	272626	leaf	3093113	1	0	0.0
+Methylorubrum extorquens AM1	272630	leaf	13003629	2	0	0.0
+Mycobacterium leprae TN	272631	leaf	3268203	1	0	0.0
+Mycoplasma penetrans HF-2	272633	leaf	1358633	1	0	0.0
+Rhodobacter capsulatus SB 1003	272942	leaf	3871920	4	0	0.0
+Serratia marcescens subsp. marcescens Db11	273526	leaf	5113802	1	0	0.0
+Hoeflea	274591	genus	0	1	0	0.0
+Mycolicibacterium gilvum Spyr1	278137	leaf	5783292	5	1	0.0
+Mesorhizobium ciceri biovar biserrulae	278148	leaf	6880454	2	0	0.0
+Streptomyces ambofaciens ATCC 23877	278992	leaf	8393598	3	0	0.0
+Novosphingobium aromaticivorans DSM 12444	279238	leaf	4233314	5	1	0.0
+Leptospira borgpetersenii serovar Ballum	280505	leaf	4037579	2	0	0.0
+Leifsonia xyli subsp. xyli str. CTCB07	281090	leaf	2584158	3	3	0.0
+Stackebrandtia	283810	genus	6841557	2	0	0.0
+Segniliparus	286801	genus	3157527	1	0	0.0
+Xylanimicrobium	289244	genus	0	1	0	0.0
+Chlorobium limicola DSM 245	290315	leaf	2763181	1	0	0.0
+Chlorobium phaeovibrioides DSM 265	290318	leaf	1966858	2	0	0.0
+Anaeromyxobacter dehalogenans 2CP-C	290397	leaf	5013479	4	1	0.0
+Chromohalobacter salexigens DSM 3043	290398	leaf	3696649	3	1	0.0
+Advenella	290425	genus	4594002	2	0	0.0
+Thiobacillus denitrificans ATCC 25259	292415	leaf	2909809	10	2	0.0
+Symbiobacterium thermophilum IAM 14863	292459	leaf	3566135	2	0	0.0
+Cyanobium gracile PCC 6307	292564	leaf	3342364	2	2	0.0
+Anaerolineae	292625	class	3532378	2	0	0.0
+Anaerolineaceae	292628	family	3532378	1	0	0.0
+Anaerolineales	292629	order	3532378	1	0	0.0
+Martelella	293088	genus	5693067	1	0	0.0
+Bacteroides fragilis YCH46	295405	leaf	5310990	1	0	0.0
+Streptococcus thermophilus CNRZ1066	299768	leaf	1796226	1	0	0.0
+Dehalococcoidia	301297	class	1433929	1	0	0.0
+Phaeobacter	302485	genus	4309402	1	0	0.0
+Herminiimonas	303379	genus	0	2	0	0.0
+Methanocella paludicola SANAE	304371	leaf	2957635	1	1	0.0
+Pusillimonas	305976	genus	0	2	0	0.0
+Corynebacterium jeikeium K411	306537	leaf	2476822	4	1	0.0
+Gloeobacterales	307595	order	4691905	1	0	0.0
+Gloeobacteria	307596	class	4691905	7	0	0.0
+Dictyoglomus thermophilum H-6-12	309799	leaf	1959987	3	0	0.0
+Haloferax volcanii DS2	309800	leaf	4012900	2	0	0.0
+Thermomicrobium roseum DSM 5159	309801	leaf	2920744	2	1	0.0
+Salinibacter ruber DSM 13855	309807	leaf	3587328	1	0	0.0
+Agrobacterium vitis S4	311402	leaf	6320946	2	0	0.0
+Agrobacterium radiobacter K84	311403	leaf	7273300	2	1	0.0
+Aliivibrio fischeri ES114	312309	leaf	4273718	1	1	0.0
+Robiginitalea biformata HTCC2501	313596	leaf	3530383	2	1	0.0
+Erythrobacter litoralis HTCC2594	314225	leaf	3052398	1	0	0.0
+Parvularcula bermudensis HTCC2503	314260	leaf	2902643	1	1	0.0
+Sideroxydans	314343	genus	3003656	2	0	0.0
+Rhodopseudomonas palustris BisA53	316055	leaf	5505494	3	1	0.0
+Rhodopseudomonas palustris BisB18	316056	leaf	5513844	1	1	0.0
+Rhodopseudomonas palustris HaA2	316058	leaf	5331656	2	0	0.0
+Geobacter daltonii FRC-32	316067	leaf	4304501	2	1	0.0
+Thermochromatium tepidum ATCC 43061	316276	leaf	2958290	2	1	0.0
+Streptomyces peucetius subsp. caesius ATCC 27952	316280	leaf	8023114	4	0	0.0
+Streptomyces noursei ATCC 11455	316284	leaf	9815884	7	2	0.0
+Methylibium	316612	genus	4643639	31	0	0.0
+Hydrogenovibrio crunogenus XCL-2	317025	leaf	2427734	1	1	0.0
+Sphingopyxis alaskensis RB2256	317655	leaf	3373713	1	0	0.0
+Paucibacter	318147	genus	0	16	0	0.0
+Paracoccus denitrificans PD1222	318586	leaf	5236194	3	0	0.0
+Pelodictyon luteolum DSM 273	319225	leaf	2364842	2	0	0.0
+Neoasaia	320496	genus	0	1	0	0.0
+Azotobacter vinelandii DJ	322710	leaf	5365318	4	0	0.0
+Nitrobacter hamburgensis X14	323097	leaf	5011522	1	1	0.0
+Nitrosococcus oceani ATCC 19707	323261	leaf	3522111	1	0	0.0
+Dokdonella	323413	genus	4446619	2	0	0.0
+Pontibacter	323449	genus	0	2	0	0.0
+Shinella	323620	genus	0	1	0	0.0
+Nitrosospira multiformis ATCC 25196	323848	leaf	3234309	1	0	0.0
+Shewanella loihica PV-4	323850	leaf	4602594	2	0	0.0
+Chloroflexus aurantiacus J-10-fl	324602	leaf	5258541	2	0	0.0
+Xanthomonas vasicola pv. vasculorum	325776	leaf	9866689	10	0	0.0
+Shewanella amazonensis SB2B	326297	leaf	4306142	2	0	0.0
+Frankia alni ACN14a	326424	leaf	7497934	11	6	0.011763
+Chloroflexus aggregans DSM 9485	326427	leaf	4684931	1	1	0.0
+Burkholderia cenocepacia AU 1054	331271	leaf	7279116	1	0	0.0
+Burkholderia cenocepacia HI2424	331272	leaf	7702840	2	1	0.0
+Chlorobium phaeobacteroides BS1	331678	leaf	2736403	6	2	0.0
+Bryobacterales	332160	order	9965640	3	0	0.0
+Solibacteraceae	332161	family	9965640	1	0	0.0
+Orientia tsutsugamushi str. Ikeda	334380	leaf	2008987	1	0	0.0
+Finegoldia magna ATCC 29328	334413	leaf	1986740	3	1	0.0
+Nitrosomonas eutropha C91	335283	leaf	2781824	1	1	0.0
+Psychrobacter cryohalolentis K5	335284	leaf	3101097	2	0	0.0
+Sphingosinicella	335405	genus	0	1	0	0.0
+Syntrophomonas wolfei subsp. wolfei str. Goettingen G311	335541	leaf	2936195	1	0	0.0
+Syntrophobacter fumaroxidans MPOB	335543	leaf	4990251	5	2	0.0
+Xanthobacteraceae	335928	family	5253297	4	0	0.0
+Erythrobacteraceae	335929	family	3052398	3	0	0.0
+Pelobacter carbinolicus DSM 2380	338963	leaf	3665893	3	0	0.0
+Pelobacter propionicus DSM 2379	338966	leaf	4241119	2	1	0.0
+Rhodoferax ferrireducens T118	338969	leaf	4969784	34	4	0.0
+Actinobacillus succinogenes 130Z	339671	leaf	2319663	2	0	0.0
+Chlorobium chlorochromatii CaD3	340177	leaf	2572079	1	1	0.0
+Corynebacterium glutamicum R	340322	leaf	3363299	1	0	0.0
+Magnetospirillum magneticum AMB-1	342108	leaf	4967148	5	2	0.0
+Pseudoalteromonas atlantica T6c	342610	leaf	5187005	1	1	0.0
+Sodalis glossinidius str. 'morsitans'	343509	leaf	4292502	3	2	0.0
+Zobellella	347533	genus	0	1	0	0.0
+Rhizobium etli CFN 42	347834	leaf	6530228	1	0	0.0
+Rhodobacter sphaeroides ATCC 17029	349101	leaf	4489380	4	0	0.0
+Halorhodospira halophila SL1	349124	leaf	2678452	8	2	0.0
+Desulfotomaculum reducens MI-1	349161	leaf	3608104	1	0	0.0
+Acidiphilium cryptum JF-5	349163	leaf	3963080	5	1	0.0
+Paenibacillus polymyxa E681	349520	leaf	5394883	1	1	0.0
+Hahella chejuensis KCTC 2396	349521	leaf	7215267	5	3	0.0
+Mycolicibacterium gilvum PYR-GCK	350054	leaf	5982829	3	0	0.0
+Mycolicibacterium vanbaalenii PYR-1	350058	leaf	6491865	4	3	0.0
+Burkholderia dolosa AU0158	350701	leaf	6409095	2	0	0.0
+Methanocella arvoryzae MRE50	351160	leaf	3179916	1	0	0.0
+Marinobacter hydrocarbonoclasticus VT8	351348	leaf	4779762	3	0	0.0
+Geobacter uraniireducens Rf4	351605	leaf	5136364	3	2	0.0
+Acidothermus cellulolyticus 11B	351607	leaf	2443540	2	0	0.0
+Pseudomonas putida F1	351746	leaf	5959964	1	0	0.0
+Simplicispira	352450	genus	0	1	0	0.0
+Leptospira biflexa serovar Patoc strain 'Patoc 1 (Ames)'	355278	leaf	3956089	1	0	0.0
+Psychromonas ingrahamii 37	357804	leaf	4559598	1	1	0.0
+Lachnoclostridium phytofermentans ISDg	357809	leaf	4847594	2	1	0.0
+Castellaniella	359336	genus	3952818	6	0	0.0
+Methylotenera	359407	genus	2803720	2	0	0.0
+Campylobacter concisus 13826	360104	leaf	2099413	6	1	0.0
+Campylobacter curvus 525.92	360105	leaf	1971270	8	0	0.0
+Bordetella avium 197N	360910	leaf	3732255	8	1	0.0
+Desulfoglaeba	361106	genus	3365583	1	0	0.0
+Altererythrobacter	361177	genus	0	1	0	0.0
+Lawsonia intracellularis PHE/MN1-00	363253	leaf	1719014	1	0	0.0
+Verminephrobacter	364316	genus	5597943	2	0	0.0
+Polaromonas naphthalenivorans CJ2	365044	leaf	5366143	37	5	0.0
+Ramlibacter tataouinensis TTB310	365046	leaf	4070193	46	4	0.0
+Streptococcus mitis B6	365659	leaf	2146611	18	4	0.0
+Sinorhizobium medicae WSM419	366394	leaf	6817576	2	0	0.0
+Marinovum	367771	genus	5252390	1	0	0.0
+Bifidobacterium adolescentis ATCC 15703	367928	leaf	2089645	1	0	0.0
+Salinispora tropica CNB-440	369723	leaf	5183331	7	2	0.0
+Halothermothrix orenii H 168	373903	leaf	2578146	1	0	0.0
+Neisseria meningitidis 053442	374833	leaf	2153416	2	1	0.0
+Halotalea	376488	genus	0	1	0	0.0
+Teredinibacter turnerae T7901	377629	leaf	5193164	4	3	0.0
+Methyloversatilis	378210	genus	0	2	0	0.0
+Kocuria rhizophila DC2201	378753	leaf	2697540	7	0	0.0
+Stigmatella aurantiaca DW4/3-1	378806	leaf	10260756	4	1	0.0
+Gemmatimonas aurantiaca T-27	379066	leaf	4636964	2	0	0.0
+Pseudomonas stutzeri A1501	379731	leaf	4567418	4	0	0.0
+Xanthomonas albilineans GPE PC73	380358	leaf	3852299	2	0	0.0
+Acidithiobacillus ferrooxidans ATCC 53993	380394	leaf	2885038	2	1	0.0
+Aeromonas hydrophila subsp. hydrophila ATCC 7966	380703	leaf	4744448	2	0	0.0
+Cupriavidus necator H16	381666	leaf	14831239	26	0	0.0
+Pseudomonas aeruginosa PA7	381754	leaf	6588339	2	0	0.0
+Helicobacter acinonychis str. Sheeba	382638	leaf	1557588	1	0	0.0
+Roseiflexus castenholzii DSM 13941	383372	leaf	5723298	1	0	0.0
+Pseudomonas entomophila L48	384676	leaf	5888780	3	1	0.0
+Listeria welshimeri serovar 6b str. SLCC5334	386043	leaf	2814130	1	0	0.0
+Clostridium novyi NT	386415	leaf	2547720	2	0	0.0
+Candidatus Carsonella ruddii PV	387662	leaf	159662	1	0	0.0
+Ktedonobacterales	388448	order	0	1	0	0.0
+Streptococcus sanguinis SK36	388919	leaf	2388435	1951	240	0.0
+Pseudomonas putida W619	390235	leaf	5774330	3	1	0.0
+Stenotrophomonas maltophilia R551-3	391008	leaf	4573969	4	0	0.0
+Salinispora arenicola CNS-205	391037	leaf	5786361	3	1	0.0
+Paraburkholderia phymatum STM815	391038	leaf	8676562	8	2	0.0
+Roseobacter litoralis Och 149	391595	leaf	4745450	1	0	0.0
+Octadecabacter arcticus 238	391616	leaf	5478249	1	0	0.0
+Octadecabacter antarcticus 307	391626	leaf	4875481	2	0	0.0
+Verminephrobacter eiseniae EF01-2	391735	leaf	5597943	46	4	0.0
+Desulfovibrio vulgaris DP4	391774	leaf	3661391	3	1	0.0
+Bifidobacterium longum subsp. infantis ATCC 15697 = JCM 1222 = DSM 20088	391904	leaf	5661706	2	0	0.0
+Alcanivorax pacificus W11-5	391936	leaf	4168427	5	1	0.0
+Geoalkalibacter	392332	genus	0	1	0	0.0
+Sphingomonas wittichii RW1	392499	leaf	5915246	4	4	0.0
+Shewanella woodyi ATCC 51908	392500	leaf	5935403	2	1	0.0
+Ruminiclostridium cellulolyticum H10	394503	leaf	4068724	1	0	0.0
+Burkholderia multivorans ATCC 17616	395019	leaf	14017432	2	0	0.0
+Rhizobium leguminosarum bv. trifolii WSM1325	395491	leaf	7418122	2	1	0.0
+Rhizobium leguminosarum bv. trifolii WSM2304	395492	leaf	6872702	2	1	0.0
+Gallionella capsiferriformans ES-2	395494	leaf	3162471	2	1	0.0
+Leptothrix cholodnii SP-6	395495	leaf	4909403	25	3	0.0
+Methylocella silvestris BL2	395965	leaf	4305430	2	1	0.0
+Thioalkalivibrio sulfidiphilus HL-EbGr7	396588	leaf	3464554	6	1	0.0
+Acidovorax citrulli AAC00-1	397945	leaf	5352772	22	1	0.0
+Paraburkholderia phytofirmans PsJN	398527	leaf	8214658	5	2	0.0
+Delftia acidovorans SPH-1	398578	leaf	6767514	25	3	0.0
+Geobacter lovleyi SZ	398767	leaf	3994874	2	1	0.0
+Pseudomonas mendocina ymp	399739	leaf	5072807	5	0	0.0
+Lysinibacillus	400634	genus	4817463	2	0	0.0
+Terriglobus saanensis SP1PR4	401053	leaf	5095226	2	2	0.0
+Undibacterium	401469	genus	0	8	0	0.0
+Bifidobacterium dentium Bd1	401473	leaf	2636367	1	0	0.0
+Ralstonia pickettii 12J	402626	leaf	5325729	11	2	0.0
+Parvibaculum lavamentivorans DS-1	402881	leaf	3914745	6	2	0.0
+Petrotoga mobilis SJ95	403833	leaf	2169548	1	0	0.0
+Xylella fastidiosa M12	405440	leaf	2475130	4	2	0.0
+Xylella fastidiosa M23	405441	leaf	2573987	1	0	0.0
+Saccharopolyspora erythraea NRRL 2338	405948	leaf	8212805	5	3	0.0
+Burkholderia cenocepacia MC0-3	406425	leaf	7971389	1	0	0.0
+Aquitalea	407217	genus	0	4	0	0.0
+[Ruminococcus] gnavus ATCC 29149	411470	leaf	7101830	2	0	0.0
+Faecalibacterium prausnitzii A2-165	411483	leaf	3102523	5	1	0.0
+Candidatus Vesicomyosocius okutanii HA	412965	leaf	1022154	1	1	0.0
+Candidatus Ruthia magnifica str. Cm (Calyptogena magnifica)	413404	leaf	1160782	1	1	0.0
+Rhodospirillum centenum SW	414684	leaf	4355543	6	2	0.0
+Catenulisporales	414714	order	10467782	2	0	0.0
+Catenulisporaceae	414877	family	10467782	4	0	0.0
+Catenulispora	414878	genus	10467782	1	0	0.0
+Opitutae	414999	class	4854188	11	0	0.0
+Opitutales	415000	order	5957605	8	0	0.0
+Halorubrum lacusprofundi ATCC 49239	416348	leaf	3692576	3	2	0.0
+Aggregatibacter	416916	genus	2630599	2	0	0.0
+Litoricola	418700	genus	0	2	0	0.0
+Methylorubrum extorquens PA1	419610	leaf	5471154	1	0	0.0
+Methanococcus aeolicus Nankai-3	419665	leaf	1569500	1	0	0.0
+Methylibium petroleiphilum PM1	420662	leaf	4643639	18	2	0.0
+Lactococcus garvieae ATCC 49156	420889	leaf	1950135	1	0	0.0
+Lactococcus garvieae Lg2	420890	leaf	1963964	1	0	0.0
+Mucilaginibacter	423349	genus	0	2	0	0.0
+Methylobacterium radiotolerans JCM 2831	426355	leaf	6899110	5	0	0.0
+Humibacter	427753	genus	0	1	0	0.0
+Ralstonia pickettii 12D	428406	leaf	5685358	14	4	0.0
+Ammonifex degensii KC4	429009	leaf	2157067	3	2	0.0
+Magnetospirillum gryphiswaldense MSR-1	431944	leaf	4155740	1	0	0.0
+Porphyromonas gingivalis ATCC 33277	431947	leaf	4734760	4	0	0.0
+Neorickettsia risticii str. Illinois	434131	leaf	879977	1	1	0.0
+Bacteroides vulgatus ATCC 8482	435590	leaf	5163189	2	0	0.0
+Parabacteroides distasonis ATCC 8503	435591	leaf	10023638	1	0	0.0
+Azorhizobium caulinodans ORS 571	438753	leaf	5369772	2	0	0.0
+[Bacillus] selenitireducens MLS10	439292	leaf	3592487	1	0	0.0
+Methylorubrum extorquens CM4	440085	leaf	6180732	2	0	0.0
+Methylorubrum populi BJ001	441620	leaf	5848997	3	2	0.0
+Hoyosella subflava DQS3-9A1	443218	leaf	4863490	2	0	0.0
+Clavibacter michiganensis subsp. michiganensis NCPPB 382	443906	leaf	3395237	5	0	0.0
+Pyrobaculum neutrophilum V24Sta	444157	leaf	1769823	1	1	0.0
+Actinosynnema mirum DSM 43827	446462	leaf	8248144	7	0	0.0
+Brachybacterium faecium DSM 4810	446465	leaf	3614992	11	5	0.0
+Cellulomonas flavigena DSM 20109	446466	leaf	4123179	10	2	0.0
+Nocardiopsis dassonvillei subsp. dassonvillei DSM 43111	446468	leaf	6543312	5	0	0.0
+Sanguibacter keddieii DSM 10542	446469	leaf	4253413	18	5	0.0
+Stackebrandtia nassauensis DSM 44728	446470	leaf	6841557	8	1	0.0
+Xylanimonas cellulosilytica DSM 15894	446471	leaf	3831380	18	2	0.0
+Simiduia	447467	genus	4300227	1	0	0.0
+Phytobacter	447792	genus	0	1	0	0.0
+Sorangium cellulosum So ce56	448385	leaf	13033779	2	1	0.0
+Granulosicoccaceae	449719	family	7783862	1	0	0.0
+Litoricolaceae	449732	family	0	2	0	0.0
+Phenylobacterium zucineum HLK1	450851	leaf	4379231	5	4	0.0
+Opitutus terrae PB90-1	452637	leaf	5957605	4	1	0.0
+Polynucleobacter necessarius STIR1	452638	leaf	1560469	1	0	0.0
+Kitasatospora setae KM-6054	452652	leaf	8783278	7	5	0.0
+Sphingobium japonicum UT26S	452662	leaf	4424862	5	0	0.0
+Pseudarthrobacter chlorophenolicus A6	452863	leaf	4980870	6	0	0.0
+Desulfarculales	453227	order	3655731	1	0	0.0
+Desulfarculaceae	453228	family	3655731	1	0	0.0
+Anaeromyxobacter dehalogenans 2CP-1	455488	leaf	5029329	4	0	0.0
+Streptomyces griseus subsp. griseus NBRC 13350	455632	leaf	8545929	4	3	0.0
+Leptospira biflexa serovar Patoc strain 'Patoc 1 (Paris)'	456481	leaf	3951448	1	0	0.0
+Fusobacterium nucleatum subsp. animalis 7_1	457405	leaf	2514029	3	0	0.0
+Actinoplanes teichomyceticus ATCC 31121	457423	leaf	8287152	7	3	0.0
+Streptomyces lividans TK24	457428	leaf	8345283	7	5	0.0
+Chloracidobacterium	458032	genus	3695372	1	0	0.0
+Macrococcus caseolyticus JCSC5402	458233	leaf	2219737	1	0	0.0
+Candidatus Cloacimonas acidaminovorans str. Evry	459349	leaf	2246820	1	0	0.0
+Mycobacterium liflandii 128FXT	459424	leaf	6399543	1	0	0.0
+Methylobacterium nodulans ORS 2060	460265	leaf	8839022	5	1	0.0
+Micrococcus luteus NCTC 2665	465515	leaf	4996790	6	0	0.0
+Erwinia tasmaniensis Et1/99	465817	leaf	4067864	2	0	0.0
+Streptococcus gordonii str. Challis substr. CH1	467705	leaf	2196662	43	0	0.0
+Steroidobacter	469322	genus	0	1	0	0.0
+Thermobispora bispora DSM 43833	469371	leaf	4189976	8	1	0.0
+Conexibacter woesei DSM 14684	469383	leaf	6359369	5	1	0.0
+Fusobacterium nucleatum subsp. vincentii 3_1_27	469602	leaf	2190228	2	1	0.0
+Fusobacterium nucleatum subsp. vincentii 3_1_36A2	469604	leaf	2268272	2	0	0.0
+Fusobacterium nucleatum subsp. animalis 4_8	469607	leaf	2275461	5	0	0.0
+Fusobacterium gonidiaformans ATCC 25563	469615	leaf	1678881	2	0	0.0
+Fusobacterium varium ATCC 27725	469618	leaf	3346458	1	0	0.0
+Thermomonospora curvata DSM 43183	471852	leaf	5639016	20	5	0.0
+Beutenbergia cavernae DSM 12333	471853	leaf	4669183	9	1	0.0
+Dyadobacter fermentans DSM 18053	471854	leaf	6967790	1	0	0.0
+Slackia heliotrinireducens DSM 20476	471855	leaf	3165038	6	0	0.0
+Jonesia denitrificans DSM 20603	471856	leaf	2749646	3	0	0.0
+Saccharomonospora viridis DSM 43017	471857	leaf	4308349	6	2	0.0
+Xanthomonas citri pv. glycines	473421	leaf	31584281	3	0	0.0
+Xanthomonas citri pv. vignicola	473426	leaf	10815704	2	0	0.0
+Caldilineales	475963	order	5144873	1	0	0.0
+Candidatus Desulforudis audaxviator MP104C	477974	leaf	2349476	1	0	0.0
+Halobacterium salinarum R1	478009	leaf	2668776	1	0	0.0
+Labrenzia	478070	genus	0	2	0	0.0
+Kytococcus sedentarius DSM 20547	478801	leaf	2785024	7	4	0.0
+Nakamurella multipartita DSM 44233	479431	leaf	6060298	3	1	0.0
+Streptosporangium roseum DSM 43021	479432	leaf	10369518	9	2	0.0
+Catenulispora acidiphila DSM 44928	479433	leaf	10467782	4	3	0.0
+Sphaerobacter thermophilus DSM 20745	479434	leaf	3993764	2	1	0.0
+Kribbella flavida DSM 17836	479435	leaf	7579488	6	3	0.0
+Veillonella parvula DSM 2008	479436	leaf	2132142	12	0	0.0
+Eggerthella lenta DSM 2243	479437	leaf	3632260	4	2	0.0
+Chloroflexus aurantiacus Y-400-fl	480224	leaf	5268950	2	0	0.0
+Halomicrobium mukohataei DSM 12286	485914	leaf	3332349	2	0	0.0
+Desulfohalobium retbaense DSM 5692	485915	leaf	2909567	3	1	0.0
+Desulfofarcimen acetoxidans DSM 771	485916	leaf	4545624	3	0	0.0
+Streptococcus pneumoniae Hungary19A-6	487214	leaf	2245615	1	0	0.0
+Xanthomonas translucens pv. undulosa	487909	leaf	18687377	7	0	0.0
+Candidatus Puniceispirillum marinum IMCC1322	488538	leaf	2753527	2	1	0.0
+Neisseria lactamica 020-06	489653	leaf	2220606	27	1	0.0
+Rhizobium etli CIAT 652	491916	leaf	6448048	1	0	0.0
+Cellvibrio japonicus Ueda107	498211	leaf	4576573	2	1	0.0
+Heliobacterium modesticaldum Ice1	498761	leaf	3075407	6	4	0.0
+Thermus aquaticus Y51MC23	498848	leaf	2338641	1	0	0.0
+Tepidanaerobacter	499228	genus	5521119	1	0	0.0
+Haliangium ochraceum DSM 14365	502025	leaf	9446314	9	5	0.0
+Corynebacterium urealyticum DSM 7109	504474	leaf	2369219	6	0	0.0
+Meiothermus ruber DSM 1279	504728	leaf	3097457	4	2	0.0
+Oligotropha carboxidovorans OM5	504832	leaf	7641703	1	0	0.0
+Acinetobacter baumannii AYE	509173	leaf	4048735	1	0	0.0
+Thermoanaerobacter ethanolicus JW 200	509192	leaf	2911280	2	0	0.0
+Actinoplanes missouriensis 431	512565	leaf	8773466	10	4	0.0
+Butyrivibrio proteoclasticus B316	515622	leaf	4404886	2	0	0.0
+Dictyoglomus turgidum DSM 6724	515635	leaf	1855560	2	0	0.0
+Streptococcus pneumoniae CGSP14	516950	leaf	2209198	2	0	0.0
+Chlorobaculum parvum NCIB 8327	517417	leaf	2289249	3	2	0.0
+Chloroherpeton thalassium ATCC 35110	517418	leaf	3293456	1	1	0.0
+Bifidobacterium angulatum DSM 20098 = JCM 7096	518635	leaf	2021974	3	1	0.0
+Microterricola	518733	genus	0	1	0	0.0
+Rhodothermus marinus DSM 4252	518766	leaf	3386737	3	2	0.0
+Streptobacillus moniliformis DSM 12112	519441	leaf	1673280	1	0	0.0
+Atopobium parvulum DSM 20469	521095	leaf	1543805	3	1	0.0
+Tsukamurella paurometabola DSM 20162	521096	leaf	4479724	3	0	0.0
+Capnocytophaga ochracea DSM 7271	521097	leaf	2612925	201	14	0.0
+Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446	521098	leaf	3205686	2	1	0.0
+Planctopirus limnophila DSM 3776	521674	leaf	5460085	1	1	0.0
+Candidatus Accumulibacter phosphatis clade IIA str. UW-1	522306	leaf	5306133	10	4	0.0
+Stenotrophomonas maltophilia K279a	522373	leaf	4851126	1	0	0.0
+Campylobacter avium LMG 24591	522484	leaf	1738633	1	0	0.0
+Leptotrichia buccalis C-1013-b	523794	leaf	2465610	37	13	0.0
+Haloferax mediterranei ATCC 33500	523841	leaf	7812180	2	0	0.0
+Desulfovibrio desulfuricans ATCC 27774	525146	leaf	2873437	4	1	0.0
+Fusobacterium nucleatum subsp. nucleatum ATCC 23726	525283	leaf	2299539	2	0	0.0
+Desulfomicrobium baculatum DSM 4028	525897	leaf	3942657	7	3	0.0
+Thermanaerovibrio acidaminovorans DSM 6589	525903	leaf	1848474	7	4	0.0
+Thermobaculum terrenum ATCC BAA-798	525904	leaf	3101581	1	1	0.0
+Acidimicrobium ferrooxidans DSM 10331	525909	leaf	2158157	2	0	0.0
+Anaerococcus prevotii DSM 20548	525919	leaf	1998633	1	0	0.0
+Sebaldella termitidis ATCC 33386	526218	leaf	4486650	1	1	0.0
+Geodermatophilus obscurus DSM 43160	526225	leaf	5322497	15	5	0.0
+Gordonia bronchialis DSM 43247	526226	leaf	5290012	3	0	0.0
+Meiothermus silvanus DSM 9946	526227	leaf	3721669	1	0	0.0
+Rhizobium phaseoli Brasil 5	526949	leaf	6665454	1	0	0.0
+Pyrococcus yayanosii CH1	529709	leaf	1716818	1	1	0.0
+Pirellula staleyi DSM 6068	530564	leaf	6196199	1	0	0.0
+Acidovorax ebreus TPSY	535289	leaf	3796573	62	2	0.0
+Mesorhizobium opportunistum WSM2075	536019	leaf	6884444	1	1	0.0
+Roseburia intestinalis L1-82	536231	leaf	4493348	2	0	0.0
+Blautia hansenii DSM 20583	537007	leaf	3065949	3	0	0.0
+Rhizobium etli 8C-3	538025	leaf	7309118	2	1	0.0
+Clostridiales Family XVII. Incertae Sedis	539000	family	2844696	2	0	0.0
+Ruminococcaceae	541000	family	4534233	2	0	0.0
+Clostridiales Family XIII. Incertae Sedis	543314	family	1739380	4	0	0.0
+Thermoanaerobacterales Family III. Incertae Sedis	543371	family	2704109	2	0	0.0
+Thermoanaerobacterales Family IV. Incertae Sedis	543372	family	3135972	1	0	0.0
+Haloterrigena turkmenica DSM 5511	543526	leaf	5440782	2	0	0.0
+Variovorax paradoxus S110	543728	leaf	6754997	34	7	0.0
+Tenericutes	544448	phylum	1398080	4	0	0.0
+Treponema paraluiscuniculi Cuniculi A	545776	leaf	1133390	1	0	0.0
+Neisseria elongata subsp. glycolytica ATCC 29315	546263	leaf	2256647	344	0	0.0
+Filifactor alocis ATCC 35896	546269	leaf	1931012	39	25	0.0
+Selenomonas sputigena ATCC 35185	546271	leaf	2568361	17	13	0.0
+Deinococcus deserti VCD115	546414	leaf	3855329	2	1	0.0
+Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505	547043	leaf	2313752	3	0	0.0
+Natrialba magadii ATCC 43099	547559	leaf	4443643	2	1	0.0
+Corynebacterium aurimucosum ATCC 700975	548476	leaf	2819226	1	0	0.0
+Mobiluncus curtisii ATCC 43063	548479	leaf	2146480	1	0	0.0
+Ferrimonas balearica DSM 9799	550540	leaf	4279159	5	2	0.0
+Aromatoleum	551759	genus	4727255	1	0	0.0
+Streptococcus equi subsp. zooepidemicus MGCS10565	552526	leaf	2024171	1	0	0.0
+Dehalogenimonas lykanthroporepellens BL-DC-9	552811	leaf	1686510	2	2	0.0
+Prevotella melaninogenica ATCC 25845	553174	leaf	3168282	5	0	0.0
+Streptococcus equi subsp. equi 4047	553482	leaf	2253793	4	0	0.0
+Thermosediminibacter oceani DSM 16646	555079	leaf	2280035	1	1	0.0
+Halothiobacillus neapolitanus c2	555778	leaf	2582886	2	1	0.0
+Pseudolabrys	556257	genus	0	1	0	0.0
+Oxalobacter formigenes OXCC13	556269	leaf	2433653	2	0	0.0
+Laribacter hongkongensis HLHK9	557598	leaf	3169329	5	1	0.0
+Mycobacterium kansasii ATCC 12478	557599	leaf	6577228	4	1	0.0
+Rhodobacter sphaeroides KD131	557760	leaf	4711139	3	0	0.0
+Corynebacterium doosanense CAU 212 = DSM 45436	558173	leaf	2698995	7	3	0.0
+Dickeya chrysanthemi Ech1591	561229	leaf	4813854	1	0	0.0
+Streptococcus pneumoniae ATCC 700669	561276	leaf	2221315	1	0	0.0
+Mycobacterium leprae Br4923	561304	leaf	3268071	1	0	0.0
+Pseudomonas coronafaciens pv. oryzae str. 1_6	563797	leaf	5714458	3	0	0.0
+Cyclobacteriaceae	563798	family	5341969	3	0	0.0
+Caulobacter vibrioides NA1000	565050	leaf	4042929	4	0	0.0
+Ureaplasma urealyticum serovar 10 str. ATCC 33699	565575	leaf	874478	1	0	0.0
+Sinobacteraceae	568386	family	0	12	0	0.0
+Pseudogulbenkiania	568394	genus	0	4	0	0.0
+Bordetella bronchiseptica 253	568707	leaf	5264383	2	0	0.0
+Acidaminococcus intestini RyC-MR95	568816	leaf	2487765	3	1	0.0
+Methanocellales	570264	order	2838663	1	0	0.0
+Allochromatium vinosum DSM 180	572477	leaf	3669074	6	1	0.0
+Halanaerobium praevalens DSM 2228	572479	leaf	2309262	1	0	0.0
+Ilyobacter polytropus DSM 2926	572544	leaf	3132314	2	0	0.0
+Hungateiclostridium thermocellum DSM 2360	572545	leaf	3577579	1	0	0.0
+Aminobacterium colombiense DSM 12261	572547	leaf	1980592	5	1	0.0
+Desulfovibrio vulgaris RCH1	573059	leaf	3734357	6	0	0.0
+Asticcacaulis excentricus CB 48	573065	leaf	4308776	4	0	0.0
+Desulfovibrio magneticus RS-1	573370	leaf	5315620	4	1	0.0
+Sediminispirochaeta smaragdinae DSM 11293	573413	leaf	4653970	3	1	0.0
+Acetohalobium arabaticum DSM 5501	574087	leaf	2469596	2	0	0.0
+Streptococcus pneumoniae AP200	574093	leaf	2130580	1	0	0.0
+Prevotella sp. oral taxon 299 str. F0039	575614	leaf	2480269	3	1	0.0
+Vibrio tasmaniensis LGP32	575788	leaf	4974818	1	0	0.0
+Dickeya paradisiaca Ech703	579405	leaf	4679450	2	1	0.0
+Thermoanaerobacterium thermosaccharolyticum DSM 571	580327	leaf	2785752	2	0	0.0
+Sideroxydans lithotrophicus ES-1	580332	leaf	3003656	7	1	0.0
+Thermovirga lienii DSM 17291	580340	leaf	1999646	6	4	0.0
+Zetaproteobacteria	580370	class	0	1	0	0.0
+Mariprofundales	580371	order	0	3	0	0.0
+Mariprofundaceae	580372	family	0	2	0	0.0
+Methylovorus glucosetrophus SIP3-4	582744	leaf	3082007	2	1	0.0
+Escherichia fergusonii ATCC 35469	585054	leaf	4643861	1	0	0.0
+Roseburia hominis A2-183	585394	leaf	3592125	1	0	0.0
+Solirubrobacterales	588673	order	6359369	3	0	0.0
+Desulfurivibrio alkaliphilus AHT 2	589865	leaf	3097763	7	2	0.0
+Dickeya zeae Ech586	590409	leaf	4818394	2	1	0.0
+Cellulomonas fimi ATCC 484	590998	leaf	4266344	7	0	0.0
+Acidaminococcus fermentans DSM 20731	591001	leaf	2329769	5	1	0.0
+Streptomyces pratensis ATCC 33331	591167	leaf	7656104	3	2	0.0
+Streptococcus intermedius JTH08	591365	leaf	1933610	16	0	0.0
+Nonlabens dokdonensis DSW-6	592029	leaf	3914632	1	0	0.0
+Helicobacter pylori B38	592205	leaf	1576758	1	0	0.0
+Cellulomonas gilvus ATCC 13127	593907	leaf	3526441	12	1	0.0
+Methylosinus trichosporium OB3b	595536	leaf	5183433	1	0	0.0
+Variovorax paradoxus EPS	595537	leaf	6550056	18	2	0.0
+Alicycliphilus denitrificans BC	596153	leaf	4835713	32	4	0.0
+Alicycliphilus denitrificans K601	596154	leaf	5070751	32	1	0.0
+Sinomonas	596707	genus	0	1	0	0.0
+Neisseria meningitidis 8013	604162	leaf	2277550	3	0	0.0
+Caldicellulosiruptor obsidiansis OB47	608506	leaf	2532343	1	0	0.0
+[Clostridium] saccharolyticum WM1	610130	leaf	4662871	4	1	0.0
+Streptococcus dysgalactiae subsp. equisimilis RE378	617121	leaf	2151145	2	0	0.0
+Actinopolysporaceae	622451	family	0	2	0	0.0
+Kineosporiales	622452	order	4956672	1	0	0.0
+Candidatus Planktophila	622681	genus	0	1	0	0.0
+Burkholderia glumae BGR1	626418	leaf	7284636	2	0	0.0
+Pseudomonas amygdali pv. lachrymans str. M301315	629260	leaf	7149865	2	0	0.0
+Pseudomonas syringae pv. maculicola str. ES4326	629265	leaf	6593626	3	1	0.0
+Neisseria meningitidis alpha710	630588	leaf	2242947	3	1	0.0
+Shimwellia blattae DSM 4481 = NBRC 105725	630626	leaf	4158725	1	0	0.0
+Caldicellulosiruptor kristjanssonii I77R1B	632335	leaf	2802443	1	0	0.0
+Caldicellulosiruptor lactoaceticus 6A	632516	leaf	2674809	1	0	0.0
+Caldicellulosiruptor owensensis OL	632518	leaf	2428903	1	0	0.0
+Rhodococcus opacus B4	632772	leaf	8834939	2	0	0.0
+Olsenella uli DSM 7084	633147	leaf	2051896	366	354	0.0
+Brevundimonas subvibrioides ATCC 15264	633149	leaf	3445263	1	0	0.0
+Aggregatibacter aphrophilus NJ8700	634176	leaf	4626291	290	0	0.0
+Komagataeibacter medellinensis NBRC 3288	634177	leaf	3513191	1	0	0.0
+Erwinia pyrifoliae Ep1/96	634499	leaf	4072846	1	0	0.0
+Erwinia billingiae Eb661	634500	leaf	5372268	1	0	0.0
+Thermincola potens JR	635013	leaf	3157416	1	0	0.0
+Acidithiobacillus caldus ATCC 51756	637389	leaf	2987045	3	0	0.0
+Acidithiobacillus thiooxidans ATCC 19377	637390	leaf	3415726	1	0	0.0
+Hungateiclostridium thermocellum DSM 1313	637887	leaf	3561619	1	0	0.0
+Shewanella violacea DSS12	637905	leaf	4962103	1	1	0.0
+Streptococcus gallolyticus UCN34	637909	leaf	2350911	2	0	0.0
+Citrobacter rodentium ICC168	637910	leaf	5444283	4	1	0.0
+Thermocrinis albus DSM 14484	638303	leaf	1500577	1	1	0.0
+Starkeya novella DSM 506	639283	leaf	4765023	5	3	0.0
+Azospira oryzae PS	640081	leaf	3806980	8	2	0.0
+Segniliparus rotundus DSM 44985	640132	leaf	3157527	1	1	0.0
+Simonsiella muelleri ATCC 29453	641147	leaf	2469862	8	1	0.0
+Desulfovibrio desulfuricans ND132	641491	leaf	3858580	7	2	0.0
+Acidovorax avenae subsp. avenae ATCC 19860	643561	leaf	5482170	35	3	0.0
+Pseudodesulfovibrio aespoeensis Aspo-2	643562	leaf	3629109	6	2	0.0
+Desulfarculus baarsii DSM 2075	644282	leaf	3655731	6	3	0.0
+Micromonospora aurantiaca ATCC 27029	644283	leaf	7025559	4	1	0.0
+Inhella	644355	genus	0	10	0	0.0
+Pseudomonas stutzeri RCH2	644801	leaf	4600489	4	2	0.0
+Thermaerobacter marianensis DSM 12885	644966	leaf	2844696	5	1	0.0
+Corynebacterium kroppenstedtii DSM 44385	645127	leaf	2446804	1	0	0.0
+Syntrophobotulus glycolicus DSM 8271	645991	leaf	3406739	1	1	0.0
+Methanothermococcus okinawensis IH1	647113	leaf	1677455	1	0	0.0
+Rhodomicrobium vannielii ATCC 17100	648757	leaf	4014469	1	0	0.0
+Leadbetterella byssophila DSM 17132	649349	leaf	4059653	1	1	0.0
+Truepera radiovictrix DSM 17093	649638	leaf	3260398	2	2	0.0
+Actinomyces sp. oral taxon 848 str. F0332	649743	leaf	2526493	5	2	0.0
+Corynebacterium ammoniagenes DSM 20306	649754	leaf	2790185	3	0	0.0
+Synergistaceae	649777	family	1997353	2	0	0.0
+Desulfobacula toluolica Tol2	651182	leaf	5197905	2	1	0.0
+Rhodopseudomonas palustris DX-1	652103	leaf	5404117	1	1	0.0
+Streptomyces violaceusniger Tu 4113	653045	leaf	11138313	5	2	0.0
+Desulfurispirillum indicum S5	653733	leaf	2928377	4	1	0.0
+Streptococcus oralis ATCC 35037	655813	leaf	1931548	119	15	0.0
+Photobacterium gaetbulicola Gung47	658445	leaf	5909413	3	0	0.0
+Mesotoga prima MesG1.Ag.4.2	660470	leaf	2975953	2	0	0.0
+Pantoea stewartii subsp. stewartii DC283	660596	leaf	5314092	2	0	0.0
+Fimbriimonas ginsengisoli Gsoil 348	661478	leaf	5231762	3	2	0.0
+Neisseria meningitidis alpha14	662598	leaf	2145295	4	1	0.0
+Geobacter sulfurreducens KN400	663917	leaf	3714272	3	0	0.0
+Pseudomonas syringae pv. avii	663959	leaf	6501595	1	0	0.0
+Erwinia amylovora CFBP1430	665029	leaf	3833832	1	0	0.0
+Spirochaeta thermophila DSM 6192	665571	leaf	2472645	1	0	0.0
+Streptomyces viridosporus T7A	665577	leaf	7280536	3	1	0.0
+Limnohabitans	665874	genus	0	3	0	0.0
+Phycisphaerae	666505	class	3884382	1	0	0.0
+Phycisphaerales	666506	order	3884382	3	0	0.0
+Phycisphaeraceae	666507	family	3884382	1	0	0.0
+Methylotenera versatilis 301	666681	leaf	3059871	1	0	0.0
+Bacteroides salanitronis DSM 18170	667015	leaf	4308663	1	1	0.0
+Edwardsiella anguillarum ET080813	667120	leaf	4329652	1	0	0.0
+Hyphomicrobium denitrificans 1NES1	670307	leaf	3808687	2	0	0.0
+Oceanithermus profundus DSM 14977	670487	leaf	2439291	7	4	0.0
+Mycobacteroides	670516	genus	6025847	2	0	0.0
+Plantactinospora	673534	genus	0	3	0	0.0
+Pseudonocardia dioxanivorans CB1190	675635	leaf	7303989	8	4	0.0
+Methanolacinia petrolearia DSM 11571	679926	leaf	2843290	1	1	0.0
+Alistipes finegoldii DSM 17242	679935	leaf	3734239	2	0	0.0
+Streptomyces scabiei 87.22	680198	leaf	10148695	4	1	0.0
+Rothia mucilaginosa DY-18	680646	leaf	2264603	33	2	0.0
+Serratia plymuthica 4Rx13	682634	leaf	5403731	1	0	0.0
+Granulicella mallensis MP5ACTX8	682795	leaf	6237577	2	0	0.0
+Rhodococcus hoagii 103S	685727	leaf	5043170	2	0	0.0
+Cellulophaga algicola DSM 14237	688270	leaf	4888353	1	1	0.0
+Sphingobium chlorophenolicum L-1	690566	leaf	4573221	2	1	0.0
+Desulfocurvibacter africanus subsp. africanus str. Walvis Bay	690850	leaf	4200534	8	2	0.0
+Cronobacter turicensis z3032	693216	leaf	4599092	2	1	0.0
+Deinococcus proteolyticus MRP	693977	leaf	2886836	4	0	0.0
+Bacteroides helcogenes P 36-108	693979	leaf	3998906	1	0	0.0
+Pseudomonas savastanoi pv. savastanoi NCPPB 3335	693985	leaf	6016828	2	0	0.0
+Methylobacterium oryzae CBMB20	693986	leaf	6286629	3	0	0.0
+Paludibacter propionicigenes WB4	694427	leaf	3685504	4	2	0.0
+Aggregatibacter actinomycetemcomitans D7S-1	694569	leaf	2308962	1	0	0.0
+Streptococcus constellatus subsp. pharyngis C232	696216	leaf	1935414	8	0	0.0
+Mahella australiensis 50-1 BON	697281	leaf	3135972	1	0	0.0
+Thermoanaerobacter wiegelii Rt8.B1	697303	leaf	2785056	1	0	0.0
+Ruminococcus albus 7 = DSM 20455	697329	leaf	4482087	1	1	0.0
+Amphibacillus xylanus NBRC 15112	698758	leaf	2569486	1	0	0.0
+Rhizobium tropici CIAT 899	698761	leaf	6686334	4	1	0.0
+Cellulosilyticum	698776	genus	4714237	1	0	0.0
+Thermoanaerobacterium thermosaccharolyticum M0795	698948	leaf	2894276	1	0	0.0
+Corynebacterium diphtheriae PW8	698964	leaf	2530683	1	0	0.0
+Corynebacterium diphtheriae BH8	698973	leaf	2485519	1	0	0.0
+Clostridioides difficile M120	699035	leaf	4047729	1	0	0.0
+Coriobacterium glomerans PW2	700015	leaf	2115681	2	2	0.0
+Mycolicibacterium neoaurum VKM Ac-1815D	700508	leaf	5421267	3	0	0.0
+Niastella koreensis GR20-10	700598	leaf	9033684	1	1	0.0
+[Enterobacter] lignolyticus SCF1	701347	leaf	4814049	2	1	0.0
+Pediococcus claussenii ATCC BAA-344	701521	leaf	1978793	1	0	0.0
+Pantoea ananatis LMG 20103	706191	leaf	4703373	1	0	0.0
+Actinomyces sp. oral taxon 171 str. F0337	706439	leaf	3097489	934	317	0.0
+Desulfomonile tiedjei DSM 6799	706587	leaf	6527027	1	0	0.0
+Deinococcus maricopensis DSM 21211	709986	leaf	3498530	4	1	0.0
+Mycolicibacterium chubuense NBB4	710421	leaf	6342624	3	1	0.0
+Mycolicibacterium rhodesiae NBB3	710685	leaf	6415739	1	0	0.0
+Intrasporangium calvum DSM 43043	710696	leaf	4024382	10	0	0.0
+Pantoea vagans C9-1	712898	leaf	4888338	1	0	0.0
+Thioalkalivibrio paradoxus ARh 1	713585	leaf	3756729	7	1	0.0
+Amycolatopsis mediterranei S699	713604	leaf	20483699	6	0	0.0
+Erwinia amylovora ATCC 49946	716540	leaf	3905604	1	0	0.0
+Enterobacter cloacae subsp. cloacae ATCC 13047	716541	leaf	5598796	3	0	0.0
+Ensifer sojae CCBAU 05684	716928	leaf	6094027	5	0	0.0
+Thermobacillus composti KWC4	717605	leaf	4355525	1	1	0.0
+Pseudomonas alcaliphila JAB1	741155	leaf	5340293	7	2	0.0
+Tomitella	741759	genus	0	1	0	0.0
+Salinisphaerales	742030	order	0	2	0	0.0
+Hungatella hathewayi WAL-18680	742737	leaf	5662031	3	2	0.0
+Isoptericola variabilis 225	743718	leaf	3307740	9	5	0.0
+Pseudomonas fulva 12-X	743720	leaf	4920769	1	0	0.0
+Pseudoxanthomonas suwonensis 11-1	743721	leaf	3419049	4	1	0.0
+Luteipulveratus	745364	genus	0	2	0	0.0
+Deinococcus gobiensis I-0	745776	leaf	4406036	6	2	0.0
+Aequorivita sublithincola DSM 14238	746697	leaf	3520671	1	0	0.0
+Streptomyces bingchenggensis BCW-1	749414	leaf	11936683	8	5	0.0
+Amycolatopsis mediterranei U32	749927	leaf	10236715	3	0	0.0
+Thermus oshimai JL-2	751945	leaf	2401329	1	0	0.0
+Mesorhizobium australicum WSM2073	754035	leaf	6200534	3	2	0.0
+Luteimicrobium	754249	genus	0	1	0	0.0
+Paraburkholderia sprentiae WSM5005	754502	leaf	7829542	3	1	0.0
+Rhizobium leguminosarum bv. trifolii WSM1689	754523	leaf	6903379	3	0	0.0
+Cyanobacterium aponinum PCC 10605	755178	leaf	4176973	1	0	0.0
+Fluviicola taffensis DSM 16823	755732	leaf	4633577	1	0	0.0
+Herbaspirillum seropedicae SmR1	757424	leaf	5513887	9	0	0.0
+Bifidobacterium longum subsp. longum JDM301	759350	leaf	2477838	1	0	0.0
+Brachyspira pilosicoli 95/1000	759914	leaf	2586443	1	0	0.0
+Haliscomenobacter hydrossis DSM 1100	760192	leaf	8771651	3	3	0.0
+Streptococcus parasanguinis ATCC 15912	760570	leaf	2153652	6	0	0.0
+Methylovulum	762296	genus	0	1	0	0.0
+Achromobacter xylosoxidans A8	762376	leaf	7359146	14	2	0.0
+Rhodothermus marinus SG0.5JP17-172	762570	leaf	3334122	2	1	0.0
+Pseudopedobacter saltans DSM 12145	762903	leaf	4635236	1	0	0.0
+Rothia dentocariosa ATCC 17931	762948	leaf	2506025	301	72	0.0
+Paraprevotella xylaniphila YIT 11841	762982	leaf	4125322	1	1	0.0
+Marichromatium purpuratum 984	765910	leaf	3779112	4	0	0.0
+Thiocystis violascens DSM 198	765911	leaf	5017071	1	0	0.0
+Thioflavicoccus mobilis 8321	765912	leaf	4137521	6	2	0.0
+Pseudopropionibacterium propionicum F0230a	767029	leaf	3449360	5015	0	3.43496e-15
+Prevotella denticola F0289	767031	leaf	2937589	2	0	0.0
+Frateuria aurantia DSM 6220	767434	leaf	3603458	10	2	0.0
+Desulfallas gibsoniae DSM 7213	767817	leaf	4855529	1	1	0.0
+Halomonas elongata DSM 2581	768066	leaf	4061825	6	1	0.0
+Cytophagia	768503	class	4457054	17	0	0.0
+Cytophagales	768507	order	4457054	24	0	0.0
+Calditerrivibrio nitroreducens DSM 19672	768670	leaf	2216552	2	0	0.0
+Xylella fastidiosa subsp. fastidiosa GB514	788929	leaf	2517383	1	0	0.0
+Halalkalicoccus jeotgali B3	795797	leaf	3698650	2	1	0.0
+Halopiger xanaduensis SH-6	797210	leaf	4355268	4	1	0.0
+Natrinema pellirubrum DSM 15624	797303	leaf	4354100	4	1	0.0
+Natronobacterium gregoryi SP2	797304	leaf	3788356	2	1	0.0
+Methylomonas methanica MC09	857087	leaf	5051681	1	0	0.0
+Thermoanaerobacterium xylanolyticum LX-11	858215	leaf	2534358	2	0	0.0
+Corynebacterium variabile DSM 44702	858619	leaf	3433007	10	1	0.0
+Ralstonia solanacearum PSI07	859657	leaf	5605618	1	0	0.0
+Sphingobium indicum B90A	861109	leaf	3945731	2	1	0.0
+Glutamicibacter arilaitensis Re117	861360	leaf	3918192	3	0	0.0
+Azospirillum lipoferum 4B	862719	leaf	6846400	2	0	0.0
+Bacteroides fragilis 638R	862962	leaf	5373121	7	1	0.0
+Haemophilus parainfluenzae T3T1	862965	leaf	2086875	21	4	0.0
+Streptococcus intermedius C270	862966	leaf	1960728	24	1	0.0
+Streptococcus intermedius B196	862967	leaf	1996214	25	0	0.0
+Streptococcus constellatus subsp. pharyngis C818	862968	leaf	1935662	8	0	0.0
+Streptococcus constellatus subsp. pharyngis C1050	862969	leaf	1991156	8	0	0.0
+Streptococcus anginosus C1051	862970	leaf	1911706	2	0	0.0
+Streptococcus anginosus C238	862971	leaf	2233640	20	2	0.0
+Corynebacterium nuruki S6-4	863239	leaf	3173955	7	2	0.0
+Parascardovia denticolens DSM 10105 = JCM 12538	864564	leaf	1890857	1	1	0.0
+Belliella baltica DSM 15883	866536	leaf	4196595	1	0	0.0
+Ornithobacterium rhinotracheale DSM 15997	867902	leaf	2399175	2	0	0.0
+Methanomethylovorans hollandica DSM 15978	867904	leaf	2714013	1	1	0.0
+Desulfotomaculum nigrificans CO-1-SRB	868595	leaf	2892255	1	0	0.0
+Stenotrophomonas maltophilia JV3	868597	leaf	4544477	1	0	0.0
+Marinithermus hydrothermalis DSM 14884	869210	leaf	2269167	1	0	0.0
+Spirochaeta thermophila DSM 6578	869211	leaf	2560222	1	0	0.0
+Turneriella parva DSM 21527	869212	leaf	4409302	2	1	0.0
+Marivirga	869806	genus	4516490	1	0	0.0
+Dehalobacter restrictus DSM 9455	871738	leaf	2943336	1	0	0.0
+Porphyromonas asaccharolytica DSM 20707	879243	leaf	2186370	1	1	0.0
+Bernardetia litoralis DSM 6794	880071	leaf	4919337	1	0	0.0
+Desulfobacca acetoxidans DSM 11109	880072	leaf	3282536	1	0	0.0
+Caldithrix abyssi DSM 13497	880073	leaf	4978541	2	0	0.0
+Paraburkholderia rhizoxinica HKI 454	882378	leaf	3750138	7	1	0.0
+Jeongeupia	885864	genus	0	1	0	0.0
+Singulisphaera acidiphila DSM 18658	886293	leaf	9755686	1	1	0.0
+Schaalia cardiffensis F0333	888050	leaf	2230588	251	234	0.0
+Aggregatibacter segnis ATCC 33393	888057	leaf	2022832	40	18	0.0
+Desulfomicrobium orale DSM 12838	888061	leaf	2783374	61	25	0.0
+Eubacterium sulci ATCC 35585	888727	leaf	1739380	17	6	0.0
+Streptococcus cristatus ATCC 51100	889201	leaf	2000351	305	36	0.0
+Spirochaeta africana DSM 8902	889378	leaf	3285855	1	0	0.0
+Vibrio furnissii NCTC 11218	903510	leaf	4916408	2	0	0.0
+Treponema brennaborense DSM 12168	906968	leaf	3055580	3	3	0.0
+Methylobacterium mesophilicum SR1.6/6	908290	leaf	6555179	2	2	0.0
+Nitriliruptoria	908620	class	0	3	0	0.0
+Euzebyales	908621	order	0	6	0	0.0
+Prevotella dentalis DSM 3688	908937	leaf	3350206	15	6	0.0
+Neisseria meningitidis H44/76	909420	leaf	2240883	1	0	0.0
+Selenomonadales	909929	order	3860370	6	0	0.0
+Negativicutes	909932	class	2896008	7	0	0.0
+Xanthomonas vesicatoria ATCC 35937	925775	leaf	5349905	6	0	0.0
+Xanthomonas perforans 91-118	925776	leaf	4898349	1	0	0.0
+Terriglobus roseus DSM 18391	926566	leaf	5227858	2	0	0.0
+Acidiphilium multivorum AIU301	926570	leaf	4214744	4	0	0.0
+Streptococcus oralis Uo5	927666	leaf	1958690	169	31	0.0
+Selenomonas ruminantium subsp. lactilytica TAM6421	927704	leaf	3631933	6	2	0.0
+Alcanivorax dieselolei B5	930169	leaf	4928223	3	2	0.0
+Pseudarthrobacter phenanthrenivorans Sphe3	930171	leaf	4535320	8	2	0.0
+Corynebacterium deserti GIMN1.010	931089	leaf	3033893	1	0	0.0
+Clostridium saccharoperbutylacetonicum N1-4(HMT)	931276	leaf	6666445	1	1	0.0
+Pseudomonas putida BIRD-1	931281	leaf	5731541	1	0	0.0
+Pantoea ananatis AJ13355	932677	leaf	4877279	1	0	0.0
+Sulfuricella	935200	genus	3217213	1	0	0.0
+Mesorhizobium loti NZP2037	935546	leaf	7481739	2	2	0.0
+Mesorhizobium japonicum R7A	935547	leaf	6529994	2	0	0.0
+Neisseria meningitidis M01-240355	935588	leaf	2287777	1	0	0.0
+Neisseria meningitidis NZ-05/33	935589	leaf	2248966	2	0	0.0
+Neisseria meningitidis M0579	935590	leaf	2324822	2	0	0.0
+Neisseria meningitidis M01-240149	935591	leaf	2223518	3	0	0.0
+Neisseria meningitidis M04-240196	935593	leaf	2250449	2	0	0.0
+Rhizobium leguminosarum bv. viciae 248	936136	leaf	7157962	1	0	0.0
+Deinococcus peraridilitoris DSM 19664	937777	leaf	4513714	4	3	0.0
+Neisseria meningitidis WUE 2594	942513	leaf	2227255	4	3	0.0
+Ignavibacterium album JCM 16511	945713	leaf	3658997	1	0	0.0
+Flavonifractor	946234	genus	0	1	0	0.0
+Candidatus Symbiobacter mobilis CR	946483	leaf	2991840	6	2	0.0
+Miniimonas	947525	genus	0	3	0	0.0
+Streptomyces venezuelae ATCC 10712	953739	leaf	8223505	4	0	0.0
+Microbacterium testaceum StLB037	979556	leaf	3982034	3	3	0.0
+Desulfoglaeba alkanexedens ALDC	980445	leaf	3365583	3	1	0.0
+Chloracidobacterium thermophilum B	981222	leaf	3695372	4	3	0.0
+Acinetobacter radioresistens DSM 6976 = NBRC 102413 = CIP 103788	981334	leaf	3433938	1	1	0.0
+Xanthomonas axonopodis pv. citrumelo F1	981368	leaf	4967469	1	0	0.0
+Streptococcus gallolyticus subsp. gallolyticus ATCC 43143	981539	leaf	2362241	2	0	0.0
+Burkholderia cepacia ATCC 25416	983594	leaf	25747345	2	0	0.0
+Rubrivivax gelatinosus IL144	983917	leaf	5043253	20	2	0.0
+Aggregatibacter aphrophilus ATCC 33389	985008	leaf	2337153	134	6	0.0
+Burkholderia multivorans ATCC BAA-247	985079	leaf	6322746	1	0	0.0
+Paenibacillus terrae HPL-003	985665	leaf	6083395	1	0	0.0
+Acidiferrobacter	986106	genus	0	2	0	0.0
+Marinovum algicola DG 898	988812	leaf	5252390	3	1	0.0
+Acidithiobacillus caldus SM-1	990288	leaf	3237599	4	0	0.0
+Xanthomonas campestris pv. raphani 756C	990315	leaf	4941214	1	0	0.0
+Streptococcus gallolyticus subsp. gallolyticus ATCC BAA-2069	990317	leaf	2377209	2	0	0.0
+Christensenella	990721	genus	0	4	0	0.0
+Anaerotignum propionicum DSM 1682	991789	leaf	3120417	2	0	0.0
+Polymorphum	991903	genus	4718963	1	0	0.0
+Polymorphum gilvum SL003B-26A1	991905	leaf	4718963	2	0	0.0
+Sutterellaceae	995019	family	0	1	0	0.0
+Pseudomonas stutzeri DSM 4166	996285	leaf	4689946	2	1	0.0
+Paenibacillus mucilaginosus K02	997761	leaf	8819200	2	1	0.0
+Bacteroides dorei CL03T12C01	997877	leaf	5310365	5	1	0.0
+Aeromonas veronii B565	998088	leaf	4551783	1	0	0.0
+Burkholderia gladioli BSR3	999541	leaf	9052299	9	1	0.0
+Pseudomonas mendocina NK-01	1001585	leaf	5434353	3	1	0.0
+Streptomyces cattleya NRRL 8057 = DSM 46488	1003195	leaf	16188068	11	1	0.0
+Collimonas fungivorans Ter331	1005048	leaf	5186898	5	1	0.0
+Gallibacterium anatis UMN179	1005058	leaf	2694139	1	0	0.0
+Acetobacter pasteurianus NBRC 101655	1006554	leaf	3100990	1	0	0.0
+Mycobacterium leprae Kyoto-2	1008298	leaf	3268122	1	0	0.0
+Burkholderia cepacia GG4	1009846	leaf	6467321	1	1	0.0
+Neorhizobium galegae bv. orientalis str. HAMBI 540	1028800	leaf	6455027	2	1	0.0
+Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141	1028801	leaf	6413184	5	3	0.0
+Hyphomicrobium nitrativorans NL23	1029756	leaf	3653837	2	1	0.0
+Porphyromonas gingivalis TDC60	1030843	leaf	2339898	1	0	0.0
+Campylobacter hyointestinalis subsp. hyointestinalis LMG 9260	1031746	leaf	1753385	1	0	0.0
+Campylobacter lanienae NCTC 13004	1031753	leaf	1594554	1	0	0.0
+Campylobacter sputorum bv. sputorum RM3237	1031754	leaf	1752258	2	0	0.0
+Campylobacter sputorum bv. faecalis CCUG 20703	1031920	leaf	1757292	1	0	0.0
+Campylobacter sputorum bv. paraureolyticus LMG 11764	1032066	leaf	1725016	1	0	0.0
+Campylobacter ureolyticus RIGS 9880	1032069	leaf	1641887	1	0	0.0
+Arcobacter thereius LMG 24486	1032240	leaf	1915080	1	0	0.0
+Arcobacter trophiarum LMG 25534	1032241	leaf	1915613	1	0	0.0
+Microlunatus phosphovorus NM-1	1032480	leaf	5683123	8	3	0.0
+Halorhabdus tiamatea SARL4B	1033806	leaf	3146160	1	1	0.0
+Lactobacillus kefiranofaciens ZW3	1033837	leaf	2354088	1	0	0.0
+Flavobacterium branchiophilum FL-15	1034807	leaf	3563292	1	0	0.0
+Advenella kashmirensis WT001	1036672	leaf	4423879	1	0	0.0
+Paenibacillus mucilaginosus KNP414	1036673	leaf	8663821	1	1	0.0
+Rhodospirillum rubrum F11	1036743	leaf	4352825	7	0	0.0
+Bradyrhizobium japonicum USDA 6	1037409	leaf	9207384	4	0	0.0
+Pseudomonas fluorescens A506	1037911	leaf	6019547	4	0	0.0
+Streptomyces xinghaiensis S187	1038929	leaf	7137891	7	3	0.0
+Mycobacterium colombiense CECT 3035	1041522	leaf	5581643	8	2	0.0
+Methanocella conradii HZ254	1041930	leaf	2378438	1	1	0.0
+Brevibacillus laterosporus LMG 15441	1042163	leaf	5153859	1	0	0.0
+Cupriavidus necator N-1	1042878	leaf	8480857	18	3	0.0
+Pseudoxanthomonas spadix BD-a59	1045855	leaf	3452554	4	2	0.0
+Mycobacterium canettii CIPT 140010059	1048245	leaf	4482059	3	1	0.0
+Leptospirillum ferriphilum ML-04	1048260	leaf	2406157	1	0	0.0
+Mycoplasma iowae 695	1048830	leaf	1315476	1	0	0.0
+Alicyclobacillus acidocaldarius subsp. acidocaldarius Tc-4-1	1048834	leaf	3124048	2	0	0.0
+Vibrio tubiashii ATCC 19109	1051646	leaf	5540337	1	0	0.0
+Rhodococcus fascians D188	1051973	leaf	5502110	1	0	0.0
+Granulibacter bethesdensis CGDNIH4	1052095	leaf	2729888	2	0	0.0
+Sulfuritalea	1054211	genus	3802648	4	0	0.0
+Streptococcus pseudopneumoniae IS7493	1054460	leaf	2195458	39	5	0.0
+Burkholderia cenocepacia H111	1055524	leaf	7714893	1	0	0.0
+Helicobacter pylori Puno120	1055528	leaf	1637762	1	0	0.0
+Chitinolyticbacter	1055692	genus	0	5	0	0.0
+Megasphaera elsdenii DSM 20460	1064535	leaf	2478942	1	0	0.0
+Amycolatopsis methanolica 239	1068978	leaf	7237391	20	7	0.0
+Streptococcus infantarius subsp. infantarius CJ18	1069533	leaf	2008249	1	0	0.0
+Paenibacillus riograndensis SBR5	1073571	leaf	7919576	1	1	0.0
+Cronobacter condimenti 1330	1073999	leaf	4499482	5	3	0.0
+Cronobacter universalis NCTC 9529	1074000	leaf	4436873	2	1	0.0
+Herbaspirillum rubrisubalbicans M1	1078773	leaf	5611261	11	1	0.0
+Streptomyces chartreusis NRRL 3882	1079985	leaf	17966634	2	0	0.0
+Pseudomonas putida B6-2	1081940	leaf	6377271	3	0	0.0
+Pelagibacterium halotolerans B2	1082931	leaf	3948887	4	2	0.0
+Glaciecola nitratireducens FR1064	1085623	leaf	4134229	1	1	0.0
+Francisella persica ATCC VR-331	1086726	leaf	3057444	2	0	0.0
+Exiguobacterium antarcticum B7	1087448	leaf	2815863	1	1	0.0
+Novosphingobium pentaromativorans US6-1	1088721	leaf	5457578	5	4	0.0
+Francisella hispaniensis FSC454	1088883	leaf	1938636	1	0	0.0
+Pseudomonas aeruginosa NCGM2.S1	1089456	leaf	6764661	2	0	0.0
+Thermacetogenium phaeum DSM 12270	1089553	leaf	2939057	1	0	0.0
+Methylomicrobium alcaliphilum 20Z	1091494	leaf	4796711	2	1	0.0
+Treponema pallidum subsp. pallidum str. Sea 81-4	1095955	leaf	1139203	1	0	0.0
+Thioalkalispiraceae	1096778	family	0	4	0	0.0
+Clavibacter michiganensis subsp. nebraskensis NCPPB 2581	1097677	leaf	3063596	1	0	0.0
+Bacteroidetes Order II. Incertae sedis	1100069	order	3535276	5	0	0.0
+Tistrella mobilis KA081020-065	1110502	leaf	6512983	7	3	0.0
+Gordonia polyisoprenivorans VH2	1112204	leaf	5844299	3	1	0.0
+Streptococcus parasanguinis FW213	1114965	leaf	2171609	6	0	0.0
+Pseudomonas fluorescens F113	1114970	leaf	6845832	2	0	0.0
+Streptococcus macedonicus ACA-DC 198	1116231	leaf	2142762	6	1	0.0
+Paenibacillus mucilaginosus 3016	1116391	leaf	8739048	1	0	0.0
+Simiduia agarivorans SA1 = DSM 21679	1117647	leaf	4300227	2	0	0.0
+Brenneria nigrifluens DSM 30175 = ATCC 13028	1121120	leaf	4891702	3	0	0.0
+Brevibacillus laterosporus DSM 25	1121121	leaf	5400144	1	0	0.0
+Thermoclostridium stercorarium subsp. stercorarium DSM 8532	1121335	leaf	5944389	4	0	0.0
+Thermoclostridium stercorarium subsp. thermolacticum DSM 2910	1121336	leaf	3035622	2	0	0.0
+Corynebacterium callunae DSM 20147	1121353	leaf	2928683	1	1	0.0
+Corynebacterium halotolerans YIM 70093 = DSM 44683	1121362	leaf	3222008	6	0	0.0
+Martelella mediterranea DSM 17316	1122214	leaf	5693067	3	2	0.0
+Mycolicibacterium hassiacum DSM 44199	1122247	leaf	5269097	3	1	0.0
+Prevotella intermedia ATCC 25611 = DSM 20706	1122984	leaf	2674170	9	2	0.0
+Pseudomonas balearica DSM 6083	1123016	leaf	4383480	7	2	0.0
+Serinicoccus marinus DSM 15273	1123251	leaf	3420275	9	1	0.0
+Pseudomonas stutzeri DSM 10701	1123519	leaf	4174118	3	3	0.0
+Pantoea ananatis LMG 5342	1123863	leaf	4908144	1	0	0.0
+Salmonella enterica subsp. enterica serovar Heidelberg str. 41578	1124936	leaf	9903318	1	0	0.0
+Pseudomonas protegens CHA0	1124983	leaf	13736283	2	0	0.0
+Candidatus Thioglobus singularis PS1	1125411	leaf	1714148	1	1	0.0
+Nocardia cyriacigeorgica GUH-2	1127134	leaf	6194645	8	4	0.0
+Sinorhizobium fredii CCBAU 25509	1128330	leaf	6810864	2	1	0.0
+Sinorhizobium fredii CCBAU 45436	1128331	leaf	6913799	2	0	0.0
+Sinorhizobium fredii CCBAU 83666	1128334	leaf	7083389	1	0	0.0
+Kyrpidia	1129704	genus	3384766	1	0	0.0
+Leptotrichiaceae	1129771	family	2875180	2	0	0.0
+Paraglaciecola psychrophila 170	1129794	leaf	5413691	1	1	0.0
+Mycobacterium marinum E11	1131442	leaf	6450522	1	0	0.0
+Nocardia brasiliensis ATCC 700358	1133849	leaf	9436348	5	0	0.0
+Streptomyces hygroscopicus subsp. jinggangensis 5008	1133850	leaf	10383684	6	0	0.0
+Rhodococcus erythropolis CCM2595	1136179	leaf	6371421	1	0	0.0
+Mycobacterium pseudoshottsii JCM 15466	1136880	leaf	6061597	2	1	0.0
+Hungateiclostridium thermocellum AD2	1138384	leaf	3554854	1	0	0.0
+Phycisphaera mikurensis NBRC 102666	1142394	leaf	3884382	3	2	0.0
+Corallococcus coralloides DSM 2259	1144275	leaf	10080619	4	1	0.0
+Blastococcus saxobsidens DD2	1146883	leaf	4875340	11	5	0.0
+Bifidobacterium asteroides PRL2011	1147128	leaf	2167304	1	0	0.0
+Pseudomonas mandelii JR-1	1147786	leaf	7188564	2	2	0.0
+Bifidobacterium dentium JCM 1195 = DSM 20436	1150423	leaf	2635669	1	0	0.0
+Bifidobacterium catenulatum subsp. kashiwanohense JCM 15439 = DSM 21854	1150460	leaf	2337234	1	0	0.0
+Bifidobacterium scardovii JCM 12489 = DSM 13734	1150461	leaf	3158347	4	2	0.0
+Scardovia inopinata JCM 12537	1150468	leaf	1797862	1	1	0.0
+Pararhodospirillum photometricum DSM 122	1150469	leaf	3876289	3	2	0.0
+Pseudomonas putida JB	1150601	leaf	5846746	1	0	0.0
+Sulfurospirillum multivorans DSM 12446	1150621	leaf	3175729	1	0	0.0
+Serratia plymuthica PRI-2C	1154756	leaf	5474685	1	0	0.0
+Streptococcus mutans LJ23	1155071	leaf	2015626	3	1	0.0
+Methylovirgula	1156568	genus	0	1	0	0.0
+Methylacidiphilum fumariolicum SolV	1156937	leaf	2476671	1	1	0.0
+Cronobacter dublinensis subsp. dublinensis LMG 23823	1159554	leaf	4628405	1	0	0.0
+Cronobacter muytjensii ATCC 51329	1159613	leaf	4364114	2	1	0.0
+Leptospirillum ferrooxidans C2-3	1162668	leaf	2559538	1	1	0.0
+Sulfuricella denitrificans skB26	1163617	leaf	3217213	8	4	0.0
+Helicobacter pylori Shi112	1163740	leaf	1663456	1	0	0.0
+Marinobacter hydrocarbonoclasticus ATCC 49840	1163748	leaf	3989480	3	0	0.0
+Desulfocapsa sulfexigens DSM 10523	1167006	leaf	4023512	1	0	0.0
+Cutibacterium avidum 44067	1170318	leaf	2526138	8	1	0.0
+Acidipropionibacterium acidipropionici ATCC 4875	1171373	leaf	3656170	2	0	0.0
+Streptomyces globisporus C-1027	1172567	leaf	7783599	4	1	0.0
+Crinalium epipsammum PCC 9333	1173022	leaf	5620407	1	1	0.0
+Burkholderia glumae LMG 2196 = ATCC 33617	1176492	leaf	6820727	3	1	0.0
+Burkholderia glumae AU6208	1176514	leaf	6530819	2	0	0.0
+Saccharothrix espanaensis DSM 44229	1179773	leaf	9360653	16	10	0.0
+Magnetospira	1182780	genus	0	1	0	0.0
+Rhodovulum sulfidophilum DSM 1374	1188256	leaf	4347929	4	0	0.0
+Myxococcus macrosporus DSM 14697	1189310	leaf	8973512	6	3	0.0
+Comamonas testosteroni P19	1191062	leaf	5649348	30	0	0.0
+Melioribacter roseus P3M-2	1191523	leaf	3300414	1	0	0.0
+Pelosinus fermentans JBW45	1192197	leaf	5380816	2	1	0.0
+Granulosicoccus antarcticus IMCC3135	1192854	leaf	7783862	1	0	0.0
+Pseudomonas putida SJTE-1	1193499	leaf	6077201	1	0	0.0
+Sulfurospirillum halorespirans DSM 13726	1193502	leaf	3029840	1	0	0.0
+Pseudomonas stutzeri CCUG 29243	1196835	leaf	4709064	4	1	0.0
+Granulicella tundricola MP5ACTX9	1198114	leaf	5503984	4	3	0.0
+Corynebacterium terpenotabidum Y-11	1200352	leaf	2751233	6	1	0.0
+Brevibacillus brevis X23	1200792	leaf	6643437	1	1	0.0
+Methanoculleus bourgensis MS2	1201294	leaf	2789774	1	0	0.0
+Streptomyces hygroscopicus subsp. jinggangensis TL01	1203460	leaf	10077952	6	0	0.0
+Nocardiopsis alba ATCC BAA-2165	1205910	leaf	5848211	3	0	0.0
+Aeromonas media WS	1208104	leaf	4788430	4	0	0.0
+Thalassolituus oleivorans R6-15	1208320	leaf	3764053	1	0	0.0
+Sphingobium fuliginis ATCC 27551	1208342	leaf	5414624	2	0	0.0
+Bordetella bronchiseptica MO149	1208658	leaf	5091817	1	0	0.0
+Bordetella parapertussis Bpp5	1208660	leaf	4899574	2	0	0.0
+Candidatus Kinetoplastibacterium oncopeltii TCC290E	1208920	leaf	810172	3	0	0.0
+Candidatus Kinetoplastibacterium galatii TCC219	1208921	leaf	822140	4	0	0.0
+Candidatus Kinetoplastibacterium blastocrithidii TCC012E	1208922	leaf	820029	4	0	0.0
+Candidatus Kinetoplastibacterium blastocrithidii (ex Strigomonas culicis)	1208923	leaf	820037	4	0	0.0
+Pseudomonas putida NBRC 14164	1211579	leaf	6156701	2	0	0.0
+Legionella fallonii LLAP-10	1212491	leaf	4434890	1	0	0.0
+Streptomyces collinus Tu 365	1214242	leaf	8377286	5	3	0.0
+Mycolicibacterium smegmatis MKD8	1214915	leaf	7119169	3	1	0.0
+Pseudomonas putida S12	1215087	leaf	6382434	2	0	0.0
+Pseudomonas putida HB3267	1215088	leaf	5956110	1	0	0.0
+Dyella japonica A8	1217721	leaf	4831185	2	1	0.0
+Comamonas terrigena NBRC 13299	1219032	leaf	4673011	36	5	0.0
+Novosphingobium tardaugens NBRC 16725	1219035	leaf	4358096	1	1	0.0
+Geobacillus kaustophilus NBRC 102445	1220595	leaf	3670957	1	1	0.0
+Pseudomonas fluorescens NCIMB 11764	1221522	leaf	6998154	3	0	0.0
+Amycolatopsis mediterranei RB	1221524	leaf	10246864	3	0	0.0
+Corynebacterium humireducens NBRC 106098 = DSM 45392	1223515	leaf	2681312	8	1	0.0
+Sulfuritalea hydrogenivorans sk43H	1223802	leaf	3802648	21	4	0.0
+Corynebacterium marinum DSM 44953	1224162	leaf	2729219	10	2	0.0
+Corynebacterium maris DSM 45190	1224163	leaf	2833547	8	1	0.0
+Corynebacterium vitaeruminis DSM 20294	1224164	leaf	2931780	10	7	0.0
+Gluconobacter oxydans H24	1224746	leaf	3816232	2	1	0.0
+Pseudomonas mendocina S5.2	1225174	leaf	5372474	4	1	0.0
+Hymenobacter swuensis DY53	1227739	leaf	5252070	2	1	0.0
+Paraburkholderia phenoliruptrix BR3459a	1229205	leaf	7651131	7	1	0.0
+Leuconostoc carnosum JB16	1229758	leaf	1773468	2	1	0.0
+Burkholderia pseudomallei BPC006	1229785	leaf	7155061	1	1	0.0
+Clostridium tetani 12124569	1231072	leaf	2865850	2	0	0.0
+Cardinium endosymbiont cEper1 of Encarsia pergandiella	1231626	leaf	944930	1	0	0.0
+Corynebacterium glutamicum SCgG1	1232381	leaf	3350620	1	0	0.0
+Corynebacterium glutamicum SCgG2	1232383	leaf	3350619	1	0	0.0
+[Brevibacterium] flavum ZL-1	1232385	leaf	3340941	1	0	0.0
+Lawsonia intracellularis N343	1234378	leaf	1719192	1	0	0.0
+Carnobacterium maltaromaticum LMA28	1234679	leaf	3650416	2	0	0.0
+Nocardiopsis gilva YIM 90087	1235441	leaf	6142152	3	3	0.0
+Kosakonia sacchari SP1	1235834	leaf	4902027	1	0	0.0
+Prevotella fusca JCM 17724	1236517	leaf	3261806	5	2	0.0
+Candidatus Methanomethylophilus alvus Mx1201	1236689	leaf	1666795	1	0	0.0
+Burkholderia pseudomallei NCTC 13179	1241583	leaf	7337157	1	0	0.0
+Salmonella enterica subsp. arizonae serovar 63:g,z51:-	1243607	leaf	4598348	1	1	0.0
+Campylobacter fetus subsp. testudinum Sp3	1244529	leaf	1819051	1	0	0.0
+Bradyrhizobium oligotrophicum S58	1245469	leaf	8264165	2	1	0.0
+Pseudomonas resinovorans NBRC 106553	1245471	leaf	6484828	7	2	0.0
+Variovorax paradoxus B4	1246301	leaf	7148516	20	1	0.0
+Actinoplanes friuliensis DSM 7358	1246995	leaf	9376071	9	5	0.0
+Advenella mimigardefordensis DPN7	1247726	leaf	4764126	2	1	0.0
+Helicobacter pylori OK113	1248725	leaf	1616617	1	0	0.0
+Burkholderia pseudomallei MSHR520	1249659	leaf	7450511	2	0	0.0
+Burkholderia thailandensis MSMB121	1249661	leaf	6731379	1	0	0.0
+Burkholderia ubonensis MSMB22	1249668	leaf	7189071	3	0	0.0
+Sorangium cellulosum So0157-2	1254432	leaf	14782125	5	1	0.0
+Bifidobacterium thermophilum RBL67	1254439	leaf	2291643	3	0	0.0
+Thioalkalivibrio nitratireducens DSM 14787	1255043	leaf	4002350	6	1	0.0
+Spiribacter salinus M19-40	1260251	leaf	1739487	5	2	0.0
+Xanthomonas translucens pv. translucens DSM 18974	1261556	leaf	4715357	10	2	0.0
+Herbaspirillum hiltneri N3	1262470	leaf	4965474	8	1	0.0
+Bibersteinia trehalosi USDA-ARS-USMARC-188	1263829	leaf	2340975	1	0	0.0
+Bibersteinia trehalosi USDA-ARS-USMARC-189	1263831	leaf	2454127	1	0	0.0
+Epibacterium mobile F1926	1265309	leaf	4830028	1	0	0.0
+Acetobacter pasteurianus 386B	1266844	leaf	3078647	1	0	0.0
+Nitrosospira briensis C-128	1266925	leaf	3210113	3	3	0.0
+Streptococcus phage phiBHN167	1267169	species	37375	1	0	0.0
+Cupriavidus gilardii CR3	1267562	leaf	5578743	13	2	0.0
+Corynebacterium urealyticum DSM 7111	1267754	leaf	2316065	5	0	0.0
+Thiohalobacter	1273155	genus	0	3	0	0.0
+Spiroplasma chrysopicola DF-1	1276227	leaf	1123322	1	0	0.0
+Spiroplasma syrphidicola EA-1	1276229	leaf	1107344	1	0	0.0
+Spiroplasma culicicola AES-1	1276246	leaf	1175131	2	0	0.0
+Myxococcus stipitatus DSM 14675	1278073	leaf	10350586	9	6	0.0
+Xanthomonas campestris pv. campestris str. CN14	1281282	leaf	5082555	1	0	0.0
+Xanthomonas campestris pv. campestris str. CN15	1281283	leaf	5114892	1	0	0.0
+Pseudomonas poae RE*1-1-14	1282356	leaf	5512241	6	3	0.0
+Azotobacter vinelandii CA	1283330	leaf	5366370	4	0	0.0
+Azotobacter vinelandii CA6	1283331	leaf	5323210	4	0	0.0
+Corynebacterium casei LMG S-19264	1285583	leaf	3132213	3	2	0.0
+Peptoclostridium acidaminophilum DSM 3953	1286171	leaf	3055036	4	1	0.0
+Aeromonas hydrophila ML09-119	1288394	leaf	5024500	1	0	0.0
+Deinococcus wulumuqiensis R12	1288484	leaf	3505947	2	0	0.0
+Rhodococcus erythropolis R138	1289591	leaf	6806506	1	0	0.0
+Treponema pedis str. T A4	1291379	leaf	2889325	7	3	0.0
+Melittangium boletus DSM 14713	1294270	leaf	9910441	6	2	0.0
+Roseibacterium elongatum DSM 19469	1294273	leaf	3555109	5	0	0.0
+Haemophilus influenzae CGSHiCZ412602	1295140	leaf	1811802	1	1	0.0
+Komagataeibacter xylinus E25	1296990	leaf	3905082	4	2	0.0
+Enterococcus mundtii QU 25	1300150	leaf	3351060	1	0	0.0
+Kosakonia cowanii JCM 10956 = DSM 18146	1300165	leaf	4857324	1	0	0.0
+Dokdonella koreensis DS-123	1300342	leaf	4446619	11	3	0.0
+Isoptericola dokdonensis DS-3	1300344	leaf	3826972	6	1	0.0
+Nocardioides dokdonensis FR1436	1300347	leaf	4376707	10	0	0.0
+Pseudomonas knackmussii B13	1301098	leaf	6162905	3	1	0.0
+Streptococcus cristatus AS 1.3089	1302863	leaf	2142100	268	2	0.0
+Streptomyces fulvissimus DSM 40593	1303692	leaf	7905758	4	2	0.0
+Pasteurella multocida OH1905	1304890	leaf	2271688	1	1	0.0
+Xanthomonas axonopodis Xac29-1	1304892	leaf	5296525	4	0	0.0
+Enterococcus faecium Aus0085	1305849	leaf	3239275	1	0	0.0
+Dickeya dianthicola RNS04.9	1306405	leaf	4720132	1	0	0.0
+Fusobacterium nucleatum subsp. vincentii ChDC F8	1307427	leaf	2038535	1	0	0.0
+Fusobacterium nucleatum subsp. nucleatum ChDC F316	1307428	leaf	2227266	2	0	0.0
+Fusobacterium hwasookii ChDC F174	1307442	leaf	2531722	33	3	0.0
+Fusobacterium hwasookii ChDC F206	1307443	leaf	2430523	33	0	0.0
+Fusobacterium hwasookii ChDC F300	1307444	leaf	2527063	31	0	0.0
+Tannerella forsythia 3313	1307832	leaf	3350939	881	26	0.052641
+Tannerella forsythia KS16	1307833	leaf	3393002	912	55	0
+Ilumatobacter coccineus YM16-304	1313172	leaf	4830181	1	1	0.0
+Lentisphaeria	1313211	class	0	1	0	0.0
+Pseudoalteromonas translucida KMM 520	1315283	leaf	4147593	1	1	0.0
+Streptomyces fradiae ATCC 10745 = DSM 40063	1319510	leaf	6725579	7	2	0.0
+Paraburkholderia caribensis MBA4	1323664	leaf	9482704	3	0	0.0
+Pseudomonas syringae pv. syringae HS191	1324932	leaf	6002759	2	0	0.0
+Aeromonas salmonicida subsp. pectinolytica 34mel	1324960	leaf	5012649	2	0	0.0
+Streptomyces phage Lika	1327758	leaf	51252	1	0	0.0
+Streptomyces phage Sujidade	1327759	leaf	51552	1	0	0.0
+Rhizobium etli bv. mimosae str. Mim1	1328306	leaf	7197998	1	0	0.0
+Azotobacter chroococcum NCIMB 8003	1328314	leaf	5192286	8	2	0.0
+Klebsiella pneumoniae subsp. pneumoniae KPNIH27	1328324	leaf	6132443	1	0	0.0
+Rathayibacter festucae DSM 15932	1328866	leaf	4359758	2	1	0.0
+Haloactinobacterium	1331737	genus	0	3	0	0.0
+Paenibacillus durus ATCC 35681	1333534	leaf	5575484	1	1	0.0
+Enterobacter cloacae ECNIH2	1333850	leaf	5502685	1	0	0.0
+Burkholderia pseudomallei MSHR305	1335307	leaf	7428072	1	0	0.0
+Spiribacter	1335745	genus	1739487	3	0	0.0
+Bifidobacterium indicum LMG 11587 = DSM 20214	1341694	leaf	1734546	5	0	0.0
+Noviherbaspirillum	1344552	genus	0	9	0	0.0
+Archaeoglobus fulgidus DSM 8774	1344584	leaf	2316287	1	0	0.0
+Thermoclostridium stercorarium subsp. leptospartum DSM 9219	1346611	leaf	3148357	2	0	0.0
+Roseimicrobium	1348508	genus	0	1	0	0.0
+Serratia plymuthica S13	1348660	leaf	5467306	1	0	0.0
+Corynebacterium argentoratense DSM 44202	1348662	leaf	2031902	16	12	0.0
+Janthinobacterium agaricidamnosum NBRC 102515 = DSM 9628	1349767	leaf	5949001	12	2	0.0
+Streptococcus anginosus subsp. whileyi MAS624	1353243	leaf	2122284	9	0	0.0
+Aeromonas hydrophila 4AK4	1354302	leaf	4527993	3	3	0.0
+Pseudomonas syringae CC1557	1357279	leaf	5811653	1	0	0.0
+Pseudomonas syringae pv. pisi str. PP1	1357292	leaf	6039562	1	0	0.0
+Paracoccus aminophilus JCM 7686	1367847	leaf	4873118	4	1	0.0
+Ardenticatenia	1382928	class	0	2	0	0.0
+Ardenticatenales	1382929	order	0	4	0	0.0
+Vibrio coralliilyticus OCN008	1384040	leaf	5634694	1	0	0.0
+Pseudomonas putida S13.1.2	1384061	leaf	6621848	2	0	0.0
+Adlercreutzia equolifaciens DSM 19450	1384484	leaf	2862526	4	2	0.0
+Leifsonia xyli subsp. cynodontis DSM 46306	1389489	leaf	2686418	2	2	0.0
+Comamonas testosteroni TK102	1392005	leaf	6062703	34	4	0.0
+Streptococcus phage 20617	1392231	species	48800	1	0	0.0
+Burkholderia cepacia JBK9	1395570	leaf	8481212	2	0	0.0
+Sinorhizobium meliloti RU11/001	1401243	leaf	7692912	1	0	0.0
+Xylella fastidiosa MUL0034	1401256	leaf	2666577	1	0	0.0
+Ornithobacterium rhinotracheale ORT-UMN 88	1401325	leaf	2397867	2	0	0.0
+Pannonibacter phragmitetus BB	1402210	leaf	5530656	6	2	0.0
+Porphyromonas gingivalis 381	1403335	leaf	2378872	2	0	0.0
+Porphyromonas gingivalis AJW4	1403336	leaf	2372492	7	1	0.0
+Porphyromonas gingivalis A7A1-28	1403338	leaf	2249024	1	0	0.0
+Streptococcus equi subsp. zooepidemicus CY	1403449	leaf	2107382	2	0	0.0
+Corynebacterium glyciniphilum AJ 3170	1404245	leaf	3568218	5	2	0.0
+Aggregatibacter actinomycetemcomitans NUM4039	1407647	leaf	2382853	2	0	0.0
+Corynebacterium lactis RW2-5	1408189	leaf	2769745	2	0	0.0
+Sinorhizobium americanum CCGM7	1408224	leaf	6853050	3	1	0.0
+Pseudomonas aeruginosa LES431	1408272	leaf	6550070	1	1	0.0
+Bifidobacterium pseudolongum subsp. globosum DSM 20092	1410605	leaf	1978157	3	1	0.0
+Candidatus Nucleicultrix amoebiphila FS5	1414854	leaf	1838212	1	0	0.0
+Nocardia nova SH22a	1415166	leaf	8348532	6	1	0.0
+Pseudomonas aeruginosa MTB-1	1415629	leaf	6580038	1	1	0.0
+Clostridium baratii str. Sullivan	1415775	leaf	3338630	1	0	0.0
+Pandoraea pnomenusa 3kgm	1416914	leaf	5429298	2	0	0.0
+Aeromonas hydrophila NJ-35	1416915	leaf	5279644	2	0	0.0
+Aeromonas hydrophila pc104A	1418107	leaf	5023829	1	0	0.0
+Aeromonas hydrophila AL09-71	1418110	leaf	5023861	1	0	0.0
+Pseudomonas protegens Cab57	1420599	leaf	6827892	2	1	0.0
+Lactobacillus coryniformis subsp. torquens DSM 20004 = KCTC 3535	1423822	leaf	3138674	1	0	0.0
+Lactobacillus sakei subsp. sakei DSM 20017 = JCM 1157	1423833	leaf	1943136	1	0	0.0
+Dickeya zeae EC1	1427366	leaf	4532364	3	0	0.0
+Ralstonia solanacearum OE1-1	1429399	leaf	5762975	1	0	0.0
+Magnetospirillum gryphiswaldense MSR-1 v2	1430440	leaf	4365796	2	1	0.0
+Corynebacterium aquilae DSM 44791	1431546	leaf	2926437	7	5	0.0
+Thermococcus guaymasensis DSM 11113	1432656	leaf	1920914	1	0	0.0
+Mannheimia varigena USDA-ARS-USMARC-1296	1433287	leaf	2245238	1	0	0.0
+Komagataeibacter	1434011	genus	3709136	3	0	0.0
+Lysinimonas	1434018	genus	0	1	0	0.0
+Sphingorhabdus	1434046	genus	0	1	0	0.0
+Methanosarcina lacustris Z-7289	1434111	leaf	4139808	2	2	0.0
+Mannheimia varigena USDA-ARS-USMARC-1312	1434214	leaf	2131927	2	0	0.0
+Mannheimia varigena USDA-ARS-USMARC-1388	1434215	leaf	2228291	1	0	0.0
+Pseudomonas monteilii SB3078	1435044	leaf	6000087	1	0	0.0
+Trueperella pyogenes TP8	1435056	leaf	2272494	2	0	0.0
+Pseudomonas monteilii SB3101	1435058	leaf	5945120	1	0	0.0
+Rhodococcus pyridinivorans SB3094	1435356	leaf	5590512	2	1	0.0
+Burkholderia pseudomallei MSHR62	1435984	leaf	7225433	1	0	0.0
+Bifidobacterium asteroides DSM 20089	1437594	leaf	2190368	1	0	0.0
+Bifidobacterium actinocoloniiforme DSM 22766	1437605	leaf	1830060	1	0	0.0
+Xenorhabdus nematophila AN6/1	1437823	leaf	4586662	1	0	0.0
+Castellaniella defragrans 65Phen	1437824	leaf	3952818	27	5	0.0
+Corynebacterium sphenisci DSM 44792	1437874	leaf	2594799	13	4	0.0
+Corynebacterium frankenforstense DSM 45800	1437875	leaf	2604152	8	3	0.0
+Luteibacter rhizovicinus DSM 16549	1440763	leaf	4765486	3	1	0.0
+Nitrospirillum amazonense CBAmc	1441467	leaf	7382386	10	2	0.0
+Leptospirillum ferriphilum YSK	1441628	leaf	2330585	1	0	0.0
+Pseudomonas cichorii JBC1	1441629	leaf	5986012	1	1	0.0
+Chania multitudinisentens RB-25	1441930	leaf	5488183	1	0	0.0
+Ferriphaselus	1443590	genus	0	2	0	0.0
+Rhodococcus fascians A21d2	1443893	leaf	6009800	1	1	0.0
+Gynuella sunshinyii YC6258	1445510	leaf	6475959	4	2	0.0
+Bifidobacterium pseudolongum PV8-2	1447715	leaf	2032698	2	0	0.0
+Bifidobacterium kashiwanohense PV20-2	1447716	leaf	2370978	1	0	0.0
+Aeromonas hydrophila YL17	1448139	leaf	4796281	1	0	0.0
+Pseudomonas aeruginosa YL84	1448140	leaf	6433441	2	1	0.0
+Kutzneria albida DSM 43870	1449976	leaf	9874926	15	10	0.0
+Burkholderia vietnamiensis LMG 10929	1449978	leaf	6930496	1	0	0.0
+Yersinia aldovae 670-83	1453495	leaf	4471090	2	2	0.0
+Megasphaera elsdenii 14-14	1458465	leaf	2504349	2	0	0.0
+Moorea producens PAL-8-15-08-1	1458985	leaf	9708656	2	1	0.0
+Jeotgalibaca	1470540	genus	0	1	0	0.0
+Basilea	1472344	genus	1959069	2	0	0.0
+Peptoclostridium	1481960	genus	3055036	2	0	0.0
+Thermoleophilia	1497346	class	6359369	3	0	0.0
+Chromobacteriaceae	1499392	family	3960204	73	0	0.0
+Gottschalkia	1505664	genus	3108248	2	0	0.0
+Falconid herpesvirus 1	1510155	leaf	204054	1	0	0.0
+Flaviflexus	1522056	genus	0	1	0	0.0
+Vulgatibacteraceae	1524213	family	0	1	0	0.0
+Vulgatibacter	1524214	genus	0	1	0	0.0
+Anaeromyxobacteraceae	1524215	family	5021404	3	0	0.0
+Blastocatellia	1562566	class	3695372	3	0	0.0
+Peptoniphilaceae	1570339	family	1992686	9	0	0.0
+Emcibacter	1602338	genus	0	2	0	0.0
+Parasaccharibacter	1602345	genus	0	1	0	0.0
+Phreatobacter	1632780	genus	0	1	0	0.0
+Nitrososphaeria	1643678	class	2772059	1	0	0.0
+Geodermatophilales	1643682	order	5098918	1	0	0.0
+Nakamurellales	1643684	order	6060298	2	0	0.0
+Leptospirales	1643688	order	5274184	1	0	0.0
+Eggerthellales	1643822	order	2819407	14	0	0.0
+Atopobiaceae	1643824	family	1797850	6	0	0.0
+Eggerthellaceae	1643826	family	2819407	2	0	0.0
+Haloferacales	1644055	order	4316993	4	0	0.0
+Natrialbales	1644060	order	4270318	4	0	0.0
+Akkermansiaceae	1647988	family	2664102	2	0	0.0
+Melaminivora	1649468	genus	0	1	0	0.0
+Permianibacter	1649479	genus	0	1	0	0.0
+Fimbriimonadales	1663425	order	5231762	1	0	0.0
+Wenzhouxiangellaceae	1676141	family	0	1	0	0.0
+Limnochordia	1676648	class	0	3	0	0.0
+Limnochordales	1676649	order	0	5	0	0.0
+Limnochordaceae	1676650	family	0	1	0	0.0
+Limnochorda	1676651	genus	0	2	0	0.0
+Candidatus Methylopumilus	1679002	genus	0	1	0	0.0
+Acidiferrobacterales	1692040	order	0	9	0	0.0
+Acidiferrobacteraceae	1692041	family	0	6	0	0.0
+Sulfurifustis	1692042	genus	0	2	0	0.0
+Microcystis aeruginosa NIES-2481	1698524	leaf	4440545	1	1	0.0
+Streptococcus phage phiARI0468-4	1701830	species	37395	1	0	0.0
+Streptococcus phage phiARI0746	1701837	species	33181	1	0	0.0
+Cellvibrionales	1706369	order	4781873	5	0	0.0
+Halieaceae	1706372	family	0	4	0	0.0
+Microbulbiferaceae	1706373	family	0	2	0	0.0
+Pseudorhodoplanes	1734920	genus	0	2	0	0.0
+Tissierellia	1737404	class	2364540	2	0	0.0
+Tissierellales	1737405	order	2364540	7	0	0.0
+Glutamicibacter	1742989	genus	3918192	4	0	0.0
+Paenarthrobacter	1742992	genus	5226648	1	0	0.0
+Pseudarthrobacter	1742993	genus	4758095	8	0	0.0
+Sulfuricaulis	1744881	genus	0	4	0	0.0
+Egibacterales	1747768	order	0	2	0	0.0
+Egicoccales	1755823	order	0	10	0	0.0
+Egicoccaceae	1755824	family	0	2	0	0.0
+Ichthyobacteriaceae	1755828	family	0	1	0	0.0
+Isosphaeraceae	1763524	family	7642495	1	0	0.0
+Anoxybacter	1769008	genus	0	1	0	0.0
+Mesoaciditogales	1769716	order	0	1	0	0.0
+Nevskiales	1775403	order	0	8	0	0.0
+Rhodanobacteraceae	1775411	family	4411687	20	0	0.0
+Sulfuriferula	1778653	genus	0	6	0	0.0
+Bradymonadales	1779134	order	0	3	0	0.0
+Vicinamibacteria	1813735	class	0	5	0	0.0
+Mycobacterium phage Phrann	1821541	leaf	44872	1	1	0.0
+Paraburkholderia	1822464	genus	10214781	27	0	0.0
+Caballeronia	1827195	genus	0	1	0	0.0
+Acidaminococcales	1843488	order	2455845	1	0	0.0
+Veillonellales	1843489	order	2371811	3	0	0.0
+Sporomusaceae	1843490	family	5380816	1	0	0.0
+Selenomonadaceae	1843491	family	3100147	4	0	0.0
+Chitinophagia	1853228	class	7619458	2	0	0.0
+Chitinophagales	1853229	order	7619458	4	0	0.0
+Odoribacteraceae	1853231	family	4392288	1	0	0.0
+Hymenobacteraceae	1853232	family	5252070	5	0	0.0
+Sulfuriflexus	1860077	genus	0	1	0	0.0
+Mycolicibacterium	1866885	genus	7602632	20	0	0.0
+Synechococcales	1890424	order	3336529	10	0	0.0
+Synechococcaceae	1890426	family	2908498	5	0	0.0
+Leptolyngbyaceae	1890438	family	6946868	1	0	0.0
+Aphanothecaceae	1890450	family	4916521	1	0	0.0
+Pistricoccus	1897649	genus	0	1	0	0.0
+Erwiniaceae	1903409	family	1567954	7	0	0.0
+Pectobacteriaceae	1903410	family	5086075	3	0	0.0
+Yersiniaceae	1903411	family	5808454	4	0	0.0
+Morganellaceae	1903414	family	5909466	3	0	0.0
+Budviciaceae	1903416	family	0	1	0	0.0
+Ruthenibacterium	1905344	genus	0	1	0	0.0
+Raineyella	1911549	genus	0	2	0	0.0
+Oryzomicrobium	1911577	genus	0	8	0	0.0
+Acidipropionibacterium	1912215	genus	3656170	10	0	0.0
+Cutibacterium	1912216	genus	2514307	3	0	0.0
+Pseudopropionibacterium	1912217	genus	3449360	11	0	0.0
+Synechococcus lividus PCC 6715	1917166	leaf	2659739	3	2	0.0
+Flintibacter	1918454	genus	0	1	0	0.0
+Orrella	1921582	genus	0	5	0	0.0
+Kiritimatiellae	1921781	class	0	1	0	0.0
+Kiritimatiellales	1921782	order	0	1	0	0.0
+Immundisolibacterales	1934945	order	0	7	0	0.0
+Immundisolibacteraceae	1934946	family	0	4	0	0.0
+Immundisolibacter	1934947	genus	0	5	0	0.0
+Sulfuritortus	1938335	genus	0	2	0	0.0
+Lacunisphaera	1961799	genus	0	2	0	0.0
+Calditrichae	1962850	class	4978541	1	0	0.0
+Haloarculaceae	1963268	family	3938579	2	0	0.0
+Thermosynechococcus vulcanus NIES-2134	2005468	leaf	2571271	1	0	0.0
+Muribaculaceae	2005473	family	0	1	0	0.0
+Thiobacillaceae	2008790	family	2909809	13	0	0.0
+Sterolibacteriaceae	2008793	family	3802648	22	0	0.0
+Zoogloeaceae	2008794	family	3711792	71	0	0.0
+Azonexaceae	2008795	family	4501104	8	0	0.0
+Brevefilum	2019482	genus	0	1	0	0.0
+Sulfurivermis	2034504	genus	0	1	0	0.0
+Thioalkalibacteraceae	2035710	family	0	1	0	0.0
+Guyparkeria	2035712	genus	0	1	0	0.0
+Gottschalkiaceae	2042895	family	3108248	1	0	0.0
+Changchengzhania	2049301	genus	0	3	0	0.0
+Aminipila	2060094	genus	0	9	0	0.0
+Emcibacterales	2066490	order	0	3	0	0.0
+Mixta	2100764	genus	0	1	0	0.0
+Mycolicibacillus	2126281	genus	0	1	0	0.0
+Roseovarius sp. AK1035	2203213	leaf	4203542	1	0	0.0
+Methylorubrum	2282523	genus	7626128	2	0	0.0
+Hungateiclostridiaceae	2304686	family	3744186	1	0	0.0
+Serpentinomonas	2490452	genus	0	6	0	0.0
+Schaalia	2529408	genus	2230588	13	0	0.0
+Mycetohabitans	2571159	genus	3750138	1	0	0.0
+Baekduiaceae	2600303	family	0	1	0	0.0
+Nostoc sphaeroides CCNUC1	2653204	leaf	9516388	1	1	0.0
+Allopseudarcicella	2676060	genus	0	1	0	0.0
+Pulveribacter	2678886	genus	0	2	0	0.0
+Tepidiformia	2682225	class	0	3	0	0.0
+Tepidiformales	2682226	order	0	1	0	0.0
+Paraoceanicella	2683599	genus	0	1	0	0.0
+Steroidobacteraceae	2689614	family	0	1	0	0.0
+Gemmatales	2691355	order	0	1	0	0.0
+Isosphaerales	2691356	order	7642495	2	0	0.0
+Thermoguttaceae	2691358	family	0	1	0	0.0
+Gudongella	2692382	genus	0	2	0	0.0
+Casimicrobiaceae	2705999	family	0	12	0	0.0
+Casimicrobium	2706000	genus	0	2	0	0.0
+Aerosticca	2707020	genus	0	1	0	0.0
+Pseudolysobacter	2709666	genus	0	1	0	0.0
+Bremerella	2714594	genus	0	1	0	0.0
+Massilistercora	2717089	genus	0	1	0	0.0
